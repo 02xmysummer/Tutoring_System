@@ -25,13 +25,13 @@ SECRET_KEY = 'django-insecure-x1y^o@^#oqv^p))9ur*n-w%*-am1)k*m!@^l$g#-jg^k8!!ex&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -75,8 +75,20 @@ WSGI_APPLICATION = 'Tutoring_System.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
+        'NAME': 'mysystem',  # 数据库名称
+        'HOST': '47.109.76.15',  # 数据库地址，本机 ip 地址 127.0.0.1
+        'PORT': 3306,  # 端口
+        'USER': 'root',  # 数据库用户名
+        'PASSWORD': 'mysql_t5JhRE',  # 数据库密码
+        # 'OPTIONS': {
+        #     'ssl': {
+        #         'ssl_ca': f'{CONFIGS_DIR}\\ca.pem',
+        #         'ssl_cert': f'{CONFIGS_DIR}\\client-cert.pem',
+        #         'ssl_key': f'{CONFIGS_DIR}\\client-key.pem',
+        #     },
+        #     'ssl_verify_cert': False,  # 不验证服务器的SSL证书
+        # },
     }
 }
 
