@@ -7,5 +7,5 @@ urlpatterns = [
     # path("", index, name="index"),
     path('token/', MyTokenObtainPairView.as_view(), name="token"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
-    # path("user/",include("system.urls.user.index")),    
+    path("user/",include("system.urls.user.index")),    
 ]

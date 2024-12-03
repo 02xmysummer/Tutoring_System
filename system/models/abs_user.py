@@ -10,7 +10,7 @@ class AbsUser(models.Model):
     avatar = models.CharField('用户头像', max_length=255, null=True)
     phonenumber = models.CharField('手机号码', max_length=15, blank=True, null=True)
     role = models.IntegerField('角色（0管理员 1普通用户 2老师）')
-    status = models.IntegerField('帐号状态(0正常 1封禁/0上线 1下线)', default=0)
+    is_active = models.IntegerField('帐号状态(0正常 1封禁/0上线 1下线)', default=0)
     create_time = models.DateTimeField('创建时间', default=now)
     def is_authenticated(self):
         return True
