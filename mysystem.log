@@ -1,0 +1,153 @@
+INFO 2024-12-04 15:11:08,344 autoreload 31804 136539435824960 Watching for file changes with StatReloader
+INFO 2024-12-04 15:11:17,728 basehttp 31804 136539289945856 "POST /token/refresh/ HTTP/1.1" 200 241
+ERROR 2024-12-04 15:11:19,753 log 31804 136539289945856 Internal Server Error: /token/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 445, in run_validation
+    value = self.validate(value)
+  File "/home/acs/Tutoring_System/system/utils/Authentication.py", line 27, in validate
+    user_jwt_logged_in.send(sender=self.__class__, user=user, request=self.context['request'])
+NameError: name 'user_jwt_logged_in' is not defined
+ERROR 2024-12-04 15:11:19,755 basehttp 31804 136539289945856 "POST /token/ HTTP/1.1" 500 104276
+INFO 2024-12-04 15:12:19,066 autoreload 31804 136539435824960 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
+INFO 2024-12-04 15:12:19,498 autoreload 31901 133044671194944 Watching for file changes with StatReloader
+INFO 2024-12-04 15:12:24,791 autoreload 31901 133044671194944 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
+INFO 2024-12-04 15:12:25,156 autoreload 31926 125303321511744 Watching for file changes with StatReloader
+INFO 2024-12-04 15:12:28,404 autoreload 31926 125303321511744 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
+INFO 2024-12-04 15:12:28,772 autoreload 31951 128846882752320 Watching for file changes with StatReloader
+INFO 2024-12-04 15:12:34,111 basehttp 31951 128846814775040 "POST /token/ HTTP/1.1" 200 483
+INFO 2024-12-04 15:12:34,188 basehttp 31951 128846814775040 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
+INFO 2024-12-04 15:12:34,281 basehttp 31951 128846814775040 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
+INFO 2024-12-04 15:13:40,467 autoreload 31951 128846882752320 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
+INFO 2024-12-04 15:13:40,880 autoreload 32032 127763515348800 Watching for file changes with StatReloader
+INFO 2024-12-04 15:13:46,526 basehttp 32032 127763379914496 "POST /token/ HTTP/1.1" 200 483
+INFO 2024-12-04 15:13:46,594 basehttp 32032 127763379914496 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
+INFO 2024-12-04 15:13:46,681 basehttp 32032 127763379914496 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
+INFO 2024-12-04 15:15:06,869 autoreload 32032 127763515348800 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-04 15:15:07,268 autoreload 32124 124751079077696 Watching for file changes with StatReloader
+INFO 2024-12-04 15:15:10,671 autoreload 32124 124751079077696 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-04 15:15:11,114 autoreload 32149 124692368074560 Watching for file changes with StatReloader
+INFO 2024-12-04 15:15:26,608 autoreload 32149 124692368074560 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
+INFO 2024-12-04 15:15:26,999 autoreload 32179 139386900789056 Watching for file changes with StatReloader
+INFO 2024-12-04 15:15:37,436 autoreload 32179 139386900789056 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
+INFO 2024-12-04 15:15:37,858 autoreload 32223 138798541399872 Watching for file changes with StatReloader
+INFO 2024-12-04 15:15:40,273 autoreload 32223 138798541399872 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
+INFO 2024-12-04 15:15:40,682 autoreload 32248 133272856901440 Watching for file changes with StatReloader
+INFO 2024-12-04 15:15:48,720 basehttp 32248 133272789059328 "POST /token/refresh/ HTTP/1.1" 200 241
+ERROR 2024-12-04 15:15:56,867 log 32248 133272778573568 Internal Server Error: /log/loginlog/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 55, in get
+    with open(log_file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/login_logs.log'
+ERROR 2024-12-04 15:15:56,868 basehttp 32248 133272778573568 "GET /log/loginlog/ HTTP/1.1" 500 91010
+INFO 2024-12-04 15:17:04,703 basehttp 32248 133272789059328 "POST /token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-04 15:17:14,023 autoreload 32248 133272856901440 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:17:14,435 autoreload 32369 140096346068800 Watching for file changes with StatReloader
+ERROR 2024-12-04 15:17:16,951 log 32369 140096277841664 Internal Server Error: /log/loginlog/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 56, in get
+    with open(log_file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/login_logs.log'
+ERROR 2024-12-04 15:17:16,952 basehttp 32369 140096277841664 "GET /log/loginlog/ HTTP/1.1" 500 91105
+INFO 2024-12-04 15:17:37,323 autoreload 32369 140096346068800 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:17:37,684 autoreload 32419 132978123196224 Watching for file changes with StatReloader
+INFO 2024-12-04 15:17:48,068 autoreload 32419 132978123196224 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:17:48,479 autoreload 32462 123732678022976 Watching for file changes with StatReloader
+INFO 2024-12-04 15:17:54,935 autoreload 32462 123732678022976 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:17:55,330 autoreload 32498 137331566536512 Watching for file changes with StatReloader
+ERROR 2024-12-04 15:17:58,555 log 32498 137331430393600 Internal Server Error: /log/loginlog/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 56, in get
+    with open(log_file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/views/login_logs.log'
+ERROR 2024-12-04 15:17:58,556 basehttp 32498 137331430393600 "GET /log/loginlog/ HTTP/1.1" 500 91129
+INFO 2024-12-04 15:18:16,736 basehttp 32498 137331409422080 "POST /token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-04 15:18:26,364 autoreload 32498 137331566536512 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:18:26,756 autoreload 32576 135006543783744 Watching for file changes with StatReloader
+INFO 2024-12-04 15:18:27,985 autoreload 32576 135006543783744 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-04 15:18:28,502 autoreload 32590 132525450061632 Watching for file changes with StatReloader
+INFO 2024-12-04 15:18:29,575 basehttp 32590 132525307463424 "GET /log/loginlog/ HTTP/1.1" 200 10199
+INFO 2024-12-04 15:19:31,893 basehttp 32590 132525296977664 "POST /token/ HTTP/1.1" 200 483
+INFO 2024-12-04 15:19:31,959 basehttp 32590 132525296977664 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
+INFO 2024-12-04 15:19:32,038 basehttp 32590 132525296977664 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
+INFO 2024-12-04 15:19:33,493 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
+INFO 2024-12-04 15:23:54,827 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
+INFO 2024-12-04 15:23:57,310 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
+INFO 2024-12-04 15:24:02,696 basehttp 32590 132525296977664 "POST /token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-04 15:26:09,161 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
+INFO 2024-12-04 15:27:38,458 basehttp 32590 132525296977664 "POST /token/ HTTP/1.1" 200 483
+INFO 2024-12-04 15:27:38,536 basehttp 32590 132525296977664 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
+INFO 2024-12-04 15:27:38,617 basehttp 32590 132525296977664 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
+INFO 2024-12-04 15:27:39,723 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
+INFO 2024-12-04 15:31:23,328 basehttp 32590 132525296977664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1668
+INFO 2024-12-04 15:31:29,173 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
+INFO 2024-12-04 15:31:33,700 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
+INFO 2024-12-04 15:31:34,477 basehttp 32590 132525296977664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1668
+INFO 2024-12-04 15:31:36,179 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829

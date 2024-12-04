@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -146,7 +146,40 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_LIFETIME": timedelta(minutes=5),       # 只要滑动令牌的到期声明中的时间戳未通过，就可以用来证明身份验证
     "SLIDING_TOKEN_REFRESH_LIFETIME": timedelta(days=1),  # path("token|refresh", TokenObtainSlidingView.as_view())
 }
-
+#配置示例 settings
+LOGGING = {
+    'version': 1,  # 版本
+    'disable_existing_loggers': False,
+    # 处理器
+    'formatters': {
+        'verbose': {
+        'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+        'style': '{',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'mysystem.log'),
+            'maxBytes': 1024*1024*1,  # 1 MB
+            'formatter': 'verbose'
+        },
+        'console': {  # 新增的控制台处理器
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',  # 输出到控制台
+        },
+        
+    },
+    # 记录器    
+    'loggers': {
+        'django': {
+            'handlers': ['file','console'], # 处理器对应下方handlers中的reboot
+            'level': 'INFO',
+            'propagate':True
+        },
+    },
+}
 # 在 setting.py 末尾添加以下设置
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = True

@@ -2,7 +2,7 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework import serializers
 from system.models.abs_user import AbsUser
-# from log.views.loginlog import user_jwt_logged_in
+from system.views.log.loginlog import user_jwt_logged_in
 from django.contrib.auth.hashers import make_password, check_password
 
 
@@ -24,7 +24,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             user = AbsUser.objects.get(username=username)
             if not check_password(password, user.password):
                 raise AbsUser.DoesNotExist
-            # user_jwt_logged_in.send(sender=self.__class__, user=user, request=self.context['request'])
+            user_jwt_logged_in.send(sender=self.__class__, user=user, request=self.context['request'])
 
         except AbsUser.DoesNotExist:
             raise serializers.ValidationError("No teacher found with this username and password.")

@@ -21,9 +21,9 @@ class UserList(APIView):
             res.append({
                 'id':sysuser.absuser.id,
                 'username':sysuser.absuser.username,
-                'nickname':sysuser.nickname,
+                'nickname':sysuser.absuser.nickname,
                 'role':ROLES[sysuser.absuser.role],
-                'status': '正常' if not sysuser.absuser.is_active else '封禁',
+                'status': '正常' if not sysuser.absuser.status else '封禁',
                 'email':sysuser.absuser.email,
                 'phonenumber':sysuser.absuser.phonenumber,
                 'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
