@@ -11,6 +11,7 @@ class AbsUser(models.Model):
     phonenumber = models.CharField('手机号码', max_length=15, blank=True, null=True)
     role = models.IntegerField('角色（0管理员 1普通用户 2老师）')
     is_active = models.IntegerField('帐号状态(0正常 1封禁/0上线 1下线)', default=0)
+    email = models.CharField('邮箱地址', max_length=32, blank=True, null=True)
     create_time = models.DateTimeField('创建时间', default=now)
     def is_authenticated(self):
         return True

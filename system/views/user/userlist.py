@@ -5,11 +5,13 @@ import dateutil.parser
 from system.models.abs_user import AbsUser
 from system.models.sys_user import SysUser
 # GENDERS = ['男','女']
-# ROLES = ['管理员','普通用户']
+ROLES = ['管理员','普通用户']
 class UserList(APIView):
 
     def get(self,request):
-        sysusers = SysUser.objects.all()
+        index = int(request.GET.get('index',1))
+        sysusers = SysUser.objects.all()[(index-1)*10:index*10]
+        count = SysUser.objects.count()
         res = []
         for sysuser in sysusers:
             iso_time_str = str(sysuser.absuser.create_time)
@@ -20,12 +22,11 @@ class UserList(APIView):
                 'id':sysuser.absuser.id,
                 'username':sysuser.absuser.username,
                 'nickname':sysuser.nickname,
-                'role':'普通用户',
-                # 'gender':GENDERS[sysuser.absuser.gender],
+                'role':ROLES[sysuser.absuser.role],
                 'status': '正常' if not sysuser.absuser.is_active else '封禁',
-                'email':sysuser.email,
+                'email':sysuser.absuser.email,
                 'phonenumber':sysuser.absuser.phonenumber,
                 'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
-                # 'count':total
+                'count':count
             })
         return Response(res)
