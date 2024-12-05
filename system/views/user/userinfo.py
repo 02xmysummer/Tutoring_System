@@ -1,10 +1,10 @@
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from system.models import AbsUser,SysUser
-from system.utils.permissions import IsAdminOrSelf  # 假设你将自定义权限类放在了名为 permissions.py 的文件中
+from system.models.sys_user import SysUser
+from system.utils.user.permissions import IsAdminOrSelf  # 假设你将自定义权限类放在了名为 permissions.py 的文件中
 from django.shortcuts import get_object_or_404
-ROLES = ['管理员','普通用户']
+ROLES = ['管理员','普通用户','演示账号']
 class UserInfo(APIView):
     permission_classes = ([IsAdminOrSelf])
     def dispatch(self, request, *args, **kwargs):
@@ -18,7 +18,7 @@ class UserInfo(APIView):
     def get(self, request):
         try:
             user_id = int(request.GET.get('user_id'))
-            user = AbsUser.objects.get(id=user_id)
+            user = SysUser.objects.get(id=user_id)
             if user.role == 0 or user.role == 1:
                 return Response({
                         'id': user.id,
@@ -48,7 +48,7 @@ class UserInfo(APIView):
             status = request.data.get('status')
             email = request.data.get('email')
             phonenumber = request.data.get('phonenumber')
-            user = get_object_or_404(AbsUser, id=user_id)
+            user = get_object_or_404(SysUser, id=user_id)
     
 
             if nickname:
@@ -68,7 +68,7 @@ class UserInfo(APIView):
     
         except ValueError as e:
             return Response({'result': '输入参数类型错误: {}'.format(e)})
-        except AbstractUser.DoesNotExist:
+        except SysUser.DoesNotExist:
             return Response({'result': '用户不存在'})
         except Exception as e:
             return Response({'result': '发生错误: {}'.format(str(e))})
@@ -80,10 +80,10 @@ class UserInfo(APIView):
                 return Response({'error': 'Invalid user_id'})
             
             # 使用QuerySet的filter和delete方法来批量删除用户
-            AbsUser.objects.filter(id=user_id).delete()
+            SysUser.objects.filter(id=user_id).delete()
             
             return Response({'result': '删除成功'})
-        except AbsUser.DoesNotExist:
+        except SysUser.DoesNotExist:
             # 注意：在批量删除时，通常不会抛出DoesNotExist异常，
             # 因为filter()方法返回的是一个QuerySet，即使没有找到任何对象，
             # 调用其delete()方法也不会引发异常。

@@ -1,7 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
-from system.models.abs_user import AbsUser
 from system.models.sys_user import SysUser
 
 
@@ -25,24 +24,23 @@ class Register(APIView):
             return Response({
                 'result': "两个密码不一致",
             })
-        if AbsUser.objects.filter(username=username).exists():
+        if SysUser.objects.filter(username=username).exists():
             return Response({
                 'result': "用户名已存在"
             })
         passwd = make_password(password)
-        absuser = AbsUser.objects.create(username=username,password=passwd,role=1)
+        user = SysUser.objects.create(username=username,password=passwd,role=1)
         if nickname:
-            absuser.nickname = nickname
+            user.nickname = nickname
         if status:  
-            absuser.status = int(status) 
+            user.status = int(status) 
         if role:
-            absuser.role = int(role)
+            user.role = int(role)
         if email:
-            absuser.email = email
+            user.email = email
         if phonenumber:
-            absuser.phonenumber = phonenumber
-        absuser.save()
-        SysUser.objects.create(absuser=absuser)
+            user.phonenumber = phonenumber
+        user.save()
         return Response({
             'result': "add user success",
         })

@@ -1,6 +1,253 @@
-INFO 2024-12-04 15:11:08,344 autoreload 31804 136539435824960 Watching for file changes with StatReloader
-INFO 2024-12-04 15:11:17,728 basehttp 31804 136539289945856 "POST /token/refresh/ HTTP/1.1" 200 241
-ERROR 2024-12-04 15:11:19,753 log 31804 136539289945856 Internal Server Error: /token/
+INFO 2024-12-05 07:11:17,778 basehttp 38184 137293474039552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:11:28,992 autoreload 38184 137293542012736 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:11:29,347 autoreload 39011 127775583176512 Watching for file changes with StatReloader
+INFO 2024-12-05 07:11:36,808 autoreload 39011 127775583176512 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:11:37,200 autoreload 39054 134467170907968 Watching for file changes with StatReloader
+INFO 2024-12-05 07:11:42,617 autoreload 39054 134467170907968 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:11:42,971 autoreload 39079 132662153525056 Watching for file changes with StatReloader
+INFO 2024-12-05 07:11:44,226 autoreload 39079 132662153525056 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:11:44,583 autoreload 39082 134339623597888 Watching for file changes with StatReloader
+INFO 2024-12-05 07:11:53,982 autoreload 39082 134339623597888 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:11:54,391 autoreload 39128 139636034062144 Watching for file changes with StatReloader
+INFO 2024-12-05 07:12:00,837 autoreload 39128 139636034062144 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:12:01,230 autoreload 39166 137602015827776 Watching for file changes with StatReloader
+INFO 2024-12-05 07:12:23,816 autoreload 39166 137602015827776 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:12:24,180 autoreload 39197 130060993234752 Watching for file changes with StatReloader
+ERROR 2024-12-05 07:12:32,220 log 39197 130060858164992 Internal Server Error: /teacher/teacherlist/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/teacher/teacherlist.py", line 27, in get
+    'eq':EQ[teacher.eq],
+TypeError: list indices must be integers or slices, not str
+ERROR 2024-12-05 07:12:32,221 basehttp 39197 130060858164992 "GET /teacher/teacherlist/ HTTP/1.1" 500 91933
+INFO 2024-12-05 07:13:01,171 autoreload 39197 130060993234752 /home/acs/Tutoring_System/system/models/teacher.py changed, reloading.
+INFO 2024-12-05 07:13:01,551 autoreload 39268 130485009631040 Watching for file changes with StatReloader
+INFO 2024-12-05 07:13:03,903 autoreload 39268 130485009631040 /home/acs/Tutoring_System/system/models/teacher.py changed, reloading.
+INFO 2024-12-05 07:13:04,300 autoreload 39293 135800329631552 Watching for file changes with StatReloader
+INFO 2024-12-05 07:13:10,758 autoreload 39293 135800329631552 /home/acs/Tutoring_System/system/models/teacher.py changed, reloading.
+INFO 2024-12-05 07:13:11,169 autoreload 39318 134876676331328 Watching for file changes with StatReloader
+INFO 2024-12-05 07:13:12,640 autoreload 39318 134876676331328 /home/acs/Tutoring_System/system/models/teacher.py changed, reloading.
+INFO 2024-12-05 07:13:13,153 autoreload 39332 140659798726464 Watching for file changes with StatReloader
+INFO 2024-12-05 07:13:20,606 autoreload 39397 123257873299264 Watching for file changes with StatReloader
+INFO 2024-12-05 07:13:22,877 basehttp 39397 123257804031744 "GET /teacher/teacherlist/ HTTP/1.1" 200 10106
+INFO 2024-12-05 07:13:50,559 autoreload 39397 123257873299264 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:13:50,941 autoreload 39461 124918526170944 Watching for file changes with StatReloader
+WARNING 2024-12-05 07:15:41,659 log 39461 124918383511296 Not Found: /teacher/userlist
+WARNING 2024-12-05 07:15:41,659 basehttp 39461 124918383511296 "GET /teacher/userlist?index=1 HTTP/1.1" 404 3280
+INFO 2024-12-05 07:15:46,882 basehttp 39461 124918383511296 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:15:54,728 basehttp 39461 124918383511296 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 07:15:54,801 basehttp 39461 124918383511296 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 07:15:54,895 basehttp 39461 124918383511296 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+WARNING 2024-12-05 07:15:54,979 log 39461 124918383511296 Not Found: /teacher/userlist
+WARNING 2024-12-05 07:15:54,979 basehttp 39461 124918383511296 "GET /teacher/userlist?index=1 HTTP/1.1" 404 3280
+INFO 2024-12-05 07:15:56,102 basehttp 39461 124918383511296 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+WARNING 2024-12-05 07:15:57,151 log 39461 124918383511296 Not Found: /teacher/userlist
+WARNING 2024-12-05 07:15:57,151 basehttp 39461 124918383511296 "GET /teacher/userlist?index=1 HTTP/1.1" 404 3280
+INFO 2024-12-05 07:15:59,404 basehttp 39461 124918383511296 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+WARNING 2024-12-05 07:16:00,351 log 39461 124918383511296 Not Found: /teacher/userlist
+WARNING 2024-12-05 07:16:00,351 basehttp 39461 124918383511296 "GET /teacher/userlist?index=1 HTTP/1.1" 404 3280
+INFO 2024-12-05 07:16:01,559 basehttp 39461 124918383511296 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+WARNING 2024-12-05 07:16:02,495 log 39461 124918383511296 Not Found: /teacher/userlist
+WARNING 2024-12-05 07:16:02,496 basehttp 39461 124918383511296 "GET /teacher/userlist?index=1 HTTP/1.1" 404 3280
+INFO 2024-12-05 07:16:53,838 basehttp 39461 124918383511296 "GET /teacher/teacherlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-05 07:16:53,944 basehttp 39461 124918373025536 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 194
+INFO 2024-12-05 07:16:54,824 basehttp 39461 124918362539776 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 194
+INFO 2024-12-05 07:18:29,593 basehttp 39461 124918352054016 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 07:18:36,781 basehttp 39461 124918341568256 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 07:18:38,016 basehttp 39461 124918331082496 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 07:18:46,717 autoreload 39671 135014955091776 Watching for file changes with StatReloader
+INFO 2024-12-05 07:18:47,346 basehttp 39671 135014886934272 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 07:18:47,439 basehttp 39671 135014876448512 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 07:18:47,457 basehttp 39671 135014886934272 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 194
+INFO 2024-12-05 07:19:19,637 autoreload 39671 135014955091776 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:19:20,033 autoreload 39716 139362695247680 Watching for file changes with StatReloader
+INFO 2024-12-05 07:19:21,328 autoreload 39716 139362695247680 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:19:21,679 autoreload 39734 126227268298560 Watching for file changes with StatReloader
+INFO 2024-12-05 07:19:25,183 basehttp 39734 126227132188416 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:19:25,927 basehttp 39734 126227132188416 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 209
+INFO 2024-12-05 07:19:52,009 basehttp 39734 126227132188416 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 209
+INFO 2024-12-05 07:20:28,341 autoreload 39734 126227268298560 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:20:28,731 autoreload 39806 139435935823680 Watching for file changes with StatReloader
+INFO 2024-12-05 07:20:32,226 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:20:32,809 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:20:53,009 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:20:54,269 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:20:55,243 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:20:55,845 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:20:56,521 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:20:57,398 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:21:00,701 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:21:01,917 basehttp 39806 139435857413888 "GET /log/loginlog/ HTTP/1.1" 200 829
+INFO 2024-12-05 07:21:02,713 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:21:04,735 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:21:12,418 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:21:58,279 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:22:04,864 basehttp 39806 139435867899648 "OPTIONS /user/userinfo/?user_id=7 HTTP/1.1" 200 0
+INFO 2024-12-05 07:22:04,951 basehttp 39806 139435867899648 "GET /user/userinfo/?user_id=7 HTTP/1.1" 200 149
+INFO 2024-12-05 07:22:07,652 basehttp 39806 139435867899648 "OPTIONS /user/userinfo/ HTTP/1.1" 200 0
+INFO 2024-12-05 07:22:07,736 basehttp 39806 139435867899648 "POST /user/userinfo/ HTTP/1.1" 200 25
+INFO 2024-12-05 07:22:07,829 basehttp 39806 139435867899648 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 07:22:12,388 basehttp 39806 139435867899648 "OPTIONS /user/userinfo/?user_id=5 HTTP/1.1" 200 0
+INFO 2024-12-05 07:22:12,469 basehttp 39806 139435867899648 "GET /user/userinfo/?user_id=5 HTTP/1.1" 200 152
+INFO 2024-12-05 07:22:31,604 basehttp 39806 139435867899648 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:22:59,768 basehttp 39806 139435867899648 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:23:07,769 basehttp 39806 139435867899648 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:23:08,775 basehttp 39806 139435867899648 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:25:03,236 autoreload 39806 139435935823680 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:25:03,597 autoreload 40174 137857854007104 Watching for file changes with StatReloader
+INFO 2024-12-05 07:25:12,071 autoreload 40174 137857854007104 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:25:12,421 autoreload 40217 138188742530880 Watching for file changes with StatReloader
+INFO 2024-12-05 07:25:20,896 autoreload 40217 138188742530880 /home/acs/Tutoring_System/system/urls/teacher/index.py changed, reloading.
+INFO 2024-12-05 07:25:21,295 autoreload 40242 135694220961600 Watching for file changes with StatReloader
+INFO 2024-12-05 07:25:27,963 basehttp 40242 135694152369920 "GET /teacher/teacherinfo/ HTTP/1.1" 200 9734
+INFO 2024-12-05 07:26:14,892 basehttp 40242 135694141884160 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 237
+INFO 2024-12-05 07:26:27,854 autoreload 40242 135694220961600 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-05 07:26:28,208 autoreload 40333 134680421164864 Watching for file changes with StatReloader
+INFO 2024-12-05 07:26:33,914 basehttp 40333 134680353441536 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:26:42,843 autoreload 40333 134680421164864 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 07:26:43,249 autoreload 40401 131788461958976 Watching for file changes with StatReloader
+INFO 2024-12-05 07:27:29,780 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:27:37,762 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:27:38,762 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:28:51,162 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:29:27,243 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:29:35,055 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:32:16,520 basehttp 40401 131788317918976 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 07:32:16,606 basehttp 40401 131788317918976 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 07:32:16,698 basehttp 40401 131788317918976 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 07:32:16,817 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:32:18,273 basehttp 40401 131788317918976 "OPTIONS /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 07:32:18,358 basehttp 40401 131788317918976 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 07:32:55,212 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:32:56,068 basehttp 40401 131788317918976 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 07:33:45,052 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:34:00,098 basehttp 40401 131788317918976 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 07:34:03,691 basehttp 40401 131788317918976 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 07:36:46,775 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:41:16,779 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:45:46,781 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:50:16,776 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:54:46,778 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 07:59:16,776 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:03:46,777 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:08:16,777 basehttp 40401 131788317918976 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:12:08,371 autoreload 40401 131788461958976 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:12:08,752 autoreload 40872 137117382932288 Watching for file changes with StatReloader
+INFO 2024-12-05 08:12:24,402 autoreload 40872 137117382932288 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:12:24,848 autoreload 40915 124920494331712 Watching for file changes with StatReloader
+INFO 2024-12-05 08:12:29,266 autoreload 40915 124920494331712 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:12:29,642 autoreload 40940 129982478907200 Watching for file changes with StatReloader
+INFO 2024-12-05 08:12:38,817 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:12:46,662 basehttp 40940 129982342891264 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:12:50,832 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:13:04,642 basehttp 40940 129982332405504 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-05 08:13:04,642 basehttp 40940 129982332405504 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-05 08:13:32,063 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:13:37,537 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:13:55,184 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:14:15,296 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:14:20,379 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:15:01,727 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:15:15,908 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:15:20,288 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:15:32,169 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:17:16,777 basehttp 40940 129982342891264 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:17:25,856 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:17:31,496 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:17:38,147 basehttp 40940 129982332405504 "GET /teacher/teacherinfo/ HTTP/1.1" 200 10793
+INFO 2024-12-05 08:18:16,742 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:19:28,600 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:19:37,690 basehttp 40940 129982342891264 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 08:19:37,840 basehttp 40940 129982342891264 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 08:19:38,026 basehttp 40940 129982342891264 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 08:19:38,355 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:19:40,440 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:20:57,713 basehttp 40940 129982342891264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:20:58,560 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:21:03,519 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:22:46,834 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/ HTTP/1.1" 200 111
+INFO 2024-12-05 08:23:33,486 basehttp 40940 129982342891264 "GET /teacher/teacherinfo?teacher_id=1 HTTP/1.1" 301 0
+INFO 2024-12-05 08:23:33,527 basehttp 40940 129982342891264 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:24:08,792 basehttp 40940 129982342891264 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:24:47,157 basehttp 40940 129982332405504 "GET /teacher/teacherinfo/ HTTP/1.1" 200 111
+INFO 2024-12-05 08:25:13,382 autoreload 40940 129982478907200 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:25:13,748 autoreload 41576 131830003709760 Watching for file changes with StatReloader
+INFO 2024-12-05 08:25:20,182 autoreload 41576 131830003709760 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:25:20,549 autoreload 41612 125572760024896 Watching for file changes with StatReloader
+INFO 2024-12-05 08:25:23,951 basehttp 41612 125572623632128 "GET /teacher/teacherinfo/ HTTP/1.1" 200 111
+INFO 2024-12-05 08:25:29,061 basehttp 41612 125572623632128 "GET /teacher/teacherinfo/ HTTP/1.1" 200 111
+INFO 2024-12-05 08:25:38,243 autoreload 41612 125572760024896 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:25:38,598 autoreload 41685 133199591372608 Watching for file changes with StatReloader
+INFO 2024-12-05 08:25:40,948 autoreload 41685 133199591372608 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:25:41,317 autoreload 41710 132554642425664 Watching for file changes with StatReloader
+INFO 2024-12-05 08:25:44,320 basehttp 41710 132554499819264 "GET /teacher/teacherinfo/ HTTP/1.1" 200 111
+INFO 2024-12-05 08:27:16,434 autoreload 41710 132554642425664 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:27:16,822 autoreload 41764 138952924952384 Watching for file changes with StatReloader
+INFO 2024-12-05 08:27:22,017 basehttp 41764 138952788936448 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-05 08:27:31,145 basehttp 41764 138952788936448 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-05 08:28:38,805 basehttp 41764 138952788936448 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:29:24,340 basehttp 41764 138952778450688 "HEAD /teacher/teacherinfo/ HTTP/1.1" 200 0
+INFO 2024-12-05 08:29:58,891 basehttp 41764 138952767964928 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:30:08,621 basehttp 41764 138952767964928 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:30:51,182 autoreload 41764 138952924952384 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:30:51,561 autoreload 41958 133125585618752 Watching for file changes with StatReloader
+INFO 2024-12-05 08:30:56,997 autoreload 41958 133125585618752 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:30:57,359 autoreload 41983 123948244567872 Watching for file changes with StatReloader
+INFO 2024-12-05 08:31:01,726 autoreload 41983 123948244567872 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:31:02,086 autoreload 42008 131420590348096 Watching for file changes with StatReloader
+INFO 2024-12-05 08:31:03,409 autoreload 42008 131420590348096 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:31:03,821 autoreload 42029 126826804037440 Watching for file changes with StatReloader
+WARNING 2024-12-05 08:31:56,487 log 42029 126826735208192 Method Not Allowed: /teacher/token/
+WARNING 2024-12-05 08:31:56,488 basehttp 42029 126826735208192 "GET /teacher/token/ HTTP/1.1" 405 11889
+INFO 2024-12-05 08:32:33,285 basehttp 42029 126826735208192 "POST /teacher/token/ HTTP/1.1" 200 12333
+INFO 2024-12-05 08:33:08,785 basehttp 42029 126826735208192 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:33:31,941 autoreload 42029 126826804037440 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:33:32,308 autoreload 42141 135462445635392 Watching for file changes with StatReloader
+INFO 2024-12-05 08:33:37,045 basehttp 42141 135462310119168 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:33:53,344 basehttp 42141 135462310119168 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+WARNING 2024-12-05 08:34:52,442 log 42141 135462310119168 Bad Request: /teacher/token/
+WARNING 2024-12-05 08:34:52,442 basehttp 42141 135462310119168 "POST /teacher/token/ HTTP/1.1" 400 11929
+INFO 2024-12-05 08:35:02,608 basehttp 42141 135462310119168 "POST /teacher/token/ HTTP/1.1" 200 12333
+INFO 2024-12-05 08:36:06,782 autoreload 42141 135462445635392 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-05 08:36:07,296 autoreload 42298 124022772090688 Watching for file changes with StatReloader
+INFO 2024-12-05 08:36:24,900 autoreload 42298 124022772090688 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-05 08:36:25,253 autoreload 42343 130236415240000 Watching for file changes with StatReloader
+INFO 2024-12-05 08:36:59,141 autoreload 42343 130236415240000 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:36:59,540 autoreload 42391 123200702936896 Watching for file changes with StatReloader
+INFO 2024-12-05 08:37:05,055 autoreload 42391 123200702936896 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:37:05,430 autoreload 42423 136041848096576 Watching for file changes with StatReloader
+INFO 2024-12-05 08:37:38,797 basehttp 42423 136041780479744 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:37:59,770 basehttp 42423 136041769993984 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-05 08:38:12,574 basehttp 42423 136041769993984 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:40:24,440 autoreload 42423 136041848096576 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-05 08:40:24,830 autoreload 42554 139974780925760 Watching for file changes with StatReloader
+INFO 2024-12-05 08:40:27,121 autoreload 42554 139974780925760 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-05 08:40:27,478 autoreload 42579 135357969356608 Watching for file changes with StatReloader
+INFO 2024-12-05 08:40:30,732 autoreload 42579 135357969356608 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-05 08:40:31,208 autoreload 42593 134661396789056 Watching for file changes with StatReloader
+INFO 2024-12-05 08:40:36,945 basehttp 42593 134661328078592 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:40:44,055 basehttp 42593 134661328078592 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-05 08:41:58,162 autoreload 42593 134661396789056 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:41:58,518 autoreload 42676 138502257727296 Watching for file changes with StatReloader
+INFO 2024-12-05 08:42:05,956 autoreload 42676 138502257727296 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:42:06,333 autoreload 42722 138280931145536 Watching for file changes with StatReloader
+INFO 2024-12-05 08:42:08,797 basehttp 42722 138280863532800 "POST /user/token/refresh/ HTTP/1.1" 200 241
+ERROR 2024-12-05 08:42:19,552 log 42722 138280853047040 Internal Server Error: /teacher/token/
 Traceback (most recent call last):
   File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
@@ -24,36 +271,58 @@ Traceback (most recent call last):
     self._validated_data = self.run_validation(self.initial_data)
   File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 445, in run_validation
     value = self.validate(value)
-  File "/home/acs/Tutoring_System/system/utils/Authentication.py", line 27, in validate
+  File "/home/acs/Tutoring_System/system/utils/teacher/Authentication.py", line 25, in validate
+    if not check_password(password, user.password):
+NameError: name 'user' is not defined
+ERROR 2024-12-05 08:42:19,554 basehttp 42722 138280853047040 "POST /teacher/token/ HTTP/1.1" 500 106738
+INFO 2024-12-05 08:42:53,610 autoreload 42722 138280931145536 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:42:53,967 autoreload 42815 140419404523328 Watching for file changes with StatReloader
+ERROR 2024-12-05 08:42:56,554 log 42815 140419335718656 Internal Server Error: /teacher/token/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 445, in run_validation
+    value = self.validate(value)
+  File "/home/acs/Tutoring_System/system/utils/teacher/Authentication.py", line 27, in validate
     user_jwt_logged_in.send(sender=self.__class__, user=user, request=self.context['request'])
-NameError: name 'user_jwt_logged_in' is not defined
-ERROR 2024-12-04 15:11:19,755 basehttp 31804 136539289945856 "POST /token/ HTTP/1.1" 500 104276
-INFO 2024-12-04 15:12:19,066 autoreload 31804 136539435824960 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
-INFO 2024-12-04 15:12:19,498 autoreload 31901 133044671194944 Watching for file changes with StatReloader
-INFO 2024-12-04 15:12:24,791 autoreload 31901 133044671194944 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
-INFO 2024-12-04 15:12:25,156 autoreload 31926 125303321511744 Watching for file changes with StatReloader
-INFO 2024-12-04 15:12:28,404 autoreload 31926 125303321511744 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
-INFO 2024-12-04 15:12:28,772 autoreload 31951 128846882752320 Watching for file changes with StatReloader
-INFO 2024-12-04 15:12:34,111 basehttp 31951 128846814775040 "POST /token/ HTTP/1.1" 200 483
-INFO 2024-12-04 15:12:34,188 basehttp 31951 128846814775040 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
-INFO 2024-12-04 15:12:34,281 basehttp 31951 128846814775040 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
-INFO 2024-12-04 15:13:40,467 autoreload 31951 128846882752320 /home/acs/Tutoring_System/system/utils/Authentication.py changed, reloading.
-INFO 2024-12-04 15:13:40,880 autoreload 32032 127763515348800 Watching for file changes with StatReloader
-INFO 2024-12-04 15:13:46,526 basehttp 32032 127763379914496 "POST /token/ HTTP/1.1" 200 483
-INFO 2024-12-04 15:13:46,594 basehttp 32032 127763379914496 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
-INFO 2024-12-04 15:13:46,681 basehttp 32032 127763379914496 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
-INFO 2024-12-04 15:15:06,869 autoreload 32032 127763515348800 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
-INFO 2024-12-04 15:15:07,268 autoreload 32124 124751079077696 Watching for file changes with StatReloader
-INFO 2024-12-04 15:15:10,671 autoreload 32124 124751079077696 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
-INFO 2024-12-04 15:15:11,114 autoreload 32149 124692368074560 Watching for file changes with StatReloader
-INFO 2024-12-04 15:15:26,608 autoreload 32149 124692368074560 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
-INFO 2024-12-04 15:15:26,999 autoreload 32179 139386900789056 Watching for file changes with StatReloader
-INFO 2024-12-04 15:15:37,436 autoreload 32179 139386900789056 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
-INFO 2024-12-04 15:15:37,858 autoreload 32223 138798541399872 Watching for file changes with StatReloader
-INFO 2024-12-04 15:15:40,273 autoreload 32223 138798541399872 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
-INFO 2024-12-04 15:15:40,682 autoreload 32248 133272856901440 Watching for file changes with StatReloader
-INFO 2024-12-04 15:15:48,720 basehttp 32248 133272789059328 "POST /token/refresh/ HTTP/1.1" 200 241
-ERROR 2024-12-04 15:15:56,867 log 32248 133272778573568 Internal Server Error: /log/loginlog/
+NameError: name 'user' is not defined
+ERROR 2024-12-05 08:42:56,555 basehttp 42815 140419335718656 "POST /teacher/token/ HTTP/1.1" 500 106735
+INFO 2024-12-05 08:43:09,677 autoreload 42815 140419404523328 /home/acs/Tutoring_System/system/utils/teacher/Authentication.py changed, reloading.
+INFO 2024-12-05 08:43:10,059 autoreload 42863 135920397481792 Watching for file changes with StatReloader
+INFO 2024-12-05 08:43:13,344 basehttp 42863 135920261007104 "POST /teacher/token/ HTTP/1.1" 200 12333
+INFO 2024-12-05 08:43:17,615 basehttp 42863 135920261007104 "POST /teacher/token/ HTTP/1.1" 200 12333
+INFO 2024-12-05 08:44:40,701 basehttp 42863 135920250521344 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-05 08:45:14,408 basehttp 42863 135920261007104 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:46:12,816 autoreload 42863 135920397481792 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:46:13,189 autoreload 42994 129994163828544 Watching for file changes with StatReloader
+INFO 2024-12-05 08:46:29,802 autoreload 42994 129994163828544 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:46:30,172 autoreload 43037 138487242659648 Watching for file changes with StatReloader
+ERROR 2024-12-05 08:46:34,050 log 43037 138487175055104 Internal Server Error: /teacher/teacherinfo/
+Traceback (most recent call last):
+  File "/home/acs/Tutoring_System/system/views/teacher/teacherinfo.py", line 35, in get
+    'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
+NameError: name 'localdt' is not defined
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
@@ -71,83 +340,373 @@ Traceback (most recent call last):
     raise exc
   File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
     response = handler(request, *args, **kwargs)
-  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 55, in get
-    with open(log_file_path, 'r') as file:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/login_logs.log'
-ERROR 2024-12-04 15:15:56,868 basehttp 32248 133272778573568 "GET /log/loginlog/ HTTP/1.1" 500 91010
-INFO 2024-12-04 15:17:04,703 basehttp 32248 133272789059328 "POST /token/refresh/ HTTP/1.1" 200 241
-INFO 2024-12-04 15:17:14,023 autoreload 32248 133272856901440 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:17:14,435 autoreload 32369 140096346068800 Watching for file changes with StatReloader
-ERROR 2024-12-04 15:17:16,951 log 32369 140096277841664 Internal Server Error: /log/loginlog/
-Traceback (most recent call last):
-  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 56, in get
-    with open(log_file_path, 'r') as file:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/login_logs.log'
-ERROR 2024-12-04 15:17:16,952 basehttp 32369 140096277841664 "GET /log/loginlog/ HTTP/1.1" 500 91105
-INFO 2024-12-04 15:17:37,323 autoreload 32369 140096346068800 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:17:37,684 autoreload 32419 132978123196224 Watching for file changes with StatReloader
-INFO 2024-12-04 15:17:48,068 autoreload 32419 132978123196224 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:17:48,479 autoreload 32462 123732678022976 Watching for file changes with StatReloader
-INFO 2024-12-04 15:17:54,935 autoreload 32462 123732678022976 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:17:55,330 autoreload 32498 137331566536512 Watching for file changes with StatReloader
-ERROR 2024-12-04 15:17:58,555 log 32498 137331430393600 Internal Server Error: /log/loginlog/
-Traceback (most recent call last):
-  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 56, in get
-    with open(log_file_path, 'r') as file:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/acs/Tutoring_System/system/views/login_logs.log'
-ERROR 2024-12-04 15:17:58,556 basehttp 32498 137331430393600 "GET /log/loginlog/ HTTP/1.1" 500 91129
-INFO 2024-12-04 15:18:16,736 basehttp 32498 137331409422080 "POST /token/refresh/ HTTP/1.1" 200 241
-INFO 2024-12-04 15:18:26,364 autoreload 32498 137331566536512 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:18:26,756 autoreload 32576 135006543783744 Watching for file changes with StatReloader
-INFO 2024-12-04 15:18:27,985 autoreload 32576 135006543783744 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
-INFO 2024-12-04 15:18:28,502 autoreload 32590 132525450061632 Watching for file changes with StatReloader
-INFO 2024-12-04 15:18:29,575 basehttp 32590 132525307463424 "GET /log/loginlog/ HTTP/1.1" 200 10199
-INFO 2024-12-04 15:19:31,893 basehttp 32590 132525296977664 "POST /token/ HTTP/1.1" 200 483
-INFO 2024-12-04 15:19:31,959 basehttp 32590 132525296977664 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
-INFO 2024-12-04 15:19:32,038 basehttp 32590 132525296977664 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
-INFO 2024-12-04 15:19:33,493 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
-INFO 2024-12-04 15:23:54,827 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
-INFO 2024-12-04 15:23:57,310 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
-INFO 2024-12-04 15:24:02,696 basehttp 32590 132525296977664 "POST /token/refresh/ HTTP/1.1" 200 241
-INFO 2024-12-04 15:26:09,161 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 622
-INFO 2024-12-04 15:27:38,458 basehttp 32590 132525296977664 "POST /token/ HTTP/1.1" 200 483
-INFO 2024-12-04 15:27:38,536 basehttp 32590 132525296977664 "OPTIONS /user/userinfo/?user_id=3 HTTP/1.1" 200 0
-INFO 2024-12-04 15:27:38,617 basehttp 32590 132525296977664 "GET /user/userinfo/?user_id=3 HTTP/1.1" 200 144
-INFO 2024-12-04 15:27:39,723 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
-INFO 2024-12-04 15:31:23,328 basehttp 32590 132525296977664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1668
-INFO 2024-12-04 15:31:29,173 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
-INFO 2024-12-04 15:31:33,700 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
-INFO 2024-12-04 15:31:34,477 basehttp 32590 132525296977664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1668
-INFO 2024-12-04 15:31:36,179 basehttp 32590 132525286491904 "GET /log/loginlog/ HTTP/1.1" 200 829
+  File "/home/acs/Tutoring_System/system/views/teacher/teacherinfo.py", line 39, in get
+    'result': "输入参数错误" + str(e) + 'user_id :' + user_id
+TypeError: can only concatenate str (not "int") to str
+ERROR 2024-12-05 08:46:34,051 basehttp 43037 138487175055104 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 500 94351
+INFO 2024-12-05 08:46:38,797 basehttp 43037 138487175055104 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:46:46,903 autoreload 43037 138487242659648 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:46:47,266 autoreload 43108 127820216305472 Watching for file changes with StatReloader
+INFO 2024-12-05 08:46:50,637 basehttp 43108 127820147721984 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 70
+INFO 2024-12-05 08:47:23,260 autoreload 43108 127820216305472 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:47:23,658 autoreload 43156 132122021173056 Watching for file changes with StatReloader
+INFO 2024-12-05 08:48:04,741 autoreload 43156 132122021173056 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:48:05,105 autoreload 43200 126209358944064 Watching for file changes with StatReloader
+INFO 2024-12-05 08:48:12,537 autoreload 43200 126209358944064 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:48:12,920 autoreload 43243 127377919203136 Watching for file changes with StatReloader
+INFO 2024-12-05 08:48:18,363 autoreload 43243 127377919203136 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:48:18,731 autoreload 43268 136800651749184 Watching for file changes with StatReloader
+WARNING 2024-12-05 08:48:51,415 log 43268 136800582502144 Not Found: /example.com:443
+WARNING 2024-12-05 08:48:51,416 basehttp 43268 136800582502144 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-05 08:49:13,067 autoreload 43268 136800651749184 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:49:13,467 autoreload 43343 125415700588352 Watching for file changes with StatReloader
+INFO 2024-12-05 08:49:15,272 basehttp 43343 125415632930560 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 60
+INFO 2024-12-05 08:49:37,293 autoreload 43343 125415700588352 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:49:37,648 autoreload 43392 126896352831296 Watching for file changes with StatReloader
+INFO 2024-12-05 08:49:39,991 autoreload 43392 126896352831296 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 08:49:40,346 autoreload 43417 129113453295424 Watching for file changes with StatReloader
+INFO 2024-12-05 08:49:43,149 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:49:52,878 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:49:58,402 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:50:22,178 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 08:50:22,254 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 08:50:22,337 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 08:50:22,455 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:50:24,457 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:50:47,993 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:50:48,633 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:50:50,435 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/ HTTP/1.1" 200 0
+INFO 2024-12-05 08:50:50,532 basehttp 43417 129113383765760 "POST /user/userinfo/ HTTP/1.1" 200 25
+INFO 2024-12-05 08:50:50,629 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:50:57,812 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:51:08,954 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:51:09,219 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:51:10,105 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?teacher_id=1 HTTP/1.1" 200 69
+INFO 2024-12-05 08:51:20,770 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:51:38,115 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:51:38,762 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:52:26,335 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:53:07,101 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:53:21,132 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:53:24,546 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:53:34,297 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:54:04,565 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:54:10,950 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:54:11,907 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:54:23,731 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:54:52,769 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:55:02,902 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:55:21,844 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:55:23,491 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:56:14,777 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:56:18,576 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:56:32,567 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:56:38,332 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:56:38,578 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:56:56,541 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:56:56,719 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:56:57,494 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:57:23,389 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:57:31,535 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:57:51,002 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:58:11,133 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:58:12,099 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:58:55,340 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:58:59,505 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:59:03,631 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:59:05,753 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:59:08,033 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:59:22,775 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 08:59:36,036 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 08:59:36,745 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 08:59:50,072 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:00:28,597 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:00:29,449 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:00:41,378 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:00:59,793 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:01:00,422 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:03:52,794 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:08:22,785 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:12:52,781 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:16:16,760 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 09:16:16,882 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 09:16:17,014 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 148
+INFO 2024-12-05 09:16:24,116 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 09:16:24,194 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 09:16:24,277 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 148
+INFO 2024-12-05 09:16:24,938 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 09:16:25,014 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 09:16:25,106 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 148
+INFO 2024-12-05 09:16:50,307 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 09:16:50,378 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 09:16:50,471 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 148
+INFO 2024-12-05 09:17:13,258 basehttp 43417 129113383765760 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 09:17:13,335 basehttp 43417 129113383765760 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 09:17:13,427 basehttp 43417 129113383765760 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 09:17:13,552 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:17:15,924 basehttp 43417 129113373280000 "GET /log/loginlog/ HTTP/1.1" 200 3309
+INFO 2024-12-05 09:17:17,576 basehttp 43417 129113383765760 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 09:17:21,104 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:20:47,786 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:20:54,771 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:20:55,773 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:21:20,771 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:21:43,778 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:25:17,792 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:25:24,771 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:25:25,785 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:25:50,776 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:26:13,779 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:27:52,485 basehttp 43417 129113383765760 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 09:27:53,209 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:27:55,059 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:29:47,783 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:29:54,769 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:29:55,778 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:30:20,774 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:30:25,156 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:30:43,782 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:31:03,737 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:31:44,755 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:32:02,871 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:32:05,522 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:32:22,341 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:32:36,123 basehttp 43417 129113383765760 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 09:32:40,577 basehttp 43417 129113383765760 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 09:34:17,789 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:34:24,783 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:34:25,781 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:34:50,775 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:35:13,772 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-05 09:36:03,938 log 43417 129113291491072 Not Found: /
+WARNING 2024-12-05 09:36:03,939 basehttp 43417 129113291491072 "GET / HTTP/1.1" 404 2423
+WARNING 2024-12-05 09:36:36,853 log 43417 129113291491072 Not Found: /favicon.ico
+WARNING 2024-12-05 09:36:36,853 basehttp 43417 129113291491072 "GET /favicon.ico HTTP/1.1" 404 2474
+WARNING 2024-12-05 09:36:59,068 log 43417 129113383765760 Not Found: /http:/api.ipify.org/
+WARNING 2024-12-05 09:36:59,069 basehttp 43417 129113383765760 "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+WARNING 2024-12-05 09:37:21,391 log 43417 129113383765760 Not Found: /www.shadowserver.org:443
+WARNING 2024-12-05 09:37:21,391 basehttp 43417 129113383765760 "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+INFO 2024-12-05 09:38:47,787 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:39:18,778 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:39:18,791 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:40:18,782 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:40:18,782 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:43:17,786 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:44:18,770 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:44:18,783 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:44:18,783 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:44:18,785 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:47:47,794 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:48:18,774 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:48:18,785 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:49:18,771 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:49:18,771 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:52:17,779 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:53:18,771 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:53:18,787 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:53:18,787 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:53:18,790 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-05 09:53:53,366 log 43417 129113260033792 Not Found: /http:/110.242.68.4/
+WARNING 2024-12-05 09:53:53,366 basehttp 43417 129113260033792 "HEAD http://110.242.68.4/ HTTP/1.1" 404 0
+WARNING 2024-12-05 09:56:12,839 log 43417 129113291491072 Not Found: /www.voanews.com:443
+WARNING 2024-12-05 09:56:12,840 basehttp 43417 129113291491072 "CONNECT www.voanews.com:443 HTTP/1.1" 404 1811
+INFO 2024-12-05 09:56:13,061 basehttp 43417 129113291491072 - Broken pipe from ('220.167.232.26', 44647)
+WARNING 2024-12-05 09:56:13,180 log 43417 129113291491072 Not Found: /http:/www.rfa.org/english/
+WARNING 2024-12-05 09:56:13,181 basehttp 43417 129113291491072 "GET http://www.rfa.org/english/ HTTP/1.1" 404 1822
+WARNING 2024-12-05 09:56:13,540 log 43417 129113291491072 Not Found: /http:/dongtaiwang.com/
+WARNING 2024-12-05 09:56:13,541 basehttp 43417 129113291491072 "GET http://dongtaiwang.com/ HTTP/1.1" 404 1814
+WARNING 2024-12-05 09:56:13,700 log 43417 129113281005312 Not Found: /www.baidu.com:443
+WARNING 2024-12-05 09:56:13,701 basehttp 43417 129113281005312 "CONNECT www.baidu.com:443 HTTP/1.1" 404 1803
+INFO 2024-12-05 09:56:13,860 basehttp 43417 129113281005312 - Broken pipe from ('220.167.232.26', 61881)
+WARNING 2024-12-05 09:56:14,354 log 43417 129113281005312 Not Found: /cn.bing.com:443
+WARNING 2024-12-05 09:56:14,355 basehttp 43417 129113281005312 "CONNECT cn.bing.com:443 HTTP/1.1" 404 1795
+WARNING 2024-12-05 09:56:14,493 log 43417 129113291491072 Not Found: /http:/www.soso.com/
+WARNING 2024-12-05 09:56:14,494 basehttp 43417 129113291491072 "GET http://www.soso.com/ HTTP/1.1" 404 1802
+INFO 2024-12-05 09:56:14,494 basehttp 43417 129113281005312 - Broken pipe from ('220.167.232.26', 26529)
+WARNING 2024-12-05 09:56:15,526 log 43417 129113291491072 Not Found: /http:/www.epochtimes.com/
+WARNING 2024-12-05 09:56:15,527 basehttp 43417 129113291491072 "GET http://www.epochtimes.com/ HTTP/1.1" 404 1826
+WARNING 2024-12-05 09:56:15,586 log 43417 129113281005312 Not Found: /www.so.com:443
+WARNING 2024-12-05 09:56:15,586 basehttp 43417 129113281005312 "CONNECT www.so.com:443 HTTP/1.1" 404 1791
+WARNING 2024-12-05 09:56:16,297 log 43417 129113291491072 Not Found: /http:/www.minghui.org/
+WARNING 2024-12-05 09:56:16,297 basehttp 43417 129113291491072 "GET http://www.minghui.org/ HTTP/1.1" 404 1814
+WARNING 2024-12-05 09:56:17,477 log 43417 129113291491072 Not Found: /http:/www.wujieliulan.com/
+WARNING 2024-12-05 09:56:17,477 basehttp 43417 129113291491072 "GET http://www.wujieliulan.com/ HTTP/1.1" 404 1830
+INFO 2024-12-05 09:56:47,797 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:57:18,772 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:57:18,783 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:58:18,772 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 09:58:18,773 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:01:17,780 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:02:18,776 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:02:18,788 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:02:18,793 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:02:18,793 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:05:47,790 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:06:18,775 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:06:18,787 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:07:18,767 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:07:18,767 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:10:17,786 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:11:18,768 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:11:18,779 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:11:18,781 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:11:18,784 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:14:47,785 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:15:18,777 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:15:18,788 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:16:18,769 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:16:18,769 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:19:17,790 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:20:18,778 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:20:18,791 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:20:18,792 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:20:18,793 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:23:47,778 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:24:18,768 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:24:18,780 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:25:18,777 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:25:18,777 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:28:17,783 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:29:18,766 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:29:18,779 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:29:18,781 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:29:18,781 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:32:47,788 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:33:18,766 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:33:18,777 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:34:18,767 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:34:18,767 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:37:17,779 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:38:18,768 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:38:18,782 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:38:18,782 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:38:18,784 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:41:47,777 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:42:18,773 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:42:18,784 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:43:18,778 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:43:18,778 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:46:17,784 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:47:18,764 basehttp 43417 129113270519552 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:47:18,775 basehttp 43417 129113383765760 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:47:18,777 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:47:18,779 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:50:47,777 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:51:18,768 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:51:18,779 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:52:18,770 basehttp 43417 129113281005312 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:52:18,770 basehttp 43417 129113291491072 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:54:12,252 autoreload 43417 129113453295424 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:54:13,303 autoreload 46726 123235763709760 Watching for file changes with StatReloader
+INFO 2024-12-05 10:55:02,785 autoreload 46726 123235763709760 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:55:03,156 autoreload 46773 132407264855872 Watching for file changes with StatReloader
+INFO 2024-12-05 10:55:33,852 autoreload 46773 132407264855872 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:55:34,206 autoreload 46816 137730650150720 Watching for file changes with StatReloader
+INFO 2024-12-05 10:55:54,855 autoreload 46816 137730650150720 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:55:55,196 autoreload 46863 124547924801344 Watching for file changes with StatReloader
+INFO 2024-12-05 10:55:56,510 autoreload 46863 124547924801344 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:55:56,870 autoreload 46877 131136238204736 Watching for file changes with StatReloader
+INFO 2024-12-05 10:56:06,456 autoreload 46877 131136238204736 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:56:06,803 autoreload 46908 131388657858368 Watching for file changes with StatReloader
+INFO 2024-12-05 10:56:18,810 basehttp 46908 131388569290496 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:56:18,812 basehttp 46908 131388579776256 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:56:18,812 basehttp 46908 131388483307264 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:56:18,812 basehttp 46908 131388590262016 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 10:56:47,885 autoreload 46908 131388657858368 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:56:48,261 autoreload 46995 125927458121536 Watching for file changes with StatReloader
+INFO 2024-12-05 10:56:56,759 autoreload 46995 125927458121536 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:56:57,125 autoreload 47039 136743657985856 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:02,540 autoreload 47039 136743657985856 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:02,924 autoreload 47064 124471498090304 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:15,464 autoreload 47064 124471498090304 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:15,822 autoreload 47107 133871063603008 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:29,385 autoreload 47107 133871063603008 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:29,750 autoreload 47150 132913906403136 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:32,095 autoreload 47150 132913906403136 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:32,492 autoreload 47175 127747826956096 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:42,986 autoreload 47175 127747826956096 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:43,373 autoreload 47200 128176120149824 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:52,877 autoreload 47200 128176120149824 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:53,232 autoreload 47243 139049444468544 Watching for file changes with StatReloader
+INFO 2024-12-05 10:57:56,632 autoreload 47243 139049444468544 /home/acs/Tutoring_System/system/views/teacher/teacherinfo.py changed, reloading.
+INFO 2024-12-05 10:57:57,047 autoreload 47268 134057937569600 Watching for file changes with StatReloader
+INFO 2024-12-05 10:59:47,797 basehttp 47268 134057801287424 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:00:18,762 basehttp 47268 134057801287424 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:00:18,774 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:00:23,406 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 11:00:29,772 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 11:00:34,537 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 11:01:18,772 basehttp 47268 134057801287424 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:01:18,772 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:03:18,242 basehttp 47268 134057790801664 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-05 11:03:18,327 basehttp 47268 134057790801664 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-05 11:03:18,419 basehttp 47268 134057790801664 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-05 11:03:18,537 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 11:03:20,073 basehttp 47268 134057790801664 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 220
+INFO 2024-12-05 11:07:48,347 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:12:18,778 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:16:48,786 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:21:18,781 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:25:48,784 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:30:18,776 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:34:48,777 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:39:18,777 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:43:48,777 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:48:18,765 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:52:48,777 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 11:57:18,765 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:01:48,772 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:06:18,776 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:10:48,776 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:15:18,773 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:19:48,761 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:24:18,770 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:28:48,772 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:33:18,763 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-05 12:35:16,314 log 47268 134057790801664 Not Found: /example.com:443
+WARNING 2024-12-05 12:35:16,315 basehttp 47268 134057790801664 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-05 12:37:48,765 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:42:18,782 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:46:48,761 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:51:18,767 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 12:55:48,768 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:00:00,170 basehttp 47268 134057790801664 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-05 13:00:00,170 basehttp 47268 134057790801664 "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-12-05 13:00:18,777 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:04:48,754 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:09:18,766 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:13:48,749 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-05 13:15:43,224 log 47268 134057790801664 Not Found: /
+WARNING 2024-12-05 13:15:43,224 basehttp 47268 134057790801664 "GET / HTTP/1.1" 404 2423
+INFO 2024-12-05 13:17:49,455 basehttp 47268 134057790801664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 13:17:51,934 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 13:17:53,381 basehttp 47268 134057790801664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 13:18:18,761 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:22:48,753 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:27:18,752 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:31:48,771 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:34:02,512 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 13:34:49,018 basehttp 47268 134057801287424 "OPTIONS /teacher/register/ HTTP/1.1" 200 0
+INFO 2024-12-05 13:34:49,095 basehttp 47268 134057801287424 "POST /teacher/register/ HTTP/1.1" 200 31
+INFO 2024-12-05 13:34:49,177 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 232
+INFO 2024-12-05 13:35:54,577 basehttp 47268 134057790801664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 13:35:55,013 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 250
+INFO 2024-12-05 13:36:18,351 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:36:19,434 basehttp 47268 134057790801664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 13:36:19,891 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 330
+INFO 2024-12-05 13:38:45,832 basehttp 47268 134057790801664 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-05 13:38:46,210 basehttp 47268 134057790801664 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-05 13:40:48,752 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:44:41,533 basehttp 47268 134057790801664 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-05 13:44:41,534 basehttp 47268 134057790801664 "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-12-05 13:45:18,768 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:49:48,748 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:54:18,759 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 13:58:48,761 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 14:03:18,826 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 14:07:48,762 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-05 14:11:24,747 log 47268 134057790801664 Not Found: /.env
+WARNING 2024-12-05 14:11:24,747 basehttp 47268 134057790801664 "GET /.env HTTP/1.1" 404 2453
+INFO 2024-12-05 14:12:18,754 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 14:16:48,755 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-05 14:21:18,339 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241

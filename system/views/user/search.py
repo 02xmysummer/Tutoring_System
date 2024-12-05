@@ -1,11 +1,11 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
-from system.models.abs_user import AbsUser
 from system.models.sys_user import SysUser
+# from system.models.sys_user import SysUser
 from datetime import timezone
 import dateutil.parser
-ROLES = ['管理员','普通用户']
+ROLES = ['管理员','普通用户','演示账号']
 
 class Search(APIView):
 
@@ -18,7 +18,7 @@ class Search(APIView):
             return Response({'error': '搜索数据为空'}, status=400)
         
         # 使用 __icontains 进行大小写不敏感的 LIKE 查询
-        users = AbsUser.objects.filter(username__icontains=data)
+        users = SysUser.objects.filter(username__icontains=data)
         count = users.count()
         users = users[(index-1)*10:index*10]
         # 检查是否找到了至少一个用户

@@ -121,7 +121,8 @@ REST_FRAMEWORK = {
     #     'rest_framework.permissions.IsAuthenticated',
     # ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'system.utils.jwt.MyJWTAuthentication' # 认证方式为自定义的认证类
+        'system.utils.user.jwt.MyJWTAuthentication', # 认证方式为自定义的认证类
+        'system.utils.teacher.jwt.MyJWTAuthentication' # 认证方式为自定义的认证类
     ],
 }
 from datetime import timedelta
