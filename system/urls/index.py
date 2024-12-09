@@ -5,5 +5,7 @@ urlpatterns = [
     path("user/",include("system.urls.user.index")),    
     path("teacher/",include("system.urls.teacher.index")),    
     path("log/",include("system.urls.log.index")),    
+    path("comment/",include("system.urls.comment.index")),    
+    path("overview/",include("system.urls.overview.index")),    
 
 ]

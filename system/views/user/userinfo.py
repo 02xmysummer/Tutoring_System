@@ -6,7 +6,7 @@ from system.utils.user.permissions import IsAdminOrSelf  # 假设你将自定义
 from django.shortcuts import get_object_or_404
 ROLES = ['管理员','普通用户','演示账号']
 class UserInfo(APIView):
-    permission_classes = ([IsAdminOrSelf])
+    # permission_classes = ([IsAdminOrSelf])
     def dispatch(self, request, *args, **kwargs):
         # 根据请求方法动态设置权限类
         if request.method.lower() in ['post', 'put','delete']:  # 如果你还有 PUT 方法用于更新，也应该包括它

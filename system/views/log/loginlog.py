@@ -4,11 +4,12 @@ from rest_framework import status
 import os
 from pathlib import Path
 import logging
-from django.dispatch import receiver
 from django.dispatch import receiver, Signal
 from datetime import datetime
 import json
 import re
+from collections import defaultdict
+
 # 配置日志记录器
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 logger = logging.getLogger('login_logger')
@@ -46,16 +47,27 @@ def jwt_user_logged_in_receiver(sender, user, request, **kwargs):
     
     # 使用日志记录器记录登录信息（作为JSON字符串）
     logger.info(login_info_json)
-    # 如果还需要将这些信息保存到数据库中，你可以在这里添加相应的数据库操作代码
+
 class LoginLogView(APIView):
     def get(self, request, format=None):
         log_file_path = os.path.join(BASE_DIR, 'login_logs.log')
         print(log_file_path)
+        
+        # 用于存储日志信息和登录次数的字典
         logs = []
+        login_counts = defaultdict(int)
+
         with open(log_file_path, 'r') as file:
             for line in file:
                 match = re.search(r'-\s*(\{.*?\})\s*$', line)
-                log_entry = json.loads(match.group(1))
-                logs.append(log_entry)
-            
+                if match:
+                    log_entry = json.loads(match.group(1))
+                    # user_name = log_entry.get('user')
+                    # if user_name:
+                    #     login_counts[user_name] += 1
+                    #     # 更新日志信息，添加登录次数
+                    #     log_entry['login_count'] = login_counts[user_name]
+                    logs.append(log_entry)
+        
+        # 返回包含登录次数的日志信息
         return Response(logs)

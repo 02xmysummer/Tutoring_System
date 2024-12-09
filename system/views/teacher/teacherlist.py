@@ -18,6 +18,7 @@ class TeacherList(APIView):
             localdt = dateObject.replace(tzinfo = timezone.utc).astimezone(tz=None)
 
             res.append({
+                'count':count,
                 'id':teacher.id,
                 'nickname':teacher.nickname,
                 'status': '上架' if not teacher.status else '下架',
@@ -30,6 +31,7 @@ class TeacherList(APIView):
                 'remark':teacher.remark,
                 'phonenumber':teacher.phonenumber,
                 'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
-                'count':count
+
+                
             })
         return Response(res)

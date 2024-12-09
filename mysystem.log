@@ -710,3 +710,1168 @@ WARNING 2024-12-05 14:11:24,747 basehttp 47268 134057790801664 "GET /.env HTTP/1
 INFO 2024-12-05 14:12:18,754 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
 INFO 2024-12-05 14:16:48,755 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
 INFO 2024-12-05 14:21:18,339 basehttp 47268 134057790801664 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 04:33:46,724 autoreload 70623 138201671210816 Watching for file changes with StatReloader
+INFO 2024-12-09 04:38:37,847 autoreload 70623 138201671210816 /home/acs/Tutoring_System/system/models/__init__.py changed, reloading.
+INFO 2024-12-09 04:38:38,222 autoreload 70869 128833875429184 Watching for file changes with StatReloader
+INFO 2024-12-09 04:38:47,566 autoreload 70869 128833875429184 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:38:47,894 autoreload 70911 126680820631360 Watching for file changes with StatReloader
+INFO 2024-12-09 04:38:51,187 autoreload 70911 126680820631360 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:38:51,553 autoreload 70933 125278112417600 Watching for file changes with StatReloader
+INFO 2024-12-09 04:38:55,884 autoreload 70933 125278112417600 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:38:56,243 autoreload 70955 128957712488256 Watching for file changes with StatReloader
+INFO 2024-12-09 04:38:58,527 autoreload 70955 128957712488256 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:38:58,858 autoreload 70958 138276912994112 Watching for file changes with StatReloader
+INFO 2024-12-09 04:39:06,091 autoreload 70958 138276912994112 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:39:06,435 autoreload 70999 126006268684096 Watching for file changes with StatReloader
+INFO 2024-12-09 04:39:13,781 autoreload 70999 126006268684096 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:39:14,153 autoreload 71021 124144085043008 Watching for file changes with StatReloader
+INFO 2024-12-09 04:45:05,849 autoreload 71021 124144085043008 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:45:06,257 autoreload 71140 129644060026688 Watching for file changes with StatReloader
+INFO 2024-12-09 04:45:12,603 autoreload 71140 129644060026688 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:45:12,935 autoreload 71178 128699175704384 Watching for file changes with StatReloader
+INFO 2024-12-09 04:51:38,217 autoreload 71178 128699175704384 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 04:51:38,568 autoreload 71486 139566476224320 Watching for file changes with StatReloader
+INFO 2024-12-09 04:51:40,921 autoreload 71486 139566476224320 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 04:51:41,287 autoreload 71508 130763740428096 Watching for file changes with StatReloader
+INFO 2024-12-09 04:51:43,621 autoreload 71508 130763740428096 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 04:51:43,960 autoreload 71511 131079271798592 Watching for file changes with StatReloader
+INFO 2024-12-09 04:52:11,687 autoreload 71511 131079271798592 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:52:12,053 autoreload 71574 131347644995392 Watching for file changes with StatReloader
+INFO 2024-12-09 04:52:13,286 autoreload 71574 131347644995392 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:52:13,691 autoreload 71587 126903385593664 Watching for file changes with StatReloader
+INFO 2024-12-09 04:52:16,044 autoreload 71587 126903385593664 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:52:16,396 autoreload 71599 134940938102592 Watching for file changes with StatReloader
+INFO 2024-12-09 04:52:19,767 autoreload 71599 134940938102592 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:52:20,115 autoreload 71617 129105870923584 Watching for file changes with StatReloader
+INFO 2024-12-09 04:52:22,449 autoreload 71617 129105870923584 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:52:22,802 autoreload 71624 128584053614400 Watching for file changes with StatReloader
+INFO 2024-12-09 04:54:03,038 basehttp 71624 128583985006336 "GET /teacher/teacherinfo/ HTTP/1.1" 200 12400
+INFO 2024-12-09 04:54:03,093 basehttp 71624 128583974520576 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-09 04:54:03,098 basehttp 71624 128583985006336 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-09 04:54:03,099 basehttp 71624 128583964034816 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-09 04:54:03,099 basehttp 71624 128583953549056 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-09 04:54:03,117 basehttp 71624 128583974520576 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-09 04:54:03,118 basehttp 71624 128583802554112 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-09 04:54:03,124 basehttp 71624 128583792068352 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-09 04:54:03,128 basehttp 71624 128583985006336 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-09 04:54:03,154 basehttp 71624 128583792068352 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-09 04:54:03,156 basehttp 71624 128583974520576 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-09 04:54:03,157 basehttp 71624 128583985006336 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-09 04:54:03,192 basehttp 71624 128583953549056 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2024-12-09 04:54:03,332 log 71624 128583985006336 Not Found: /favicon.ico
+WARNING 2024-12-09 04:54:03,333 basehttp 71624 128583985006336 "GET /favicon.ico HTTP/1.1" 404 2629
+ERROR 2024-12-09 04:54:10,570 log 71624 128583985006336 Internal Server Error: /comment/comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:54:10,571 basehttp 71624 128583985006336 "GET /comment/comment/ HTTP/1.1" 500 90548
+INFO 2024-12-09 04:54:19,508 autoreload 71624 128584053614400 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 04:54:20,455 autoreload 71731 131736547919680 Watching for file changes with StatReloader
+ERROR 2024-12-09 04:54:23,604 log 71731 131736478418688 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:54:23,605 basehttp 71731 131736478418688 "GET /comment/ HTTP/1.1" 500 90420
+INFO 2024-12-09 04:54:52,680 autoreload 71731 131736547919680 /home/acs/Tutoring_System/system/views/comment/comment.py changed, reloading.
+INFO 2024-12-09 04:54:53,047 autoreload 71785 127480655832896 Watching for file changes with StatReloader
+ERROR 2024-12-09 04:55:03,201 log 71785 127480520247040 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:55:03,202 basehttp 71785 127480520247040 "GET /comment/ HTTP/1.1" 500 90557
+INFO 2024-12-09 04:56:09,786 autoreload 71785 127480655832896 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:56:10,152 autoreload 71881 127854036662080 Watching for file changes with StatReloader
+WARNING 2024-12-09 04:56:37,400 log 71881 127853968492288 Not Found: /example.com:443
+WARNING 2024-12-09 04:56:37,400 basehttp 71881 127853968492288 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-09 04:57:04,531 autoreload 71881 127854036662080 /home/acs/Tutoring_System/system/views/comment/comment.py changed, reloading.
+INFO 2024-12-09 04:57:04,916 autoreload 71970 128832238950208 Watching for file changes with StatReloader
+ERROR 2024-12-09 04:57:08,099 log 71970 128832103253760 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects().filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:57:08,100 basehttp 71970 128832103253760 "GET /comment/ HTTP/1.1" 500 90561
+INFO 2024-12-09 04:57:25,674 autoreload 71970 128832238950208 /home/acs/Tutoring_System/system/views/comment/comment.py changed, reloading.
+INFO 2024-12-09 04:57:26,075 autoreload 72017 138990888605504 Watching for file changes with StatReloader
+ERROR 2024-12-09 04:57:45,495 log 72017 138990820787968 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:57:45,496 basehttp 72017 138990820787968 "GET /comment/ HTTP/1.1" 500 90557
+ERROR 2024-12-09 04:58:00,684 log 72017 138990810302208 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:58:00,685 basehttp 72017 138990810302208 "HEAD /comment/ HTTP/1.1" 500 0
+INFO 2024-12-09 04:59:02,257 autoreload 72017 138990888605504 /home/acs/Tutoring_System/system/models/comment.py changed, reloading.
+INFO 2024-12-09 04:59:02,636 autoreload 72260 135723221595968 Watching for file changes with StatReloader
+ERROR 2024-12-09 04:59:23,791 log 72260 135723151787776 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.filter(teacher_id=user_id)
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 04:59:23,793 basehttp 72260 135723151787776 "GET /comment/ HTTP/1.1" 500 90557
+INFO 2024-12-09 05:00:10,300 autoreload 72260 135723221595968 /home/acs/Tutoring_System/system/views/comment/comment.py changed, reloading.
+INFO 2024-12-09 05:00:10,663 autoreload 72391 137615167588160 Watching for file changes with StatReloader
+INFO 2024-12-09 05:00:17,076 autoreload 72391 137615167588160 /home/acs/Tutoring_System/system/views/comment/comment.py changed, reloading.
+INFO 2024-12-09 05:00:17,447 autoreload 72428 137475409078080 Watching for file changes with StatReloader
+ERROR 2024-12-09 05:00:20,536 log 72428 137475341158144 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/comment.py", line 12, in get
+    comments = Comment.objects.all()
+AttributeError: type object 'Comment' has no attribute 'objects'
+ERROR 2024-12-09 05:00:20,537 basehttp 72428 137475341158144 "GET /comment/ HTTP/1.1" 500 90361
+INFO 2024-12-09 05:02:40,516 autoreload 72428 137475409078080 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 05:02:40,943 autoreload 72520 132099284723520 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:00,591 autoreload 72520 132099284723520 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 05:03:00,950 autoreload 72557 133496187742016 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:04,291 basehttp 72557 133496118970112 "GET /comment/ HTTP/1.1" 200 9714
+INFO 2024-12-09 05:03:12,535 autoreload 72557 133496187742016 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:03:12,921 autoreload 72612 124240195454784 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:20,287 autoreload 72612 124240195454784 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:03:20,652 autoreload 72638 135286458693440 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:21,988 autoreload 72638 135286458693440 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:03:22,386 autoreload 72651 133278161139520 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:31,852 autoreload 72651 133278161139520 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:03:32,238 autoreload 72679 129087914121024 Watching for file changes with StatReloader
+INFO 2024-12-09 05:03:35,529 basehttp 72679 129087777539840 "GET /comment/ HTTP/1.1" 200 9516
+INFO 2024-12-09 05:04:12,945 basehttp 72679 129087767054080 "GET /comment/ HTTP/1.1" 200 2
+INFO 2024-12-09 05:04:57,136 autoreload 72679 129087914121024 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:04:57,501 autoreload 72786 140488085190464 Watching for file changes with StatReloader
+INFO 2024-12-09 05:04:58,819 autoreload 72786 140488085190464 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:04:59,167 autoreload 72799 128889556690752 Watching for file changes with StatReloader
+INFO 2024-12-09 05:05:04,615 basehttp 72799 128889416320768 "GET /comment/ HTTP/1.1" 200 2
+INFO 2024-12-09 05:05:13,911 basehttp 72799 128889416320768 "GET /comment/?teacher_id=1 HTTP/1.1" 200 79
+INFO 2024-12-09 05:06:14,829 autoreload 72799 128889556690752 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:06:15,212 autoreload 72882 137033989846848 Watching for file changes with StatReloader
+ERROR 2024-12-09 05:06:23,355 log 72882 137033922119424 Internal Server Error: /comment/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/commentlist.py", line 14, in get
+    for comment in comments:
+NameError: name 'comments' is not defined
+ERROR 2024-12-09 05:06:23,356 basehttp 72882 137033922119424 "GET /comment/?index=1 HTTP/1.1" 500 89763
+INFO 2024-12-09 05:06:40,042 autoreload 72882 137033989846848 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:06:40,429 autoreload 72940 124642275772224 Watching for file changes with StatReloader
+INFO 2024-12-09 05:06:42,903 basehttp 72940 124642207467264 "GET /comment/?index=1 HTTP/1.1" 200 79
+INFO 2024-12-09 05:11:46,204 autoreload 72940 124642275772224 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:11:46,559 autoreload 73058 123602510153536 Watching for file changes with StatReloader
+INFO 2024-12-09 05:11:57,047 autoreload 73058 123602510153536 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:11:57,398 autoreload 73095 137842378721088 Watching for file changes with StatReloader
+INFO 2024-12-09 05:12:19,073 autoreload 73095 137842378721088 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:12:19,433 autoreload 73147 131581267113792 Watching for file changes with StatReloader
+INFO 2024-12-09 05:12:22,804 autoreload 73147 131581267113792 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:12:23,201 autoreload 73169 138180436862784 Watching for file changes with StatReloader
+INFO 2024-12-09 05:12:33,741 autoreload 73169 138180436862784 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:12:34,095 autoreload 73192 126498250815296 Watching for file changes with StatReloader
+INFO 2024-12-09 05:13:00,877 autoreload 73192 126498250815296 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:13:01,364 autoreload 73229 131967184336704 Watching for file changes with StatReloader
+INFO 2024-12-09 05:13:12,940 autoreload 73229 131967184336704 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:13:13,343 autoreload 73281 126878320109376 Watching for file changes with StatReloader
+INFO 2024-12-09 05:13:22,851 autoreload 73281 126878320109376 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:13:23,217 autoreload 73303 132552858392384 Watching for file changes with StatReloader
+INFO 2024-12-09 05:13:25,579 autoreload 73303 132552858392384 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 05:13:25,961 autoreload 73325 137425231124288 Watching for file changes with StatReloader
+INFO 2024-12-09 05:13:31,733 basehttp 73325 137425162602240 "GET /comment/?index=1 HTTP/1.1" 200 221
+INFO 2024-12-09 05:13:42,881 basehttp 73325 137425162602240 "GET /comment/?index=1 HTTP/1.1" 200 221
+INFO 2024-12-09 05:13:58,473 basehttp 73325 137425162602240 "GET /comment/?index=1 HTTP/1.1" 200 221
+WARNING 2024-12-09 05:14:24,227 log 73325 137425162602240 Not Found: /
+WARNING 2024-12-09 05:14:24,228 basehttp 73325 137425162602240 "GET / HTTP/1.1" 404 2575
+WARNING 2024-12-09 05:14:24,508 log 73325 137425162602240 Not Found: /favicon.ico
+WARNING 2024-12-09 05:14:24,508 basehttp 73325 137425162602240 "GET /favicon.ico HTTP/1.1" 404 2626
+INFO 2024-12-09 05:14:42,642 basehttp 73325 137425141630720 "GET /comment HTTP/1.1" 301 0
+INFO 2024-12-09 05:14:42,711 basehttp 73325 137425141630720 "GET /comment/ HTTP/1.1" 200 9996
+INFO 2024-12-09 05:18:42,283 autoreload 73325 137425231124288 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 05:18:42,933 autoreload 73550 130976103049024 Watching for file changes with StatReloader
+INFO 2024-12-09 05:18:44,491 autoreload 73550 130976103049024 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 05:18:44,863 autoreload 73568 134194445997888 Watching for file changes with StatReloader
+INFO 2024-12-09 05:18:46,641 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+WARNING 2024-12-09 05:26:40,390 log 73568 134194304911104 Not Found: /
+WARNING 2024-12-09 05:26:40,390 basehttp 73568 134194304911104 "GET / HTTP/1.1" 404 2578
+INFO 2024-12-09 06:08:00,042 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:08:02,062 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+WARNING 2024-12-09 06:09:53,462 log 73568 134194304911104 Not Found: /favicon.ico
+WARNING 2024-12-09 06:09:53,462 basehttp 73568 134194304911104 "GET /favicon.ico HTTP/1.1" 404 2629
+INFO 2024-12-09 06:09:54,069 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:09:54,755 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:10:05,574 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:10:05,916 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:10:06,365 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:10:06,541 basehttp 73568 134194304911104 "GET /comment/commentlist HTTP/1.1" 200 10062
+INFO 2024-12-09 06:27:41,477 basehttp 73568 134194304911104 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-09 06:27:41,477 basehttp 73568 134194304911104 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-09 06:27:42,066 basehttp 73568 134194304911104 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-09 06:27:42,066 basehttp 73568 134194304911104 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-12-09 06:27:42,661 log 73568 134194304911104 Not Found: /
+WARNING 2024-12-09 06:27:42,661 basehttp 73568 134194304911104 "GET / HTTP/1.1" 404 2578
+WARNING 2024-12-09 06:27:43,550 log 73568 134194304911104 Not Found: /login
+WARNING 2024-12-09 06:27:43,550 basehttp 73568 134194304911104 "GET /login HTTP/1.1" 404 2611
+WARNING 2024-12-09 06:43:23,957 log 73568 134194304911104 Not Found: /
+WARNING 2024-12-09 06:43:23,957 basehttp 73568 134194304911104 "GET / HTTP/1.0" 404 2570
+INFO 2024-12-09 07:12:37,402 autoreload 73568 134194445997888 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:38,295 autoreload 74759 140010091177792 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:40,765 autoreload 74759 140010091177792 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:41,137 autoreload 74766 136509619156800 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:44,477 autoreload 74766 136509619156800 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:44,842 autoreload 74769 140270952638272 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:49,305 autoreload 74769 140270952638272 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:49,696 autoreload 74776 123571873756992 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:52,049 autoreload 74776 123571873756992 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:52,432 autoreload 74783 132920238036800 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:55,841 autoreload 74783 132920238036800 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:56,229 autoreload 74790 140283883128640 Watching for file changes with StatReloader
+INFO 2024-12-09 07:12:57,584 autoreload 74790 140283883128640 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 07:12:58,005 autoreload 74793 123393362216768 Watching for file changes with StatReloader
+INFO 2024-12-09 07:13:06,994 autoreload 74799 131241455966016 Watching for file changes with StatReloader
+INFO 2024-12-09 07:13:22,890 basehttp 74793 123393292633856 "GET /comment/commentlist HTTP/1.1" 200 10062
+WARNING 2024-12-09 07:13:23,146 log 74793 123393292633856 Not Found: /favicon.ico
+WARNING 2024-12-09 07:13:23,146 basehttp 74793 123393292633856 "GET /favicon.ico HTTP/1.1" 404 2629
+WARNING 2024-12-09 07:13:29,402 log 74793 123393292633856 Method Not Allowed: /comment/add
+WARNING 2024-12-09 07:13:29,402 basehttp 74793 123393292633856 "GET /comment/add HTTP/1.1" 405 9956
+WARNING 2024-12-09 07:14:40,739 log 74793 123393292633856 Bad Request: /comment/add
+WARNING 2024-12-09 07:14:40,739 basehttp 74793 123393292633856 "POST /comment/add HTTP/1.1" 400 24
+WARNING 2024-12-09 07:15:12,354 log 74793 123393292633856 Bad Request: /comment/add
+WARNING 2024-12-09 07:15:12,354 basehttp 74793 123393292633856 "POST /comment/add HTTP/1.1" 400 24
+ERROR 2024-12-09 07:15:26,640 log 74793 123393292633856 Internal Server Error: /comment/add
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/addcomment.py", line 31, in post
+    Comment.objects.create(user=user, teacher=teacher, comment=comment)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Comment() got unexpected keyword arguments: 'user', 'teacher'
+ERROR 2024-12-09 07:15:26,642 basehttp 74793 123393292633856 "POST /comment/add?user_id=3&teacher_id=2&comment=%E8%80%81%E5%B8%88%E8%AE%B2%E7%9A%84%E5%BE%88%E8%AE%A4%E7%9C%9F HTTP/1.1" 500 106149
+INFO 2024-12-09 07:15:35,729 autoreload 74861 138144146065216 Watching for file changes with StatReloader
+WARNING 2024-12-09 07:15:54,194 log 74793 123393292633856 Bad Request: /comment/add
+WARNING 2024-12-09 07:15:54,195 basehttp 74793 123393292633856 "POST /comment/add HTTP/1.1" 400 24
+INFO 2024-12-09 07:16:00,999 autoreload 74793 123393362216768 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 07:16:01,386 autoreload 74902 128713461073728 Watching for file changes with StatReloader
+WARNING 2024-12-09 07:18:46,286 log 74902 128713322661632 Method Not Allowed: /comment/add
+WARNING 2024-12-09 07:18:46,287 basehttp 74902 128713322661632 "HEAD /comment/add HTTP/1.1" 405 0
+INFO 2024-12-09 07:19:00,348 autoreload 74918 132747113031488 Watching for file changes with StatReloader
+INFO 2024-12-09 07:21:58,037 autoreload 75145 138167739397952 Watching for file changes with StatReloader
+INFO 2024-12-09 07:22:47,243 autoreload 75343 124145814378304 Watching for file changes with StatReloader
+WARNING 2024-12-09 07:22:51,753 log 75343 124145677371136 Bad Request: /comment/add
+WARNING 2024-12-09 07:22:51,754 basehttp 75343 124145677371136 "POST /comment/add HTTP/1.1" 400 24
+WARNING 2024-12-09 07:23:07,740 log 75343 124145677371136 Bad Request: /comment/add
+WARNING 2024-12-09 07:23:07,740 basehttp 75343 124145677371136 "POST /comment/add HTTP/1.1" 400 24
+WARNING 2024-12-09 07:23:14,820 log 75343 124145677371136 Not Found: /comment/add/
+WARNING 2024-12-09 07:23:14,821 basehttp 75343 124145677371136 "POST /comment/add/ HTTP/1.1" 404 2935
+WARNING 2024-12-09 07:23:34,201 log 75343 124145677371136 Bad Request: /comment/add
+WARNING 2024-12-09 07:23:34,201 basehttp 75343 124145677371136 "POST /comment/add HTTP/1.1" 400 24
+INFO 2024-12-09 07:25:17,372 autoreload 75343 124145814378304 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 07:25:17,730 autoreload 75514 133043831355200 Watching for file changes with StatReloader
+ERROR 2024-12-09 07:25:20,590 log 75514 133043763283712 Internal Server Error: /comment/add
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/addcomment.py", line 31, in post
+    Comment.objects.create(user=user, teacher=teacher, comment=comment)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Comment() got unexpected keyword arguments: 'user', 'teacher'
+ERROR 2024-12-09 07:25:20,592 basehttp 75514 133043763283712 "POST /comment/add HTTP/1.1" 500 104789
+INFO 2024-12-09 07:25:39,454 autoreload 75514 133043831355200 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 07:25:39,836 autoreload 75562 123786875729728 Watching for file changes with StatReloader
+ERROR 2024-12-09 07:25:47,838 log 75562 123786806429440 Internal Server Error: /comment/add
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/comment/addcomment.py", line 31, in post
+    Comment.objects.create(user=user, teacher=teacher, comment=comment)
+NameError: name 'user' is not defined
+ERROR 2024-12-09 07:25:47,839 basehttp 75562 123786806429440 "POST /comment/add HTTP/1.1" 500 89048
+WARNING 2024-12-09 07:32:46,483 log 75562 123786806429440 Not Found: /
+WARNING 2024-12-09 07:32:46,484 basehttp 75562 123786806429440 "GET / HTTP/1.1" 404 2578
+INFO 2024-12-09 07:59:58,196 autoreload 75714 125098623862592 Watching for file changes with StatReloader
+INFO 2024-12-09 08:00:01,222 basehttp 75714 125098486925056 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 08:00:30,775 basehttp 75714 125098486925056 "GET /comment/commentlist HTTP/1.1" 200 10319
+INFO 2024-12-09 08:36:18,549 autoreload 76200 134609662453568 Watching for file changes with StatReloader
+INFO 2024-12-09 08:36:21,682 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:36:21,823 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:36:21,913 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:36:22,061 basehttp 76200 134609593435904 "GET /teacher/teacherlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:22,115 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:36:23,794 basehttp 76200 134609593435904 "GET /user/userlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:23,859 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:36:26,354 basehttp 76200 134609593435904 "GET /user/userlist?index=2 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:26,427 basehttp 76200 134609593435904 "GET /user/userlist/?index=2 HTTP/1.1" 200 1844
+INFO 2024-12-09 08:36:26,738 basehttp 76200 134609593435904 "GET /user/userlist?index=3 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:26,805 basehttp 76200 134609593435904 "GET /user/userlist/?index=3 HTTP/1.1" 200 1858
+INFO 2024-12-09 08:36:27,222 basehttp 76200 134609593435904 "GET /user/userlist?index=4 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:27,272 basehttp 76200 134609593435904 "GET /user/userlist/?index=4 HTTP/1.1" 200 1866
+INFO 2024-12-09 08:36:27,475 basehttp 76200 134609593435904 "GET /user/userlist?index=5 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:27,528 basehttp 76200 134609593435904 "GET /user/userlist/?index=5 HTTP/1.1" 200 1854
+INFO 2024-12-09 08:36:27,698 basehttp 76200 134609593435904 "GET /user/userlist?index=6 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:27,774 basehttp 76200 134609593435904 "GET /user/userlist/?index=6 HTTP/1.1" 200 1855
+INFO 2024-12-09 08:36:28,083 basehttp 76200 134609593435904 "GET /user/userlist?index=7 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:28,142 basehttp 76200 134609593435904 "GET /user/userlist/?index=7 HTTP/1.1" 200 1846
+INFO 2024-12-09 08:36:28,321 basehttp 76200 134609593435904 "GET /user/userlist?index=8 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:28,377 basehttp 76200 134609593435904 "GET /user/userlist/?index=8 HTTP/1.1" 200 1854
+INFO 2024-12-09 08:36:28,845 basehttp 76200 134609593435904 "GET /user/userlist?index=10 HTTP/1.1" 301 0
+INFO 2024-12-09 08:36:28,906 basehttp 76200 134609593435904 "GET /user/userlist/?index=10 HTTP/1.1" 200 1839
+INFO 2024-12-09 08:36:33,374 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=91 HTTP/1.1" 200 0
+INFO 2024-12-09 08:36:33,484 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=91 HTTP/1.1" 200 153
+INFO 2024-12-09 08:36:42,280 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:36:43,844 basehttp 76200 134609507452672 "GET /log/loginlog/ HTTP/1.1" 200 3724
+INFO 2024-12-09 08:37:07,450 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:37:09,878 basehttp 76200 134609593435904 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 238
+INFO 2024-12-09 08:37:15,481 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:37:16,779 basehttp 76200 134609593435904 "GET /user/search/?data=a&index=1 HTTP/1.1" 200 1847
+INFO 2024-12-09 08:37:20,199 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:37:20,400 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:37:20,505 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:37:20,654 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:37:22,595 basehttp 76200 134609507452672 "GET /log/loginlog/ HTTP/1.1" 200 3932
+INFO 2024-12-09 08:37:25,109 basehttp 76200 134609507452672 "GET /log/loginlog/ HTTP/1.1" 200 3932
+INFO 2024-12-09 08:37:27,947 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:37:29,961 basehttp 76200 134609593435904 "GET /user/search/?data=a&index=1 HTTP/1.1" 200 1847
+INFO 2024-12-09 08:37:32,848 basehttp 76200 134609593435904 "GET /user/userlist/?index=2 HTTP/1.1" 200 1844
+INFO 2024-12-09 08:37:33,258 basehttp 76200 134609593435904 "GET /user/userlist/?index=10 HTTP/1.1" 200 1839
+INFO 2024-12-09 08:37:37,276 basehttp 76200 134609593435904 "GET /user/userlist/?index=2 HTTP/1.1" 200 1844
+INFO 2024-12-09 08:37:37,668 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:37:39,171 basehttp 76200 134609593435904 "GET /user/search/?data=a&index=1 HTTP/1.1" 200 1847
+INFO 2024-12-09 08:37:40,169 basehttp 76200 134609593435904 "GET /user/userlist/?index=2 HTTP/1.1" 200 1844
+INFO 2024-12-09 08:37:44,528 basehttp 76200 134609593435904 "GET /user/search/?data=a&index=1 HTTP/1.1" 200 1847
+INFO 2024-12-09 08:37:48,476 basehttp 76200 134609593435904 "GET /user/userlist/?index=2 HTTP/1.1" 200 1844
+INFO 2024-12-09 08:39:09,018 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:39:12,126 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:39:15,484 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:40:57,328 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:41:01,223 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:41:51,158 basehttp 76200 134609593435904 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 08:42:13,141 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:42:26,114 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:42:27,971 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:42:30,738 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:42:32,330 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:42:34,510 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:43,860 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:45,820 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:47,249 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:48,447 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:50,050 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:51,584 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:53,028 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:43:56,269 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:44:00,319 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:44:00,753 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:44:01,003 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:44:01,733 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:44:10,158 basehttp 76200 134609593435904 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 08:45:19,568 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:45:30,488 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:45:30,702 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:45:30,816 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:45:30,959 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:45:32,095 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:46:58,986 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:46:59,286 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:47:00,518 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:47:01,104 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:50:01,192 basehttp 76200 134609496966912 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 08:51:21,566 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:51:28,774 basehttp 76200 134609496966912 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:51:29,039 basehttp 76200 134609496966912 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:51:29,964 basehttp 76200 134609496966912 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:51:31,306 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:51:31,635 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:51:32,045 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:51:32,611 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:51:33,152 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:52:52,783 basehttp 76200 134609593435904 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:52:53,196 basehttp 76200 134609593435904 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:52:54,504 basehttp 76200 134609593435904 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:52:54,815 basehttp 76200 134609593435904 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:52:55,080 basehttp 76200 134609496966912 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 08:52:55,574 basehttp 76200 134609496966912 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 08:52:56,012 basehttp 76200 134609496966912 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 08:52:56,270 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:53:41,664 basehttp 76200 134609486481152 "GET /comment/commentlist HTTP/1.1" 200 10319
+INFO 2024-12-09 08:54:40,300 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:54:52,896 basehttp 76200 134609496966912 "GET /comment/commentlist?index=1 HTTP/1.1" 200 348
+INFO 2024-12-09 08:54:53,396 basehttp 76200 134609496966912 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:54:54,106 basehttp 76200 134609496966912 "GET /comment/commentlist?index=1 HTTP/1.1" 200 348
+INFO 2024-12-09 08:55:27,550 autoreload 76200 134609662453568 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 08:55:28,629 autoreload 77145 131174966609728 Watching for file changes with StatReloader
+INFO 2024-12-09 08:55:38,503 autoreload 77145 131174966609728 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 08:55:38,880 autoreload 77197 137524347938624 Watching for file changes with StatReloader
+INFO 2024-12-09 08:55:46,335 autoreload 77197 137524347938624 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 08:55:46,710 autoreload 77246 125051582510912 Watching for file changes with StatReloader
+INFO 2024-12-09 08:55:51,769 basehttp 77246 125051445708544 "GET /comment/commentlist HTTP/1.1" 200 10309
+INFO 2024-12-09 08:56:01,269 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:57:23,173 basehttp 77246 125051435222784 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 08:57:26,155 basehttp 77246 125051435222784 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 08:57:52,159 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:57:52,533 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:57:53,748 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:27,911 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:58:28,301 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:28,853 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:43,658 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:58:44,106 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:45,030 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:51,536 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:58:51,909 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:58:52,072 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:59:43,368 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 08:59:43,746 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 08:59:44,448 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:01:05,780 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:01:17,502 basehttp 77246 125051435222784 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:01:17,690 basehttp 77246 125051435222784 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:01:17,801 basehttp 77246 125051435222784 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:01:17,944 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:01:18,960 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:01:37,937 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:01:39,914 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:01:42,536 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:01:43,949 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:02:17,470 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:02:17,869 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:02:18,832 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:02:27,928 basehttp 77246 125051435222784 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:02:28,042 basehttp 77246 125051435222784 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:02:28,282 basehttp 77246 125051435222784 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:02:28,471 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:02:29,692 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:03:38,392 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:03:38,771 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:03:39,518 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:03:44,420 basehttp 77246 125051435222784 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:03:44,537 basehttp 77246 125051435222784 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:03:44,938 basehttp 77246 125051435222784 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:03:45,159 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:03:45,651 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:03:59,276 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:03:59,656 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:00,206 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:10,787 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:04:11,124 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:13,530 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:13,839 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:04:14,206 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:36,436 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:04:37,061 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:04:40,167 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:04:40,515 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:01,850 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:01,936 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:05:02,235 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:20,233 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:20,297 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:05:20,596 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:35,683 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:36,995 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:05:37,430 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:48,707 basehttp 77246 125051445708544 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:05:49,024 basehttp 77246 125051445708544 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:49,716 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:57,234 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:05:57,559 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:05:58,179 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:06:33,293 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:06:34,202 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:06:34,629 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:06:35,559 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:06:36,158 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:07:06,135 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:07:08,822 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:07:10,917 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:07:28,582 basehttp 77246 125051435222784 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:07:29,059 basehttp 77246 125051435222784 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:07:29,598 basehttp 77246 125051435222784 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:07:29,946 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:09:26,222 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:09:28,477 basehttp 77246 125051445708544 "GET /log/loginlog/ HTTP/1.1" 200 6012
+INFO 2024-12-09 09:11:59,099 basehttp 77246 125051435222784 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:12:28,878 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:12:29,906 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:12:32,743 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:14:36,559 basehttp 77246 125051435222784 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:14:36,773 basehttp 77246 125051435222784 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:14:37,084 basehttp 77246 125051435222784 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:14:37,369 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:40,122 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:14:40,630 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:14:41,080 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:42,766 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:42,948 basehttp 77246 125051424737024 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:14:43,672 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:44,266 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:14:44,439 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:14:45,086 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:47,486 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:48,657 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:49,217 basehttp 77246 125051435222784 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:14:49,738 basehttp 77246 125051435222784 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:14:50,206 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:14:50,656 basehttp 77246 125051424737024 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:14:52,398 basehttp 77246 125051435222784 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:19:07,161 basehttp 77246 125051435222784 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:23:34,451 basehttp 77246 125051435222784 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:23:36,819 basehttp 77246 125051414251264 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:24:29,715 basehttp 77246 125051414251264 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:24:32,281 basehttp 77246 125051435222784 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:24:34,574 basehttp 77246 125051435222784 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:26:33,592 autoreload 77246 125051582510912 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:26:34,743 autoreload 78423 140673370318656 Watching for file changes with StatReloader
+INFO 2024-12-09 09:26:47,789 basehttp 78423 140673300825856 "GET /log/loginlog/ HTTP/1.1" 200 20741
+INFO 2024-12-09 09:27:30,684 autoreload 78423 140673370318656 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:27:31,113 autoreload 78511 132728219445056 Watching for file changes with StatReloader
+INFO 2024-12-09 09:27:32,425 autoreload 78511 132728219445056 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:27:32,785 autoreload 78525 140135210514240 Watching for file changes with StatReloader
+INFO 2024-12-09 09:27:33,662 basehttp 78525 140135142262528 "GET /log/loginlog/ HTTP/1.1" 200 19644
+INFO 2024-12-09 09:27:57,548 autoreload 78525 140135210514240 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:27:57,948 autoreload 78557 138886308878144 Watching for file changes with StatReloader
+INFO 2024-12-09 09:28:01,703 basehttp 78557 138886240012032 "GET /log/loginlog/ HTTP/1.1" 200 20544
+INFO 2024-12-09 09:28:07,213 basehttp 78557 138886154028800 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:28:34,085 autoreload 78557 138886308878144 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:28:34,463 autoreload 78628 127636967757632 Watching for file changes with StatReloader
+ERROR 2024-12-09 09:28:35,940 log 78628 127636829374208 Internal Server Error: /log/loginlog/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/Tutoring_System/system/views/log/loginlog.py", line 61, in get
+    log_entry['count'] = len(file)
+TypeError: object of type '_io.TextIOWrapper' has no len()
+ERROR 2024-12-09 09:28:35,941 basehttp 78628 127636829374208 "GET /log/loginlog/ HTTP/1.1" 500 91334
+INFO 2024-12-09 09:28:41,985 autoreload 78628 127636967757632 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:28:42,372 autoreload 78672 136689132009280 Watching for file changes with StatReloader
+INFO 2024-12-09 09:28:44,299 basehttp 78672 136688995141376 "GET /log/loginlog/ HTTP/1.1" 200 19644
+INFO 2024-12-09 09:29:21,103 basehttp 78672 136688984655616 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:29:48,505 basehttp 78672 136688984655616 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:30:12,508 basehttp 78672 136688974169856 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:30:14,140 basehttp 78672 136688984655616 "GET /log/loginlog/ HTTP/1.1" 200 6220
+INFO 2024-12-09 09:30:20,960 basehttp 78672 136688974169856 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:30:21,047 basehttp 78672 136688974169856 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:30:21,158 basehttp 78672 136688974169856 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:30:21,316 basehttp 78672 136688974169856 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:30:22,470 basehttp 78672 136688995141376 "GET /log/loginlog/ HTTP/1.1" 200 6428
+INFO 2024-12-09 09:32:56,597 autoreload 78672 136689132009280 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:32:56,996 autoreload 78855 124950024976192 Watching for file changes with StatReloader
+INFO 2024-12-09 09:33:51,153 autoreload 78855 124950024976192 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:33:51,524 autoreload 78902 132729835677504 Watching for file changes with StatReloader
+INFO 2024-12-09 09:34:13,100 autoreload 78902 132729835677504 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:34:13,503 autoreload 78945 136598072698688 Watching for file changes with StatReloader
+INFO 2024-12-09 09:35:39,167 autoreload 78945 136598072698688 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:35:39,550 autoreload 78989 138639976654656 Watching for file changes with StatReloader
+INFO 2024-12-09 09:35:54,019 autoreload 78989 138639976654656 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:35:54,399 autoreload 79032 127500620212032 Watching for file changes with StatReloader
+INFO 2024-12-09 09:35:55,487 basehttp 79032 127500552242944 "GET /log/loginlog/ HTTP/1.1" 200 19982
+INFO 2024-12-09 09:35:58,171 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:36:11,907 basehttp 79032 127500464162560 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:36:12,183 basehttp 79032 127500464162560 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:36:12,378 basehttp 79032 127500464162560 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:36:12,528 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:36:14,965 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:36:38,773 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:36:40,668 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:37:45,892 basehttp 79032 127500464162560 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 513
+INFO 2024-12-09 09:37:54,949 autoreload 79032 127500620212032 /home/acs/Tutoring_System/system/views/teacher/teacherlist.py changed, reloading.
+INFO 2024-12-09 09:37:55,320 autoreload 79176 126665255282496 Watching for file changes with StatReloader
+INFO 2024-12-09 09:37:57,260 basehttp 79176 126665187395328 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:38:41,256 basehttp 79176 126665187395328 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:38:46,901 basehttp 79176 126665176909568 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:38:46,903 basehttp 79176 126665093023488 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:38:48,920 basehttp 79176 126665187395328 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:38:49,817 basehttp 79176 126665082537728 "GET /log/loginlog/ HTTP/1.1" 200 6636
+INFO 2024-12-09 09:38:52,011 basehttp 79176 126665072051968 "GET /log/loginlog/ HTTP/1.1" 200 20320
+INFO 2024-12-09 09:38:52,876 basehttp 79176 126665061566208 "GET /log/loginlog/ HTTP/1.1" 200 6636
+INFO 2024-12-09 09:39:06,009 autoreload 79176 126665255282496 /home/acs/Tutoring_System/system/views/log/loginlog.py changed, reloading.
+INFO 2024-12-09 09:39:06,394 autoreload 79304 129272048441152 Watching for file changes with StatReloader
+INFO 2024-12-09 09:39:24,711 basehttp 79304 129271978788608 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:39:27,077 basehttp 79304 129271978788608 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 09:39:29,239 basehttp 79304 129271978788608 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 09:39:35,847 basehttp 79304 129271978788608 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 09:39:37,759 basehttp 79304 129271968302848 "GET /log/loginlog/ HTTP/1.1" 200 6636
+INFO 2024-12-09 09:40:43,143 basehttp 79304 129271978788608 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:45:13,194 basehttp 79304 129271978788608 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 09:46:11,195 basehttp 79304 129271978788608 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 09:46:11,280 basehttp 79304 129271978788608 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 09:46:11,374 basehttp 79304 129271978788608 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 09:46:11,539 basehttp 79304 129271978788608 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 11:23:45,270 autoreload 79803 139110356760384 Watching for file changes with StatReloader
+INFO 2024-12-09 11:27:10,443 autoreload 79803 139110356760384 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 11:27:11,344 autoreload 79930 127641989584704 Watching for file changes with StatReloader
+INFO 2024-12-09 11:27:35,297 autoreload 79930 127641989584704 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 11:27:35,676 autoreload 79954 135767608051520 Watching for file changes with StatReloader
+INFO 2024-12-09 11:33:41,591 autoreload 79954 135767608051520 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 11:33:41,974 autoreload 80145 127180069627712 Watching for file changes with StatReloader
+INFO 2024-12-09 11:33:49,450 autoreload 80145 127180069627712 /home/acs/Tutoring_System/system/views/user/userinfo.py changed, reloading.
+INFO 2024-12-09 11:33:49,941 autoreload 80182 132367127877440 Watching for file changes with StatReloader
+INFO 2024-12-09 11:34:03,583 autoreload 80182 132367127877440 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 11:34:03,958 autoreload 80211 123821917087552 Watching for file changes with StatReloader
+INFO 2024-12-09 11:34:15,492 autoreload 80211 123821917087552 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 11:34:15,869 autoreload 80256 133737545267008 Watching for file changes with StatReloader
+INFO 2024-12-09 11:36:33,880 basehttp 80256 133737475999488 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 11:36:33,948 basehttp 80256 133737475999488 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 11:36:34,033 basehttp 80256 133737475999488 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 11:36:34,138 basehttp 80256 133737475999488 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 11:36:35,490 basehttp 80256 133737475999488 "GET /comment/commentlist?index=1 HTTP/1.1" 200 338
+INFO 2024-12-09 11:39:10,751 autoreload 80256 133737545267008 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 11:39:11,115 autoreload 80425 128515887462208 Watching for file changes with StatReloader
+INFO 2024-12-09 11:41:04,373 basehttp 80425 128515752068864 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 11:41:22,648 basehttp 80425 128515752068864 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:22,734 basehttp 80425 128515752068864 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:22,822 basehttp 80425 128515741583104 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:22,910 basehttp 80425 128515752068864 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:22,995 basehttp 80425 128515741583104 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:23,093 basehttp 80425 128515752068864 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:23,181 basehttp 80425 128515741583104 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:23,271 basehttp 80425 128515752068864 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:41:24,691 basehttp 80425 128515752068864 "OPTIONS /comment/delcomment HTTP/1.1" 200 0
+WARNING 2024-12-09 11:41:24,780 log 80425 128515752068864 Not Found: /comment/delcomment
+WARNING 2024-12-09 11:41:24,780 basehttp 80425 128515752068864 "DELETE /comment/delcomment HTTP/1.1" 404 2955
+INFO 2024-12-09 11:42:06,723 autoreload 80425 128515887462208 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 11:42:07,110 autoreload 80554 127339978270528 Watching for file changes with StatReloader
+INFO 2024-12-09 11:42:11,516 autoreload 80554 127339978270528 /home/acs/Tutoring_System/system/urls/comment/index.py changed, reloading.
+INFO 2024-12-09 11:42:11,888 autoreload 80576 136683110917952 Watching for file changes with StatReloader
+INFO 2024-12-09 11:42:31,349 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:42:35,497 basehttp 80576 136682970023680 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 11:42:35,571 basehttp 80576 136682970023680 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 11:42:35,666 basehttp 80576 136682970023680 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 11:42:35,781 basehttp 80576 136682970023680 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 11:42:37,023 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+WARNING 2024-12-09 11:42:38,147 log 80576 136682970023680 Not Found: /comment/delcomment
+WARNING 2024-12-09 11:42:38,147 basehttp 80576 136682970023680 "DELETE /comment/delcomment HTTP/1.1" 404 3179
+WARNING 2024-12-09 11:43:02,952 log 80576 136682959537920 Unauthorized: /comment/del
+WARNING 2024-12-09 11:43:02,953 basehttp 80576 136682959537920 "GET /comment/del HTTP/1.1" 401 8141
+WARNING 2024-12-09 11:43:03,208 log 80576 136682959537920 Not Found: /favicon.ico
+WARNING 2024-12-09 11:43:03,209 basehttp 80576 136682959537920 "GET /favicon.ico HTTP/1.1" 404 2629
+INFO 2024-12-09 11:43:13,044 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:43:15,507 basehttp 80576 136682970023680 "OPTIONS /comment/del HTTP/1.1" 200 0
+WARNING 2024-12-09 11:43:15,578 log 80576 136682970023680 Unauthorized: /comment/del
+WARNING 2024-12-09 11:43:15,579 basehttp 80576 136682970023680 "DELETE /comment/del HTTP/1.1" 401 58
+WARNING 2024-12-09 11:43:29,616 log 80576 136682959537920 Unauthorized: /comment/del
+WARNING 2024-12-09 11:43:29,616 basehttp 80576 136682959537920 "GET /comment/del HTTP/1.1" 401 8141
+INFO 2024-12-09 11:43:57,579 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:43:57,686 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 359
+INFO 2024-12-09 11:43:59,594 basehttp 80576 136682970023680 "OPTIONS /comment/del HTTP/1.1" 200 0
+INFO 2024-12-09 11:43:59,791 basehttp 80576 136682970023680 "DELETE /comment/del HTTP/1.1" 200 31
+INFO 2024-12-09 11:43:59,908 basehttp 80576 136682970023680 "GET /comment/commentlist?index=1 HTTP/1.1" 200 233
+INFO 2024-12-09 11:44:13,595 basehttp 80576 136682970023680 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 473
+INFO 2024-12-09 11:47:06,361 basehttp 80576 136682970023680 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 11:49:22,961 basehttp 80576 136682938566400 "GET /teacher/register HTTP/1.1" 301 0
+WARNING 2024-12-09 11:49:23,000 log 80576 136682959537920 Method Not Allowed: /teacher/register/
+WARNING 2024-12-09 11:49:23,000 basehttp 80576 136682959537920 "GET /teacher/register/ HTTP/1.1" 405 9965
+INFO 2024-12-09 11:51:09,741 basehttp 80576 136682938566400 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 11:51:36,346 basehttp 80576 136682970023680 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 11:51:46,363 basehttp 80576 136682938566400 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 11:53:27,470 basehttp 80576 136682938566400 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 11:55:17,859 basehttp 80576 136682959537920 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 11:56:06,338 basehttp 80576 136682970023680 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-09 11:56:35,061 log 80576 136682959537920 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,062 basehttp 80576 136682959537920 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,137 log 80576 136682938566400 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,137 basehttp 80576 136682938566400 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,220 log 80576 136682959537920 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,221 basehttp 80576 136682959537920 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,300 log 80576 136682938566400 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,301 basehttp 80576 136682938566400 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,378 log 80576 136682959537920 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,378 basehttp 80576 136682959537920 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,464 log 80576 136682938566400 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,465 basehttp 80576 136682938566400 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,554 log 80576 136682959537920 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,554 basehttp 80576 136682959537920 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,672 log 80576 136682938566400 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,672 basehttp 80576 136682938566400 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,752 log 80576 136682959537920 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,752 basehttp 80576 136682959537920 "POST /comment/add HTTP/1.1" 401 58
+WARNING 2024-12-09 11:56:35,844 log 80576 136682938566400 Unauthorized: /comment/add
+WARNING 2024-12-09 11:56:35,844 basehttp 80576 136682938566400 "POST /comment/add HTTP/1.1" 401 58
+INFO 2024-12-09 11:56:55,158 autoreload 80576 136683110917952 /home/acs/Tutoring_System/system/views/comment/addcomment.py changed, reloading.
+INFO 2024-12-09 11:56:55,568 autoreload 81189 140662880356160 Watching for file changes with StatReloader
+INFO 2024-12-09 11:56:59,074 basehttp 81189 140662810871552 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,188 basehttp 81189 140662726985472 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,294 basehttp 81189 140662810871552 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,405 basehttp 81189 140662726985472 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,510 basehttp 81189 140662810871552 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,611 basehttp 81189 140662726985472 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,720 basehttp 81189 140662810871552 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,825 basehttp 81189 140662726985472 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:56:59,927 basehttp 81189 140662810871552 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:57:00,039 basehttp 81189 140662726985472 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 11:57:05,577 basehttp 81189 140662726985472 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1207
+INFO 2024-12-09 11:57:25,974 basehttp 81189 140662726985472 "OPTIONS /comment/del HTTP/1.1" 200 0
+INFO 2024-12-09 11:57:26,070 basehttp 81189 140662726985472 "DELETE /comment/del HTTP/1.1" 200 31
+INFO 2024-12-09 11:57:26,184 basehttp 81189 140662726985472 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1196
+INFO 2024-12-09 11:57:29,726 basehttp 81189 140662726985472 "OPTIONS /comment/del HTTP/1.1" 200 0
+INFO 2024-12-09 11:57:29,825 basehttp 81189 140662726985472 "DELETE /comment/del HTTP/1.1" 200 31
+INFO 2024-12-09 11:57:29,931 basehttp 81189 140662726985472 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1211
+INFO 2024-12-09 11:57:35,326 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 1388
+INFO 2024-12-09 12:00:35,577 basehttp 81189 140662726985472 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:01:01,062 basehttp 81189 140662810871552 "OPTIONS /teacher/register/ HTTP/1.1" 200 0
+INFO 2024-12-09 12:01:01,106 basehttp 81189 140662810871552 "POST /teacher/register/ HTTP/1.1" 200 31
+INFO 2024-12-09 12:01:01,187 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 1388
+INFO 2024-12-09 12:01:50,025 basehttp 81189 140662810871552 "OPTIONS /teacher/register/ HTTP/1.1" 200 0
+INFO 2024-12-09 12:01:50,057 basehttp 81189 140662810871552 "POST /teacher/register/ HTTP/1.1" 200 31
+INFO 2024-12-09 12:01:50,142 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 1388
+INFO 2024-12-09 12:02:32,798 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 12:02:59,080 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 12:03:03,035 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 1836
+INFO 2024-12-09 12:03:15,920 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 29
+INFO 2024-12-09 12:03:23,808 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 12:03:27,553 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2060
+INFO 2024-12-09 12:03:55,726 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 12:03:59,265 basehttp 81189 140662726985472 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1211
+INFO 2024-12-09 12:03:59,515 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:04:04,646 basehttp 81189 140662726985472 "GET /teacher/teacherinfo/?user_id=10 HTTP/1.1" 200 220
+INFO 2024-12-09 12:04:42,000 basehttp 81189 140662716499712 "POST /teacher/register/ HTTP/1.1" 200 32
+INFO 2024-12-09 12:04:46,422 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:04:48,319 basehttp 81189 140662726985472 "GET /teacher/teacherlist?index=2 HTTP/1.1" 301 0
+INFO 2024-12-09 12:04:48,362 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=2 HTTP/1.1" 200 229
+INFO 2024-12-09 12:04:50,879 basehttp 81189 140662726985472 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:04:53,212 basehttp 81189 140662726985472 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1211
+INFO 2024-12-09 12:05:06,349 basehttp 81189 140662726985472 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:06:04,309 autoreload 81189 140662880356160 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 12:06:05,466 autoreload 81743 127326684510016 Watching for file changes with StatReloader
+INFO 2024-12-09 12:06:14,313 autoreload 81743 127326684510016 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 12:06:14,666 autoreload 81784 126890835822400 Watching for file changes with StatReloader
+INFO 2024-12-09 12:07:08,805 autoreload 81784 126890835822400 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 12:07:09,177 autoreload 81821 125509372872512 Watching for file changes with StatReloader
+INFO 2024-12-09 12:07:10,425 autoreload 81821 125509372872512 /home/acs/Tutoring_System/system/views/comment/commentlist.py changed, reloading.
+INFO 2024-12-09 12:07:10,896 autoreload 81834 127452213974848 Watching for file changes with StatReloader
+INFO 2024-12-09 12:07:12,614 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:07:35,195 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:07:48,161 basehttp 81834 127452078671616 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 12:07:48,430 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:07:48,574 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:07:51,581 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:07:51,937 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 121
+INFO 2024-12-09 12:07:52,266 basehttp 81834 127452078671616 "GET /comment/commentlist?index=3 HTTP/1.1" 200 2
+INFO 2024-12-09 12:08:13,292 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:08:14,118 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:08:18,797 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:08:19,168 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 121
+INFO 2024-12-09 12:08:22,630 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:08:31,261 basehttp 81834 127452078671616 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:08:33,325 basehttp 81834 127452078671616 "GET /teacher/teacherlist/?index=2 HTTP/1.1" 200 229
+INFO 2024-12-09 12:08:48,547 basehttp 81834 127452068185856 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:48,650 basehttp 81834 127452057700096 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:48,761 basehttp 81834 127452068185856 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:48,861 basehttp 81834 127452057700096 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:48,957 basehttp 81834 127452068185856 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:49,060 basehttp 81834 127452057700096 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:49,164 basehttp 81834 127452068185856 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:49,274 basehttp 81834 127452057700096 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:49,372 basehttp 81834 127452068185856 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:49,470 basehttp 81834 127452057700096 "POST /comment/add HTTP/1.1" 200 31
+INFO 2024-12-09 12:08:52,140 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:08:53,375 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:08:56,170 basehttp 81834 127452078671616 "GET /comment/commentlist?index=3 HTTP/1.1" 200 125
+INFO 2024-12-09 12:09:00,663 basehttp 81834 127452078671616 "OPTIONS /comment/del HTTP/1.1" 200 0
+INFO 2024-12-09 12:09:00,777 basehttp 81834 127452078671616 "DELETE /comment/del HTTP/1.1" 200 31
+INFO 2024-12-09 12:09:00,877 basehttp 81834 127452078671616 "GET /comment/commentlist?index=3 HTTP/1.1" 200 2
+INFO 2024-12-09 12:09:10,028 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:09:11,178 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:09:11,787 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:09:12,182 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:09:12,468 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:09:12,725 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:09:13,047 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:09:14,428 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:09:14,769 basehttp 81834 127452078671616 "GET /comment/commentlist?index=2 HTTP/1.1" 200 1307
+INFO 2024-12-09 12:09:34,275 basehttp 81834 127452078671616 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:09:36,279 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:09:40,567 basehttp 81834 127452078671616 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:09:41,704 basehttp 81834 127452078671616 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 12:12:44,171 basehttp 81834 127452068185856 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1321
+INFO 2024-12-09 12:12:44,652 basehttp 81834 127452068185856 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-09 12:12:45,060 basehttp 81834 127452068185856 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 12:12:46,417 basehttp 81834 127452057700096 "GET /log/loginlog/ HTTP/1.1" 200 7260
+INFO 2024-12-09 12:14:06,340 basehttp 81834 127452068185856 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:18:36,352 basehttp 81834 127452068185856 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:20:40,635 basehttp 81834 127452068185856 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-09 12:20:40,635 basehttp 81834 127452068185856 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-09 12:23:06,354 basehttp 81834 127452068185856 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:27:36,357 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:32:06,352 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:36:35,924 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:41:06,344 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:45:36,351 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:50:06,344 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 12:54:36,355 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+WARNING 2024-12-09 12:55:51,051 log 81834 127452068185856 Not Found: /example.com:443
+WARNING 2024-12-09 12:55:51,052 basehttp 81834 127452068185856 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-09 12:59:06,352 basehttp 81834 127452078671616 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:03:21,449 autoreload 81834 127452213974848 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 13:03:21,813 autoreload 83436 140107001296704 Watching for file changes with StatReloader
+INFO 2024-12-09 13:03:28,231 autoreload 83436 140107001296704 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 13:03:28,575 autoreload 83468 140621367727936 Watching for file changes with StatReloader
+INFO 2024-12-09 13:03:31,927 autoreload 83468 140621367727936 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-09 13:03:32,277 autoreload 83480 125045308680000 Watching for file changes with StatReloader
+INFO 2024-12-09 13:03:50,773 autoreload 83480 125045308680000 /home/acs/Tutoring_System/system/urls/log/index.py changed, reloading.
+INFO 2024-12-09 13:03:51,163 autoreload 83535 125547226101568 Watching for file changes with StatReloader
+INFO 2024-12-09 13:03:55,453 autoreload 83535 125547226101568 /home/acs/Tutoring_System/system/urls/overview/index.py changed, reloading.
+INFO 2024-12-09 13:03:55,799 autoreload 83560 135222726469440 Watching for file changes with StatReloader
+INFO 2024-12-09 13:04:05,269 autoreload 83560 135222726469440 /home/acs/Tutoring_System/system/urls/overview/index.py changed, reloading.
+INFO 2024-12-09 13:04:05,663 autoreload 83597 140593184925504 Watching for file changes with StatReloader
+INFO 2024-12-09 13:04:07,934 autoreload 83597 140593184925504 /home/acs/Tutoring_System/system/urls/overview/index.py changed, reloading.
+INFO 2024-12-09 13:04:08,340 autoreload 83619 134077642139456 Watching for file changes with StatReloader
+INFO 2024-12-09 13:04:25,861 autoreload 83619 134077642139456 /home/acs/Tutoring_System/system/views/overview/count.py changed, reloading.
+INFO 2024-12-09 13:04:26,217 autoreload 83662 126381241100096 Watching for file changes with StatReloader
+INFO 2024-12-09 13:04:42,978 basehttp 83662 126381172197120 "GET /log/loginlog/ HTTP/1.1" 200 21334
+INFO 2024-12-09 13:04:43,066 basehttp 83662 126381172197120 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-09 13:04:43,072 basehttp 83662 126381088311040 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-09 13:04:43,106 basehttp 83662 126381088311040 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-09 13:04:43,107 basehttp 83662 126381172197120 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-09 13:04:43,138 basehttp 83662 126381077825280 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-09 13:04:43,145 basehttp 83662 126381067339520 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-09 13:04:43,153 basehttp 83662 126381056853760 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-09 13:04:43,155 basehttp 83662 126381046368000 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-09 13:04:43,196 basehttp 83662 126381077825280 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-09 13:04:43,196 basehttp 83662 126381088311040 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-09 13:04:43,197 basehttp 83662 126381067339520 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-09 13:04:43,217 basehttp 83662 126381046368000 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2024-12-09 13:04:43,486 log 83662 126381046368000 Not Found: /favicon.ico
+WARNING 2024-12-09 13:04:43,486 basehttp 83662 126381046368000 "GET /favicon.ico HTTP/1.1" 404 2782
+INFO 2024-12-09 13:04:49,521 basehttp 83662 126381046368000 "GET /overview/count/ HTTP/1.1" 200 10044
+INFO 2024-12-09 13:06:22,735 autoreload 83662 126381241100096 /home/acs/Tutoring_System/system/views/overview/count.py changed, reloading.
+INFO 2024-12-09 13:06:23,106 autoreload 83790 132951896758080 Watching for file changes with StatReloader
+INFO 2024-12-09 13:06:25,288 basehttp 83790 132951817848576 "GET /overview/count/ HTTP/1.1" 200 10061
+INFO 2024-12-09 13:08:06,350 basehttp 83790 132951807362816 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:08:50,098 basehttp 83790 132951807362816 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:08:50,167 basehttp 83790 132951807362816 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:08:50,263 basehttp 83790 132951807362816 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:08:50,393 basehttp 83790 132951807362816 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:08:56,301 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:09:27,969 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:09:28,085 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:09:33,522 basehttp 83790 132951796877056 "GET /log/loginlog/ HTTP/1.1" 200 7468
+INFO 2024-12-09 13:11:00,368 basehttp 83790 132951807362816 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:11:00,453 basehttp 83790 132951807362816 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:11:00,541 basehttp 83790 132951807362816 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:11:00,664 basehttp 83790 132951807362816 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:11:01,719 basehttp 83790 132951796877056 "GET /log/loginlog/ HTTP/1.1" 200 7676
+INFO 2024-12-09 13:11:02,174 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:11:11,185 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:11:11,362 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:11:11,442 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:11:11,494 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:12:35,830 basehttp 83790 132951807362816 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:12:35,909 basehttp 83790 132951807362816 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:12:36,002 basehttp 83790 132951807362816 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:12:36,139 basehttp 83790 132951807362816 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:12:37,263 basehttp 83790 132951796877056 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:17:06,348 basehttp 83790 132951807362816 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:18:47,678 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:47,893 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,049 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,138 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,217 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,273 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,323 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:18:48,649 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:19:40,866 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:21:36,353 basehttp 83790 132951717185280 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:22:10,915 basehttp 83790 132951706699520 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x08àC\x95Öà\x9e\x7fØË¨?g}\x17\x01\x11xèôs\x9bP\x96¢¦Ú\x05àõ\x17Ì\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+ERROR 2024-12-09 13:22:10,915 basehttp 83790 132951706699520 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-09 13:22:11,485 basehttp 83790 132951706699520 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-09 13:22:11,485 basehttp 83790 132951706699520 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-12-09 13:22:12,047 log 83790 132951706699520 Not Found: /
+WARNING 2024-12-09 13:22:12,047 basehttp 83790 132951706699520 "GET / HTTP/1.1" 404 2734
+WARNING 2024-12-09 13:22:12,896 log 83790 132951706699520 Not Found: /login
+WARNING 2024-12-09 13:22:12,896 basehttp 83790 132951706699520 "GET /login HTTP/1.1" 404 2767
+INFO 2024-12-09 13:22:58,676 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:22:58,870 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:22:58,947 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:22:59,010 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:22:59,077 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:23:29,244 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:23:29,292 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:24:36,107 basehttp 83790 132951717185280 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:24:36,188 basehttp 83790 132951717185280 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:24:36,284 basehttp 83790 132951717185280 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:24:36,412 basehttp 83790 132951717185280 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:24:38,197 basehttp 83790 132951807362816 "GET /log/loginlog/ HTTP/1.1" 200 8092
+INFO 2024-12-09 13:24:38,940 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:24:55,252 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:24:55,517 basehttp 83790 132951807362816 "GET /log/loginlog/ HTTP/1.1" 200 8092
+INFO 2024-12-09 13:24:56,002 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:25:24,724 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:25:24,778 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:25:32,829 basehttp 83790 132951807362816 "GET /log/loginlog/ HTTP/1.1" 200 8092
+INFO 2024-12-09 13:25:33,253 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:26:47,519 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:26:53,153 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:26:58,546 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:27:21,666 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:27:21,797 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:28:05,826 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:29:06,214 basehttp 83790 132951717185280 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:30:06,963 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:30:10,988 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:30:26,386 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:30:40,513 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:31:00,252 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:31:11,322 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:31:40,858 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,443 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,592 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,653 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,703 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,887 basehttp 83790 132951717185280 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:51,942 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:32:59,254 basehttp 83790 132951807362816 "GET /log/loginlog/ HTTP/1.1" 200 8092
+INFO 2024-12-09 13:33:03,347 basehttp 83790 132951706699520 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:33:03,424 basehttp 83790 132951706699520 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:33:03,505 basehttp 83790 132951706699520 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:33:03,617 basehttp 83790 132951706699520 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:33:04,919 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:34:56,210 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:34:59,100 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:35:49,745 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:36:09,564 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:36:24,829 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:37:34,363 basehttp 83790 132951706699520 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-09 13:38:00,715 basehttp 83790 132951807362816 "GET /overview/count/ HTTP/1.1" 200 248
+INFO 2024-12-09 13:38:14,507 autoreload 83790 132951896758080 /home/acs/Tutoring_System/system/views/overview/count.py changed, reloading.
+INFO 2024-12-09 13:38:14,973 autoreload 85144 137965554689856 Watching for file changes with StatReloader
+INFO 2024-12-09 13:38:18,574 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:38:19,079 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:29,221 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:40:29,629 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:29,825 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:29,855 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:29,949 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:30,003 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:40:33,429 basehttp 85144 137965418317568 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:40:33,498 basehttp 85144 137965418317568 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:40:33,586 basehttp 85144 137965418317568 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:40:33,694 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:40:34,378 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:41:15,681 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:41:15,720 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:41:30,194 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:41:43,579 basehttp 85144 137965418317568 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:41:43,647 basehttp 85144 137965418317568 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:41:43,729 basehttp 85144 137965418317568 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:41:43,836 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:41:45,986 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:43:12,039 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:43:29,684 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:44:03,652 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:44:03,679 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:44:09,642 basehttp 85144 137965418317568 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-09 13:44:09,726 basehttp 85144 137965418317568 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-09 13:44:09,819 basehttp 85144 137965418317568 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-09 13:44:09,943 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:44:11,148 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:44:36,472 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
+INFO 2024-12-09 13:44:40,679 basehttp 85144 137965418317568 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 2301
+INFO 2024-12-09 13:44:41,180 basehttp 85144 137965407831808 "GET /overview/count/ HTTP/1.1" 200 493
