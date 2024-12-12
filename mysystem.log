@@ -11172,3 +11172,920 @@ INFO 2024-12-11 22:03:29,641 basehttp 30082 132124982118144 "GET / HTTP/1.1" 200
 INFO 2024-12-11 23:46:09,708 basehttp 30082 132124982118144 "GET / HTTP/1.1" 200 834
 INFO 2024-12-12 00:39:52,252 basehttp 30082 132124982118144 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
 WARNING 2024-12-12 00:39:52,253 basehttp 30082 132124982118144 "  /*à     Cookie: mstshash=Administr" 400 -
+WARNING 2024-12-12 00:59:28,065 log 30082 132124982118144 Not Found: /example.com:443
+WARNING 2024-12-12 00:59:28,066 basehttp 30082 132124982118144 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-12 00:59:35,520 autoreload 30082 132125362210624 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-12 00:59:36,923 autoreload 39136 134208942868288 Watching for file changes with StatReloader
+INFO 2024-12-12 00:59:47,232 autoreload 39146 127338348562240 Watching for file changes with StatReloader
+INFO 2024-12-12 01:01:20,128 autoreload 39136 134208942868288 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:01:20,824 autoreload 39244 129705087100736 Watching for file changes with StatReloader
+INFO 2024-12-12 01:02:48,852 autoreload 39333 132349360371520 Watching for file changes with StatReloader
+INFO 2024-12-12 01:03:25,981 autoreload 39333 132349360371520 /home/acs/Tutoring_System/system/urls/doc/index.py changed, reloading.
+INFO 2024-12-12 01:03:26,667 autoreload 39376 125783496361792 Watching for file changes with StatReloader
+INFO 2024-12-12 01:03:47,503 autoreload 39376 125783496361792 /home/acs/Tutoring_System/system/urls/doc/index.py changed, reloading.
+INFO 2024-12-12 01:03:48,175 autoreload 39420 126744507664192 Watching for file changes with StatReloader
+INFO 2024-12-12 01:03:59,863 autoreload 39420 126744507664192 /home/acs/Tutoring_System/system/urls/doc/index.py changed, reloading.
+INFO 2024-12-12 01:04:00,547 autoreload 39466 126128149878592 Watching for file changes with StatReloader
+INFO 2024-12-12 01:04:17,281 autoreload 39466 126128149878592 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:04:17,994 autoreload 39513 131548093253440 Watching for file changes with StatReloader
+INFO 2024-12-12 01:04:27,576 autoreload 39513 131548093253440 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:04:28,258 autoreload 39556 128987122952000 Watching for file changes with StatReloader
+INFO 2024-12-12 01:06:28,794 autoreload 39556 128987122952000 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:06:29,474 autoreload 39604 130115899324224 Watching for file changes with StatReloader
+WARNING 2024-12-12 01:06:33,549 log 39604 130115761604352 Not Found: /doc
+WARNING 2024-12-12 01:06:33,551 basehttp 39604 130115761604352 "GET /doc HTTP/1.1" 404 4000
+WARNING 2024-12-12 01:06:34,196 log 39604 130115761604352 Not Found: /favicon.ico
+WARNING 2024-12-12 01:06:34,198 basehttp 39604 130115761604352 "GET /favicon.ico HTTP/1.1" 404 4024
+INFO 2024-12-12 01:06:43,310 basehttp 39604 130115761604352 "GET /swagger/ HTTP/1.1" 200 2211
+INFO 2024-12-12 01:06:43,399 basehttp 39604 130115751118592 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2024-12-12 01:06:43,438 basehttp 39604 130115740632832 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2024-12-12 01:06:43,449 basehttp 39604 130115730147072 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2024-12-12 01:06:43,452 basehttp 39604 130115719661312 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2024-12-12 01:06:43,490 basehttp 39604 130115740632832 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2024-12-12 01:06:43,537 basehttp 39604 130115709175552 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2024-12-12 01:06:43,540 basehttp 39604 130115761604352 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2024-12-12 01:06:43,902 basehttp 39604 130115709175552 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+ERROR 2024-12-12 01:06:43,961 log 39604 130115761604352 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:06:43,965 basehttp 39604 130115761604352 "GET /swagger/?format=openapi HTTP/1.1" 500 178739
+ERROR 2024-12-12 01:06:45,600 log 39604 130115629483776 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+INFO 2024-12-12 01:08:38,914 autoreload 39604 130115899324224 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:08:39,607 autoreload 39720 132306556987200 Watching for file changes with StatReloader
+INFO 2024-12-12 01:12:50,392 autoreload 39720 132306556987200 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:12:51,080 autoreload 39769 123191922284352 Watching for file changes with StatReloader
+INFO 2024-12-12 01:13:04,746 autoreload 39769 123191922284352 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:13:05,444 autoreload 39812 139228040099648 Watching for file changes with StatReloader
+INFO 2024-12-12 01:13:17,252 autoreload 39812 139228040099648 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:13:17,938 autoreload 39855 132188363327296 Watching for file changes with StatReloader
+INFO 2024-12-12 01:13:24,685 autoreload 39855 132188363327296 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:13:25,371 autoreload 39898 139321152145216 Watching for file changes with StatReloader
+INFO 2024-12-12 01:13:47,884 basehttp 39898 139321015273216 "GET /swagger/ HTTP/1.1" 200 2209
+INFO 2024-12-12 01:13:47,943 basehttp 39898 139321015273216 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2024-12-12 01:13:48,016 basehttp 39898 139321004787456 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2024-12-12 01:13:48,036 basehttp 39898 139320983815936 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2024-12-12 01:13:48,040 basehttp 39898 139321015273216 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2024-12-12 01:13:48,047 basehttp 39898 139320973330176 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2024-12-12 01:13:48,083 basehttp 39898 139320885249792 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2024-12-12 01:13:48,103 basehttp 39898 139320994301696 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+ERROR 2024-12-12 01:13:48,506 log 39898 139320994301696 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:13:48,514 basehttp 39898 139320994301696 "GET /swagger/?format=openapi HTTP/1.1" 500 178419
+ERROR 2024-12-12 01:13:49,524 log 39898 139321004787456 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:13:58,870 log 39898 139320994301696 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:13:58,873 basehttp 39898 139320994301696 "GET /swagger/?format=openapi HTTP/1.1" 500 178419
+WARNING 2024-12-12 01:14:07,846 log 39898 139320994301696 Not Found: /user/userlist
+WARNING 2024-12-12 01:14:07,847 basehttp 39898 139320994301696 "GET /user/userlist HTTP/1.1" 404 5076
+WARNING 2024-12-12 01:14:08,361 log 39898 139320973330176 Not Found: /user/userlist
+WARNING 2024-12-12 01:14:08,363 basehttp 39898 139320973330176 "GET /user/userlist HTTP/1.1" 404 5076
+INFO 2024-12-12 01:14:08,624 basehttp 39898 139320973330176 - Broken pipe from ('44.196.175.104', 10382)
+INFO 2024-12-12 01:14:13,550 basehttp 39898 139320994301696 "GET /user/userlist/ HTTP/1.1" 200 1841
+INFO 2024-12-12 01:14:14,074 basehttp 39898 139320973330176 "GET /user/userlist/ HTTP/1.1" 200 1841
+INFO 2024-12-12 01:14:22,362 basehttp 39898 139320994301696 "GET /user/userlist/ HTTP/1.1" 200 1841
+INFO 2024-12-12 01:15:06,924 basehttp 39898 139320994301696 "GET /swagger/ HTTP/1.1" 200 2209
+INFO 2024-12-12 01:15:07,145 basehttp 39898 139320885249792 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+ERROR 2024-12-12 01:15:07,189 log 39898 139320994301696 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:15:07,216 basehttp 39898 139320994301696 "GET /swagger/?format=openapi HTTP/1.1" 500 178419
+ERROR 2024-12-12 01:15:08,529 log 39898 139320983815936 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+INFO 2024-12-12 01:16:39,083 autoreload 39898 139321152145216 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:16:39,783 autoreload 40129 139745397454656 Watching for file changes with StatReloader
+INFO 2024-12-12 01:16:58,503 autoreload 40129 139745397454656 /home/acs/Tutoring_System/Tutoring_System/settings.py changed, reloading.
+INFO 2024-12-12 01:16:59,208 autoreload 40175 128889286813504 Watching for file changes with StatReloader
+INFO 2024-12-12 01:17:29,139 autoreload 40175 128889286813504 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:17:29,881 autoreload 40225 129316902258496 Watching for file changes with StatReloader
+INFO 2024-12-12 01:17:46,570 autoreload 40225 129316902258496 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:17:47,257 autoreload 40268 132108689020736 Watching for file changes with StatReloader
+INFO 2024-12-12 01:18:08,028 autoreload 40268 132108689020736 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:18:08,702 autoreload 40313 125747702753088 Watching for file changes with StatReloader
+INFO 2024-12-12 01:18:12,985 basehttp 40313 125747563857664 "GET /swagger/ HTTP/1.1" 200 2211
+INFO 2024-12-12 01:18:13,032 basehttp 40313 125747563857664 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,050 basehttp 40313 125747553371904 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,053 basehttp 40313 125747542886144 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,061 basehttp 40313 125747532400384 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,064 basehttp 40313 125747446417152 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,064 basehttp 40313 125747435931392 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,112 basehttp 40313 125747563857664 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:18:13,259 basehttp 40313 125747446417152 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+ERROR 2024-12-12 01:18:13,319 log 40313 125747563857664 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:18:13,355 basehttp 40313 125747563857664 "GET /swagger/?format=openapi HTTP/1.1" 500 178779
+ERROR 2024-12-12 01:18:14,447 log 40313 125747425445632 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+INFO 2024-12-12 01:18:21,020 basehttp 40313 125747563857664 "GET /redoc/ HTTP/1.1" 200 925
+INFO 2024-12-12 01:18:21,122 basehttp 40313 125747563857664 "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+INFO 2024-12-12 01:18:21,191 basehttp 40313 125747446417152 "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+INFO 2024-12-12 01:18:21,455 basehttp 40313 125747563857664 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+ERROR 2024-12-12 01:18:21,498 log 40313 125747446417152 Internal Server Error: /redoc/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:18:21,501 basehttp 40313 125747446417152 "GET /redoc/?format=openapi HTTP/1.1" 500 178560
+ERROR 2024-12-12 01:20:15,646 log 40313 125747446417152 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:20:15,781 basehttp 40313 125747446417152 "GET /swagger/ HTTP/1.1" 500 178139
+ERROR 2024-12-12 01:20:16,756 log 40313 125747563857664 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:20:25,289 log 40313 125747563857664 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+WARNING 2024-12-12 01:20:43,013 log 40313 125747446417152 Not Found: /user./userlist
+WARNING 2024-12-12 01:20:43,015 basehttp 40313 125747446417152 "GET /user./userlist HTTP/1.1" 404 4222
+WARNING 2024-12-12 01:20:43,544 log 40313 125747563857664 Not Found: /user./userlist
+WARNING 2024-12-12 01:20:43,545 basehttp 40313 125747563857664 "GET /user./userlist HTTP/1.1" 404 4222
+WARNING 2024-12-12 01:20:46,844 log 40313 125747446417152 Not Found: /user./userlist/
+WARNING 2024-12-12 01:20:46,846 basehttp 40313 125747446417152 "GET /user./userlist/ HTTP/1.1" 404 4225
+WARNING 2024-12-12 01:20:47,381 log 40313 125747563857664 Not Found: /user./userlist/
+WARNING 2024-12-12 01:20:47,382 basehttp 40313 125747563857664 "GET /user./userlist/ HTTP/1.1" 404 4225
+INFO 2024-12-12 01:20:47,655 basehttp 40313 125747563857664 - Broken pipe from ('44.196.175.104', 35573)
+WARNING 2024-12-12 01:20:51,380 log 40313 125747446417152 Not Found: /user./userlist/
+WARNING 2024-12-12 01:20:51,381 basehttp 40313 125747446417152 "GET /user./userlist/ HTTP/1.1" 404 4225
+INFO 2024-12-12 01:21:07,957 autoreload 40713 131502287116096 Watching for file changes with StatReloader
+INFO 2024-12-12 01:21:11,736 basehttp 40713 131502144751360 "GET /swagger/ HTTP/1.1" 200 2211
+INFO 2024-12-12 01:21:11,841 basehttp 40713 131502134265600 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,843 basehttp 40713 131502144751360 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,869 basehttp 40713 131502123779840 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,872 basehttp 40713 131502113294080 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,878 basehttp 40713 131502031505152 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,880 basehttp 40713 131502021019392 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:11,910 basehttp 40713 131502134265600 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:21:12,158 basehttp 40713 131502021019392 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+ERROR 2024-12-12 01:21:12,215 log 40713 131502134265600 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+ERROR 2024-12-12 01:21:12,243 basehttp 40713 131502134265600 "GET /swagger/?format=openapi HTTP/1.1" 500 178779
+ERROR 2024-12-12 01:21:12,740 log 40713 131502010533632 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/acs/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/views.py", line 96, in get
+    schema = generator.get_schema(request, self.public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 32, in get_operation
+    body = self.get_request_body_parameters(consumes)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 85, in get_request_body_parameters
+    schema = self.get_request_body_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 142, in get_request_body_schema
+    return self.serializer_to_schema(serializer)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 42, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/home/acs/.local/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 141, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'system.utils.teacher.Authentication.MyTokenObtainPairSerializer'> would override distinct serializer <class 'system.utils.user.Authentication.MyTokenObtainPairSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+INFO 2024-12-12 01:22:21,424 autoreload 40713 131502287116096 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:22:22,219 autoreload 40790 140686633727808 Watching for file changes with StatReloader
+INFO 2024-12-12 01:22:30,909 autoreload 40790 140686633727808 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:22:31,672 autoreload 40833 128216640194368 Watching for file changes with StatReloader
+INFO 2024-12-12 01:23:03,988 autoreload 40833 128216640194368 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:23:04,766 autoreload 40873 132871154640704 Watching for file changes with StatReloader
+WARNING 2024-12-12 01:23:32,781 log 40873 132871079593728 Not Found: /docx/
+WARNING 2024-12-12 01:23:32,782 basehttp 40873 132871079593728 "GET /docx/ HTTP/1.1" 404 3803
+INFO 2024-12-12 01:23:40,325 basehttp 40873 132871079593728 "GET /docs/ HTTP/1.1" 200 413910
+INFO 2024-12-12 01:23:40,349 basehttp 40873 132871069107968 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-12-12 01:23:40,357 basehttp 40873 132870953764608 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 200 1307
+INFO 2024-12-12 01:23:40,358 basehttp 40873 132870985221888 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 200 23411
+INFO 2024-12-12 01:23:40,359 basehttp 40873 132870974736128 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 200 21658
+INFO 2024-12-12 01:23:40,363 basehttp 40873 132870964250368 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 200 6156
+INFO 2024-12-12 01:23:40,373 basehttp 40873 132871079593728 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 200 157600
+INFO 2024-12-12 01:23:40,408 basehttp 40873 132870964250368 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:23:40,409 basehttp 40873 132870985221888 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 01:23:40,412 basehttp 40873 132870974736128 "GET /admin/docs/schema.js HTTP/1.1" 200 10744
+INFO 2024-12-12 01:23:40,415 basehttp 40873 132871079593728 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 200 2700
+INFO 2024-12-12 01:23:40,417 basehttp 40873 132870953764608 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 200 10391
+INFO 2024-12-12 01:23:40,513 basehttp 40873 132870964250368 "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2024-12-12 01:23:40,673 basehttp 40873 132870964250368 "GET /static/rest_framework/docs/img/favicon.ico HTTP/1.1" 200 5430
+INFO 2024-12-12 01:36:12,132 basehttp 40873 132870964250368 "GET /docs/ HTTP/1.1" 200 413910
+INFO 2024-12-12 01:36:12,207 basehttp 40873 132870985221888 "GET /admin/docs/schema.js HTTP/1.1" 200 10744
+INFO 2024-12-12 01:39:54,034 basehttp 40873 132870985221888 "GET /log/loginlog/ HTTP/1.1" 200 34059
+INFO 2024-12-12 01:42:11,454 autoreload 40873 132871154640704 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 01:42:12,299 autoreload 41138 140090027206464 Watching for file changes with StatReloader
+INFO 2024-12-12 01:42:13,857 basehttp 41138 140089885722368 "GET /docs/ HTTP/1.1" 200 413967
+INFO 2024-12-12 01:42:13,929 basehttp 41138 140089873139456 "GET /admin/docs/schema.js HTTP/1.1" 200 10772
+INFO 2024-12-12 02:07:09,288 basehttp 41138 140089873139456 "GET / HTTP/1.1" 200 834
+INFO 2024-12-12 02:33:17,003 basehttp 41138 140089873139456 "GET / HTTP/1.1" 200 834
+INFO 2024-12-12 02:34:19,379 basehttp 41138 140089873139456 - Broken pipe from ('198.235.24.220', 57556)
+INFO 2024-12-12 02:41:09,906 basehttp 41138 140089873139456 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-12 02:41:09,907 basehttp 41138 140089873139456 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-12 02:41:43,351 basehttp 41138 140089885722368 code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
+WARNING 2024-12-12 02:41:43,351 basehttp 41138 140089885722368 "ZG    + " 400 -
+INFO 2024-12-12 03:00:03,623 basehttp 41138 140089885722368 "POST /teacher/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-12 04:25:23,792 basehttp 41138 140089885722368 "POST /teacher/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-12 04:25:24,101 basehttp 41138 140089885722368 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:25:24,248 basehttp 41138 140089862653696 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:25:24,252 basehttp 41138 140089852167936 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:25:24,559 basehttp 41138 140089885722368 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:25:24,899 basehttp 41138 140089862653696 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:25:25,170 basehttp 41138 140089885722368 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:27:41,546 basehttp 41138 140089885722368 "POST /teacher/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-12 04:27:41,732 basehttp 41138 140089885722368 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:27:41,733 basehttp 41138 140089862653696 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:27:41,736 basehttp 41138 140089852167936 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:27:41,978 basehttp 41138 140089862653696 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:27:42,149 basehttp 41138 140089852167936 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:27:42,345 basehttp 41138 140089862653696 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:32:11,546 basehttp 41138 140089862653696 "POST /teacher/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-12 04:32:11,714 basehttp 41138 140089862653696 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:32:11,725 basehttp 41138 140089885722368 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:32:11,726 basehttp 41138 140089852167936 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 04:32:11,896 basehttp 41138 140089862653696 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:32:12,055 basehttp 41138 140089852167936 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 04:32:12,234 basehttp 41138 140089862653696 "GET /post/postlist/ HTTP/1.1" 200 523
+WARNING 2024-12-12 04:43:02,623 log 41138 140089852167936 Not Found: /example.com:443
+WARNING 2024-12-12 04:43:02,625 basehttp 41138 140089852167936 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-12 12:37:12,360 autoreload 42550 139953564776256 Watching for file changes with StatReloader
+INFO 2024-12-12 12:37:36,030 autoreload 42550 139953564776256 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:37:36,843 autoreload 42578 124802615371584 Watching for file changes with StatReloader
+INFO 2024-12-12 12:38:46,612 autoreload 42578 124802615371584 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:38:47,372 autoreload 42634 140623505598272 Watching for file changes with StatReloader
+INFO 2024-12-12 12:42:25,837 autoreload 42634 140623505598272 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:42:26,626 autoreload 42752 134382324401984 Watching for file changes with StatReloader
+INFO 2024-12-12 12:42:47,495 autoreload 42752 134382324401984 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:42:48,263 autoreload 42805 140188540790592 Watching for file changes with StatReloader
+INFO 2024-12-12 12:42:51,854 autoreload 42805 140188540790592 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:42:52,663 autoreload 42830 126782625871680 Watching for file changes with StatReloader
+INFO 2024-12-12 12:43:00,293 autoreload 42830 126782625871680 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:43:01,054 autoreload 42873 134490776852288 Watching for file changes with StatReloader
+INFO 2024-12-12 12:43:32,091 autoreload 42873 134490776852288 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:43:32,850 autoreload 42911 125904611604288 Watching for file changes with StatReloader
+INFO 2024-12-12 12:43:37,458 autoreload 42911 125904611604288 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:43:38,259 autoreload 42933 139370749339456 Watching for file changes with StatReloader
+INFO 2024-12-12 12:45:56,221 autoreload 42933 139370749339456 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:45:57,027 autoreload 43000 132035778725696 Watching for file changes with StatReloader
+INFO 2024-12-12 12:45:59,564 autoreload 43000 132035778725696 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:46:00,298 autoreload 43022 133218816837440 Watching for file changes with StatReloader
+INFO 2024-12-12 12:46:08,876 autoreload 43022 133218816837440 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-12 12:46:09,624 autoreload 43059 130920218240832 Watching for file changes with StatReloader
+WARNING 2024-12-12 12:47:20,554 log 43059 130920143128320 Not Found: /docs
+WARNING 2024-12-12 12:47:20,555 basehttp 43059 130920143128320 "GET /docs HTTP/1.1" 404 3800
+WARNING 2024-12-12 12:47:20,893 log 43059 130920143128320 Not Found: /favicon.ico
+WARNING 2024-12-12 12:47:20,895 basehttp 43059 130920143128320 "GET /favicon.ico HTTP/1.1" 404 3821
+INFO 2024-12-12 12:47:23,531 basehttp 43059 130920143128320 "GET /docs/ HTTP/1.1" 200 413967
+INFO 2024-12-12 12:47:23,641 basehttp 43059 130920050853632 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 200 1307
+INFO 2024-12-12 12:47:23,642 basehttp 43059 130920061339392 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 200 23411
+INFO 2024-12-12 12:47:23,643 basehttp 43059 130920019396352 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 200 21658
+INFO 2024-12-12 12:47:23,645 basehttp 43059 130920040367872 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 200 6156
+INFO 2024-12-12 12:47:23,688 basehttp 43059 130920029882112 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 200 157600
+INFO 2024-12-12 12:47:23,688 basehttp 43059 130920040367872 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 200 2700
+INFO 2024-12-12 12:47:23,690 basehttp 43059 130920143128320 "GET /admin/docs/schema.js HTTP/1.1" 200 10772
+INFO 2024-12-12 12:47:23,690 basehttp 43059 130920050853632 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 200 10391
+INFO 2024-12-12 12:47:23,777 basehttp 43059 130920050853632 "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2024-12-12 12:49:08,031 log 43059 130920050853632 Not Found: /example.com:443
+WARNING 2024-12-12 12:49:08,032 basehttp 43059 130920050853632 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-12 13:00:35,723 basehttp 43059 130920050853632 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-12 13:00:35,723 basehttp 43059 130920050853632 "  /*à     Cookie: mstshash=Administr" 400 -
+WARNING 2024-12-12 13:04:50,592 log 43059 130920050853632 Unauthorized: /admin/tag/addtag/
+WARNING 2024-12-12 13:04:50,594 basehttp 43059 130920050853632 "POST /admin/tag/addtag/ HTTP/1.1" 401 58
+INFO 2024-12-12 13:32:59,109 basehttp 43059 130920050853632 "GET / HTTP/1.1" 200 834
+INFO 2024-12-12 13:33:44,832 basehttp 43059 130920050853632 - Broken pipe from ('205.210.31.242', 62492)
+INFO 2024-12-12 14:28:12,246 basehttp 43059 130920050853632 "GET / HTTP/1.1" 200 834
+INFO 2024-12-12 14:39:51,558 basehttp 43059 130920050853632 "GET / HTTP/1.1" 200 834
+INFO 2024-12-12 14:40:58,150 basehttp 43059 130920050853632 "GET / HTTP/1.0" 200 834
+INFO 2024-12-12 14:41:05,164 basehttp 43059 130920143128320 "GET / HTTP/1.0" 200 834
+INFO 2024-12-12 14:41:19,286 basehttp 43059 130920050853632 "GET / HTTP/1.0" 200 834
+INFO 2024-12-12 14:42:29,028 basehttp 43059 130920050853632 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-12 14:42:29,028 basehttp 43059 130920050853632 "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-12-12 14:52:12,211 basehttp 43059 130920050853632 "GET /docs/ HTTP/1.1" 200 413967
+INFO 2024-12-12 14:52:12,229 basehttp 43059 130920143128320 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 200 1307
+INFO 2024-12-12 14:52:12,235 basehttp 43059 130920029882112 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 200 6156
+INFO 2024-12-12 14:52:12,240 basehttp 43059 130920019396352 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 200 23411
+INFO 2024-12-12 14:52:12,242 basehttp 43059 130920040367872 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 200 21658
+INFO 2024-12-12 14:52:12,267 basehttp 43059 130920061339392 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 200 157600
+INFO 2024-12-12 14:52:12,272 basehttp 43059 130920143128320 "GET /admin/docs/schema.js HTTP/1.1" 200 10772
+INFO 2024-12-12 14:52:12,294 basehttp 43059 130920061339392 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 200 2700
+INFO 2024-12-12 14:52:12,295 basehttp 43059 130920040367872 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 200 10391
+INFO 2024-12-12 14:52:12,340 basehttp 43059 130920040367872 "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2024-12-12 15:06:39,923 basehttp 43059 130920040367872 "POST /teacher/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-12 15:06:40,134 basehttp 43059 130920040367872 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 15:06:40,191 basehttp 43059 130920143128320 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 15:06:40,193 basehttp 43059 130920061339392 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-12 15:06:40,336 basehttp 43059 130920040367872 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 15:06:40,620 basehttp 43059 130920061339392 "GET /post/postlist/ HTTP/1.1" 200 523
+INFO 2024-12-12 15:06:40,816 basehttp 43059 130920040367872 "GET /post/postlist/ HTTP/1.1" 200 523

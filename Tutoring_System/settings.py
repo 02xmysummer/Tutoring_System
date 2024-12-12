@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt', # 新增
     'corsheaders', # 注册app corsheaders
     'system.apps.SystemConfig',
+    'drf_yasg', # 配置drf-yasg (API文档生成器)
 ]
 
 MIDDLEWARE = [
@@ -124,6 +125,8 @@ REST_FRAMEWORK = {
         'system.utils.user.jwt.MyJWTAuthentication', # 认证方式为自定义的认证类
         'system.utils.teacher.jwt.MyJWTAuthentication' # 认证方式为自定义的认证类
     ],
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+
 }
 from datetime import timedelta
 SIMPLE_JWT = {
