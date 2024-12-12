@@ -14,6 +14,11 @@ class TeacherInfo(APIView):
             iso_time_str = str(teacher.create_time)
             dateObject = dateutil.parser.isoparse(iso_time_str)
             localdt = dateObject.replace(tzinfo = timezone.utc).astimezone(tz=None)
+            photo = ''
+            if teacher.avatar == None:
+                photo = 'http://47.109.76.15:8000/static/img/teacher/man.jpg' if teacher.gender == 0 else 'http://47.109.76.15:8000/static/img/teacher/woman.jpg'
+            else:
+                photo = teacher.avatar
             return Response({
                 'id':teacher.id,
                 'nickname':teacher.nickname,
@@ -25,6 +30,8 @@ class TeacherInfo(APIView):
                 'age':teacher.age,
                 'province':teacher.province,
                 'remark':teacher.remark,
+                'photo':photo,
+                'subject':teacher.classification.classname,
                 'phonenumber':teacher.phonenumber,
                 'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
                 })

@@ -8,6 +8,7 @@ class SysUser(models.Model):
     username = models.CharField('用户名', max_length=16, unique=True)
     password = models.CharField('密码', max_length=128)  # 密码字段
     nickname = models.CharField('昵称', max_length=16, default='qwe')
+    age = models.IntegerField("年龄",default=16)
     avatar = models.CharField('用户头像', max_length=255, null=True)
     phonenumber = models.CharField('手机号码', max_length=15, blank=True, null=True)
     role = models.IntegerField('角色（0管理员 1普通用户 2演示账号）')

@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from system.models.sys_user import SysUser
-from system.utils.user.permissions import IsAdminOrSelf  # 假设你将自定义权限类放在了名为 permissions.py 的文件中
+from system.utils.user.permissions import IsAdminOrSelf  
 from django.shortcuts import get_object_or_404
 ROLES = ['管理员','普通用户','演示账号']
 class UserInfo(APIView):

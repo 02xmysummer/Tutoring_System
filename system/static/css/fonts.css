@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'BootstrapIcons';
+    src: url('../fonts/bootstrap-icons.bfa90bda.woff2') format('woff2'),
+         url('../fonts/bootstrap-icons.70a9dee9.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+.icon {
+    font-family: 'BootstrapIcons';
+}

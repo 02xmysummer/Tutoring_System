@@ -2,7 +2,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
 from system.models.sys_user import SysUser
-# from system.models.sys_user import SysUser
 from datetime import timezone
 import dateutil.parser
 ROLES = ['管理员','普通用户','演示账号']
@@ -23,12 +22,8 @@ class Search(APIView):
         users = users[(index-1)*10:index*10]
         # 检查是否找到了至少一个用户
         if not users:
-            # 如果没有找到用户，返回404状态码
             return Response({'error': '用户未找到'}, status=404)
         
-        # 如果有多个用户匹配，我们可以选择返回所有匹配的用户信息
-        # 或者，根据业务需求，可能只需要返回第一个匹配的用户
-        # 这里我们假设返回所有匹配的用户信息
         res = []
         for user in users:
             iso_time_str = str(user.create_time)

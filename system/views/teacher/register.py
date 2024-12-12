@@ -23,6 +23,8 @@ class Register(APIView):
         phonenumber = data.get("phonenumber", "").strip()
         province = data.get("province", "").strip()
         county = data.get("county", "").strip()
+        city = data.get("city", "").strip()
+        area = data.get("area", "").strip()
         hprice = data.get("hprice", "").strip()
 
         if not are_all_fields_filled(username, password, hprice, nickname, phonenumber, eq, age, gender, province, county):

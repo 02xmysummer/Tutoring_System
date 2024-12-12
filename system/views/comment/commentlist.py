@@ -17,12 +17,10 @@ class CommentList(APIView):
             iso_time_str = str(comment.create_time)
             dateObject = dateutil.parser.isoparse(iso_time_str)
             localdt = dateObject.replace(tzinfo = timezone.utc).astimezone(tz=None)
-            user = SysUser.objects.get(id=comment.user_id)
-            teacher = Teacher.objects.get(id=comment.teacher_id)
             c = {
                 'id':comment.id,
-                'username':user.username,
-                'teachername':teacher.nickname,
+                'username':comment.user.username,
+                'teachername':comment.teacher.nickname,
                 'create_time':localdt.strftime('%Y-%m-%d %H:%M:%S'),
                 'comment':comment.comment,
                 'count':count

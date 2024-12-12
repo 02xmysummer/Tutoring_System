@@ -10,7 +10,6 @@ from system.utils.user.permissions import IsAdminOrSelf
 class AddComment(APIView):
     # permission_classes = ([IsAdminOrSelf])
     def post(self, request):
-        # 从 GET 请求中获取参数（通常应使用 POST 请求的 body）
         user_id = request.data.get('user_id')
         teacher_id = request.data.get('teacher_id')
         comment = request.data.get('comment')
@@ -21,13 +20,13 @@ class AddComment(APIView):
 
         try:
             # 尝试获取用户对象，如果不存在则抛出 404 错误
-            get_object_or_404(SysUser, id=user_id)
-            get_object_or_404(Teacher, id=teacher_id)
+            user = get_object_or_404(SysUser, id=user_id)
+            teacher = get_object_or_404(Teacher, id=teacher_id)
         except SysUser.DoesNotExist:
             return Response({'error': '用户不存在'}, status=HTTP_404_NOT_FOUND)
         except Teacher.DoesNotExist:
             return Response({'error': '教师不存在'}, status=HTTP_404_NOT_FOUND)
 
         # 创建评论对象
-        Comment.objects.create(user_id=user_id, teacher_id=teacher_id, comment=comment)
+        Comment.objects.create(user=user, teacher=teacher, comment=comment)
         return Response({'status': '评论添加成功'})
