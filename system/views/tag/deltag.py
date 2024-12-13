@@ -5,8 +5,8 @@ from system.utils.user.permissions import IsAdmin
 class DelTag(APIView):
     permission_classes = ([IsAdmin])
     def delete(self,request):
-        tagname = request.data.get('tagname','')
-        if not tagname:
+        tagname = request.data.get('tagname')
+        if tagname is None:
             return Response({
                 'error': 'No tagname provided'
             })

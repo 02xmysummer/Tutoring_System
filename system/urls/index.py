@@ -29,7 +29,7 @@ from system.views.index import index
 # Swagger documentation setup
 from rest_framework.documentation import include_docs_urls 
 
-
+from system.views.sysinfo.info import SysInfo
 
 urlpatterns = [
     path("", index, name="index"),
@@ -42,6 +42,7 @@ urlpatterns = [
     path("tag/",include("system.urls.tag.index")), 
     path("post/",include("system.urls.post.index")), 
     path("tool/",include("system.urls.tool.index")), 
+    path("sysinfo/",SysInfo.as_view(),name="sysinfo"),
     path('docs/', include_docs_urls(title='家教管理系统api文档')),
     # path('swagger/',schema_view.with_ui('swagger',cache_timeout=0),name='schema-swagger-ui'),   #互动模式
     # path('redoc/',schema_view.with_ui('redoc',cache_timeout=0),name='schema-redoc'),   #文档模式
