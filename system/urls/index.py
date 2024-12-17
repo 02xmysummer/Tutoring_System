@@ -1,5 +1,5 @@
 from django.urls import path, include
-from system.views.index import index
+from system.views.index import admin
 
 # from rest_framework.routers import DefaultRouter
 # from drf_yasg.views import get_schema_view
@@ -32,7 +32,8 @@ from rest_framework.documentation import include_docs_urls
 from system.views.sysinfo.info import SysInfo
 
 urlpatterns = [
-    path("", index, name="index"),
+    path("", admin, name="admin"),
+    # path("admin/", admin, name="admin"),
     path("user/",include("system.urls.user.index")),    
     path("teacher/",include("system.urls.teacher.index")),    
     path("log/",include("system.urls.log.index")),    

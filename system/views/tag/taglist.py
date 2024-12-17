@@ -9,6 +9,10 @@ class TagList(APIView):
     def get(self,request):
         tags = Tag.objects.all()
         res = []
+        res.append({
+            'id':0,
+            'tagname':'全部',
+        })
         for tag in tags:
             c = {
                 'id':tag.id,

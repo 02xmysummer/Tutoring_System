@@ -1,7 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
-from system.models.teacher import teacher
+from system.models.teacher import Teacher
 from datetime import timezone
 import dateutil.parser
 

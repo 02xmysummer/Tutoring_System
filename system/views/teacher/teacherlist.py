@@ -13,9 +13,9 @@ class TeacherList(APIView):
     def get(self,request):
         index = int(request.GET.get('index','1'))
         teacher_type = int(request.GET.get('teacher_type','0')) #推荐，最热，最新 = 0，1，2
-        province = request.GET.get('province')
-        county = request.GET.get('county')
-        city = request.GET.get('city')
+        province = request.GET.get('province','')
+        county = request.GET.get('county','')
+        city = request.GET.get('city','')
 
         classname = request.GET.get('classname')
         tagname = request.GET.get('tagname')
@@ -29,11 +29,11 @@ class TeacherList(APIView):
             teachers = teachers.order_by('-create_time')
 
         # #根据地区
-        if city and county and province:
+        if city != '' and county != '' and province != '':
             teachers = teachers.filter(city=city, county=county, province=province)
-        elif not city and county and province:
+        elif city == '' and county != '' and province != '':
             teachers = teachers.filter(county=county, province=province)
-        elif not city and not county and province:
+        elif city == '' and county == '' and province != '':
             teachers = teachers.filter(province=province)
 
 
@@ -43,7 +43,7 @@ class TeacherList(APIView):
 
         if tagname != None:
             tag = Tag.objects.get(tagname=tagname)
-            teachers = teachers.filter(tag=tag)
+            teachers = teachers.filter(tags=tag)
 
         teachers = teachers[(index-1)*10:index*10]
         count = Teacher.objects.count()

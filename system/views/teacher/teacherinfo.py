@@ -7,6 +7,7 @@ import dateutil.parser
 GENDERS = ['男','女']
 EQ = ['小学','初中','高中','本科','研究生']
 class TeacherInfo(APIView):
+
     def get(self, request):
         try:
             user_id = int(request.GET.get('user_id','0'))
@@ -84,7 +85,7 @@ class TeacherInfo(APIView):
     
         except ValueError as e:
             return Response({'result': '输入参数类型错误: {}'.format(e)})
-        except SysUser.DoesNotExist:
+        except Teacher.DoesNotExist:
             return Response({'result': '用户不存在'})
         except Exception as e:
             return Response({'result': '发生错误: {}'.format(str(e))})

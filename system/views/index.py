@@ -1,5 +1,8 @@
 from django.shortcuts import render
 
 
-def index(request):
+def admin(request):
         return render(request, "admin.html")
+
+# def index(request):
+#         return render(request, "index.html")       

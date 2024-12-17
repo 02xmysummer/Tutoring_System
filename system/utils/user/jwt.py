@@ -1,7 +1,6 @@
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.exceptions import InvalidToken, AuthenticationFailed
 from django.utils.translation import gettext_lazy as _
-# 自定义的用户模型
 from system.models.sys_user import SysUser
 class MyJWTAuthentication(JWTAuthentication):
     '''
