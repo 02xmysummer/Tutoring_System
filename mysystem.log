@@ -5955,3 +5955,744 @@ INFO 2024-12-17 04:09:20,674 basehttp 886 136660184467200 "OPTIONS /post/postlis
 INFO 2024-12-17 04:09:20,758 basehttp 886 136660075415296 "GET /post/postlist/ HTTP/1.1" 200 702
 INFO 2024-12-17 04:09:20,851 basehttp 886 136660184467200 "GET /post/postlist/ HTTP/1.1" 200 702
 INFO 2024-12-17 04:09:20,944 basehttp 886 136660075415296 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 05:23:03,212 autoreload 4244 128684554852160 Watching for file changes with StatReloader
+INFO 2024-12-17 05:23:05,461 basehttp 4244 128684398741248 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 05:23:05,601 basehttp 4244 128684398741248 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 05:23:05,774 basehttp 4244 128684398741248 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 05:23:05,964 basehttp 4244 128684398741248 "GET /teacher/teacherlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 05:23:06,077 basehttp 4244 128684398741248 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:23:09,529 basehttp 4244 128684398741248 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 05:23:10,119 basehttp 4244 128684398741248 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 05:23:10,934 basehttp 4244 128684398741248 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:23:31,824 basehttp 4244 128684388255488 "GET /overview/count/ HTTP/1.1" 200 497
+INFO 2024-12-17 05:23:32,312 basehttp 4244 128684398741248 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:23:39,301 basehttp 4244 128684398741248 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 05:23:39,426 basehttp 4244 128684398741248 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 05:23:39,558 basehttp 4244 128684398741248 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 05:23:39,718 basehttp 4244 128684398741248 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:26:39,056 autoreload 4244 128684554852160 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:26:39,622 autoreload 4500 139327049766720 Watching for file changes with StatReloader
+INFO 2024-12-17 05:26:47,249 autoreload 4500 139327049766720 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:26:47,742 autoreload 4551 135704464586560 Watching for file changes with StatReloader
+INFO 2024-12-17 05:27:17,275 basehttp 4551 135704319362816 "GET /sysinfo/ HTTP/1.1" 200 10257
+INFO 2024-12-17 05:27:17,344 basehttp 4551 135704308877056 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-17 05:27:17,348 basehttp 4551 135704319362816 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-17 05:27:17,348 basehttp 4551 135704298391296 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-17 05:27:17,352 basehttp 4551 135704287905536 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-17 05:27:17,489 basehttp 4551 135704277419776 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-17 05:27:17,489 basehttp 4551 135704308877056 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-17 05:27:17,491 basehttp 4551 135704266934016 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-17 05:27:17,509 basehttp 4551 135704319362816 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-17 05:27:17,614 basehttp 4551 135704298391296 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-17 05:27:17,615 basehttp 4551 135704287905536 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-17 05:27:17,736 basehttp 4551 135704298391296 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-17 05:27:17,758 basehttp 4551 135704308877056 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-12-17 05:27:26,749 basehttp 4551 135704308877056 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:27:27,203 basehttp 4551 135704308877056 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 05:28:25,405 basehttp 4551 135704319362816 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 05:28:25,489 basehttp 4551 135704319362816 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 05:28:25,591 basehttp 4551 135704319362816 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 05:28:25,707 basehttp 4551 135704319362816 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:28:26,442 basehttp 4551 135704319362816 "GET /sysinfo/ HTTP/1.1" 200 383
+INFO 2024-12-17 05:28:44,755 autoreload 4551 135704464586560 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:28:45,246 autoreload 4725 130288006870848 Watching for file changes with StatReloader
+INFO 2024-12-17 05:28:55,927 autoreload 4725 130288006870848 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:28:56,494 autoreload 4772 131991922050880 Watching for file changes with StatReloader
+INFO 2024-12-17 05:30:21,768 autoreload 4772 131991922050880 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:30:22,357 autoreload 4856 136971639162688 Watching for file changes with StatReloader
+INFO 2024-12-17 05:30:54,510 autoreload 4856 136971639162688 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:30:55,004 autoreload 4913 131800861075264 Watching for file changes with StatReloader
+INFO 2024-12-17 05:31:32,318 autoreload 4913 131800861075264 /home/acs/Tutoring_System/system/views/sysinfo/info.py changed, reloading.
+INFO 2024-12-17 05:31:32,781 autoreload 4969 124929968052032 Watching for file changes with StatReloader
+INFO 2024-12-17 05:31:42,936 basehttp 4969 124929888487168 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 05:31:43,039 basehttp 4969 124929888487168 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 05:31:43,149 basehttp 4969 124929888487168 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 05:31:43,334 basehttp 4969 124929888487168 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:31:43,837 basehttp 4969 124929888487168 "GET /sysinfo/ HTTP/1.1" 200 410
+INFO 2024-12-17 05:31:51,607 basehttp 4969 124929888487168 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:32:08,872 basehttp 4969 124929888487168 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:32:09,398 basehttp 4969 124929888487168 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 05:32:10,211 basehttp 4969 124929888487168 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 05:32:10,908 basehttp 4969 124929888487168 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1260
+INFO 2024-12-17 05:32:11,491 basehttp 4969 124929888487168 "GET /user/userlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 05:32:11,632 basehttp 4969 124929888487168 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-17 05:32:12,455 basehttp 4969 124929888487168 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 05:32:17,319 basehttp 4969 124929888487168 "GET /sysinfo/ HTTP/1.1" 200 410
+INFO 2024-12-17 05:32:28,103 basehttp 4969 124929888487168 - Broken pipe from ('106.85.77.236', 38222)
+INFO 2024-12-17 06:15:59,761 autoreload 463 123677807761216 Watching for file changes with StatReloader
+INFO 2024-12-17 06:16:08,865 basehttp 463 123677662250752 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 06:16:08,983 basehttp 463 123677662250752 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 06:16:09,178 basehttp 463 123677662250752 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 06:16:09,405 basehttp 463 123677662250752 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:16:10,122 basehttp 463 123677662250752 "GET /sysinfo/ HTTP/1.1" 200 410
+INFO 2024-12-17 06:16:12,123 basehttp 463 123677651764992 "GET /overview/count/ HTTP/1.1" 200 497
+INFO 2024-12-17 06:16:13,384 basehttp 463 123677651764992 "GET /log/loginlog/ HTTP/1.1" 200 54073
+INFO 2024-12-17 06:16:14,248 basehttp 463 123677662250752 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:16:14,989 basehttp 463 123677651764992 "GET /overview/count/ HTTP/1.1" 200 497
+INFO 2024-12-17 06:16:16,294 basehttp 463 123677662250752 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:19:27,079 basehttp 463 123677662250752 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-17 06:19:27,079 basehttp 463 123677662250752 "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-12-17 06:20:36,014 basehttp 463 123677662250752 code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-12-17 06:20:36,014 basehttp 463 123677662250752 "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-12-17 06:20:39,227 basehttp 463 123677662250752 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:25:09,200 basehttp 463 123677662250752 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:26:26,664 basehttp 463 123677641279232 "GET / HTTP/1.1" 200 834
+INFO 2024-12-17 06:26:26,768 basehttp 463 123677662250752 "GET /static/js/app.49b6b73c.js HTTP/1.1" 200 54145
+INFO 2024-12-17 06:26:26,778 basehttp 463 123677630793472 "GET /static/css/app.9138a8f3.css HTTP/1.1" 200 3708
+INFO 2024-12-17 06:26:26,782 basehttp 463 123677540615936 "GET /static/css/fonts.css HTTP/1.1" 200 289
+INFO 2024-12-17 06:26:26,832 basehttp 463 123677620307712 "GET /static/css/chunk-vendors.0acf3532.css HTTP/1.1" 200 310583
+INFO 2024-12-17 06:26:26,879 basehttp 463 123677641279232 "GET /static/js/chunk-vendors.6f727416.js HTTP/1.1" 200 1360013
+WARNING 2024-12-17 06:26:27,195 log 463 123677641279232 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 06:26:27,195 basehttp 463 123677641279232 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+WARNING 2024-12-17 06:26:27,234 log 463 123677641279232 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 06:26:27,234 basehttp 463 123677641279232 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+WARNING 2024-12-17 06:26:27,300 log 463 123677641279232 Not Found: /favicon.ico
+WARNING 2024-12-17 06:26:27,300 basehttp 463 123677641279232 "GET /favicon.ico HTTP/1.1" 404 3992
+INFO 2024-12-17 06:26:31,504 basehttp 463 123677641279232 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 06:26:31,607 basehttp 463 123677641279232 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 06:26:31,771 basehttp 463 123677641279232 "GET /teacher/teacherlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 06:26:31,812 basehttp 463 123677620307712 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:26:34,373 basehttp 463 123677620307712 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:26:36,672 basehttp 463 123677620307712 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+WARNING 2024-12-17 06:28:18,377 log 463 123677519644416 Not Found: /api.ip.pn:443
+WARNING 2024-12-17 06:28:18,377 basehttp 463 123677519644416 "CONNECT api.ip.pn:443 HTTP/1.1" 404 1783
+INFO 2024-12-17 06:28:23,369 basehttp 463 123677530130176 code 400, message Bad request syntax ('\x05\x01\x00')
+WARNING 2024-12-17 06:28:23,369 basehttp 463 123677530130176 " " 400 -
+INFO 2024-12-17 06:28:23,391 basehttp 463 123677519644416 code 400, message Bad request syntax ('\x04\x01\x01»\x00\x00\x00\x01proxychecker\x00api.ip.pn\x00')
+WARNING 2024-12-17 06:28:23,392 basehttp 463 123677519644416 "»   proxychecker api.ip.pn " 400 -
+INFO 2024-12-17 06:29:39,222 basehttp 463 123677519644416 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:31:02,272 basehttp 463 123677620307712 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:32:26,085 basehttp 463 123677519644416 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 06:32:26,664 basehttp 463 123677519644416 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:34:09,233 basehttp 463 123677620307712 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:34:42,950 basehttp 463 123677519644416 "GET /docs HTTP/1.1" 301 0
+INFO 2024-12-17 06:34:43,439 basehttp 463 123677540615936 "GET /docs/ HTTP/1.1" 200 460242
+INFO 2024-12-17 06:34:43,451 basehttp 463 123677498672896 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 200 1307
+INFO 2024-12-17 06:34:43,451 basehttp 463 123677530130176 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 200 21658
+INFO 2024-12-17 06:34:43,452 basehttp 463 123677509158656 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 200 6156
+INFO 2024-12-17 06:34:43,452 basehttp 463 123677662250752 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 200 23411
+INFO 2024-12-17 06:34:43,452 basehttp 463 123677519644416 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-17 06:34:43,509 basehttp 463 123677509158656 "GET /admin/docs/schema.js HTTP/1.1" 200 11628
+INFO 2024-12-17 06:34:43,514 basehttp 463 123677662250752 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 200 2700
+INFO 2024-12-17 06:34:43,515 basehttp 463 123677530130176 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-17 06:34:43,516 basehttp 463 123677540615936 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-17 06:34:43,541 basehttp 463 123677498672896 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 200 157600
+INFO 2024-12-17 06:34:43,542 basehttp 463 123677519644416 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 200 10391
+INFO 2024-12-17 06:34:43,632 basehttp 463 123677498672896 "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2024-12-17 06:38:39,309 basehttp 463 123677620307712 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:43:09,208 basehttp 463 123677620307712 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:45:36,042 basehttp 463 123677498672896 "GET /user/userlist HTTP/1.1" 301 0
+INFO 2024-12-17 06:45:36,097 basehttp 463 123677509158656 "GET /user/userlist/ HTTP/1.1" 200 14255
+INFO 2024-12-17 06:45:36,145 basehttp 463 123677509158656 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-17 06:45:36,183 basehttp 463 123677498672896 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-17 06:45:36,184 basehttp 463 123677530130176 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-17 06:45:36,303 basehttp 463 123677498672896 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-17 06:45:36,303 basehttp 463 123677509158656 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-17 06:45:36,304 basehttp 463 123677530130176 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-12-17 06:45:36,315 basehttp 463 123677540615936 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-17 06:45:36,326 basehttp 463 123677519644416 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-17 06:45:36,326 basehttp 463 123677488187136 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+WARNING 2024-12-17 06:46:05,582 log 463 123677488187136 Method Not Allowed: /user/token/
+WARNING 2024-12-17 06:46:05,583 basehttp 463 123677488187136 "GET /user/token/ HTTP/1.1" 405 11874
+INFO 2024-12-17 06:46:16,845 basehttp 463 123677488187136 "POST /user/token/ HTTP/1.1" 200 12318
+INFO 2024-12-17 06:47:38,980 basehttp 463 123677620307712 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 06:47:44,951 basehttp 463 123677488187136 "GET /admin/ HTTP/1.1" 200 834
+INFO 2024-12-17 06:47:48,228 basehttp 463 123677488187136 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 06:47:48,330 basehttp 463 123677488187136 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+WARNING 2024-12-17 06:47:48,452 log 463 123677488187136 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 06:47:48,453 basehttp 463 123677488187136 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 06:47:48,460 basehttp 463 123677519644416 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+WARNING 2024-12-17 06:47:48,493 log 463 123677488187136 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 06:47:48,494 basehttp 463 123677488187136 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 06:47:57,349 basehttp 463 123677620307712 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 06:47:58,112 basehttp 463 123677620307712 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 06:48:00,009 basehttp 463 123677620307712 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:48:01,551 basehttp 463 123677620307712 "GET /user/userlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 06:48:01,591 basehttp 463 123677620307712 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-17 06:48:12,681 basehttp 463 123677339289344 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2024-12-17 06:48:13,082 basehttp 463 123677339289344 "POST /user/register/ HTTP/1.1" 200 29
+INFO 2024-12-17 06:48:13,169 basehttp 463 123677620307712 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-17 06:48:14,253 basehttp 463 123677620307712 "GET /user/userlist?index=11 HTTP/1.1" 301 0
+INFO 2024-12-17 06:48:14,303 basehttp 463 123677620307712 "GET /user/userlist/?index=11 HTTP/1.1" 200 166
+INFO 2024-12-17 06:48:21,312 basehttp 463 123677339289344 "GET /overview/count/ HTTP/1.1" 200 498
+INFO 2024-12-17 06:49:20,439 basehttp 463 123677339289344 "GET /log/loginlog/ HTTP/1.1" 200 54691
+INFO 2024-12-17 06:49:21,575 basehttp 463 123677620307712 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 06:49:22,483 basehttp 463 123677620307712 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-17 06:49:24,290 basehttp 463 123677620307712 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1260
+INFO 2024-12-17 06:49:36,275 basehttp 463 123677620307712 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:01:12,129 autoreload 2947 136010883831616 Watching for file changes with StatReloader
+WARNING 2024-12-17 09:01:17,213 log 2947 136010727950080 Not Found: /favicon.ico
+WARNING 2024-12-17 09:01:17,213 basehttp 2947 136010727950080 "GET /favicon.ico HTTP/1.1" 404 3992
+INFO 2024-12-17 09:02:40,754 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:02:40,769 basehttp 2947 136010738435840 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:02:40,774 basehttp 2947 136010706978560 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:02:40,782 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:02:40,827 basehttp 2947 136010686007040 "GET /static/img/teacher/man.jpg HTTP/1.1" 304 0
+INFO 2024-12-17 09:02:40,831 basehttp 2947 136010696492800 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:03:19,701 basehttp 2947 136010686007040 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:03:19,716 basehttp 2947 136010696492800 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:03:19,720 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:19,717 basehttp 2947 136010706978560 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:03:19,781 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:03:22,623 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E5%B0%8F%E5%AD%A6 HTTP/1.1" 200 738
+INFO 2024-12-17 09:03:23,406 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E5%88%9D%E4%B8%AD HTTP/1.1" 200 636
+INFO 2024-12-17 09:03:23,906 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E9%AB%98%E4%B8%AD HTTP/1.1" 200 1498
+INFO 2024-12-17 09:03:24,365 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E7%BE%8E%E6%9C%AF HTTP/1.1" 200 653
+INFO 2024-12-17 09:03:24,450 basehttp 2947 136010606315264 "GET /static/img/teacher/woman.jpg HTTP/1.1" 200 7691
+INFO 2024-12-17 09:03:24,751 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E4%B9%A6%E6%B3%95 HTTP/1.1" 200 353
+INFO 2024-12-17 09:03:25,174 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&classname=%E4%BD%93%E8%82%B2 HTTP/1.1" 200 584
+INFO 2024-12-17 09:03:25,914 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:26,883 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E8%AF%AD%E6%96%87 HTTP/1.1" 200 380
+INFO 2024-12-17 09:03:27,407 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 351
+INFO 2024-12-17 09:03:27,769 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E8%8B%B1%E8%AF%AD HTTP/1.1" 200 357
+INFO 2024-12-17 09:03:28,157 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E7%89%A9%E7%90%86 HTTP/1.1" 200 359
+INFO 2024-12-17 09:03:28,490 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E5%9C%B0%E7%90%86 HTTP/1.1" 200 280
+INFO 2024-12-17 09:03:28,757 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E6%94%BF%E6%B2%BB HTTP/1.1" 200 284
+INFO 2024-12-17 09:03:29,234 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E5%8E%86%E5%8F%B2 HTTP/1.1" 200 291
+INFO 2024-12-17 09:03:29,607 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E5%8C%96%E5%AD%A6 HTTP/1.1" 200 288
+INFO 2024-12-17 09:03:29,926 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E7%94%9F%E7%89%A9 HTTP/1.1" 200 288
+INFO 2024-12-17 09:03:30,737 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:32,764 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:33,726 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=2 HTTP/1.1" 200 2955
+INFO 2024-12-17 09:03:34,649 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:36,293 basehttp 2947 136010717464320 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 09:03:36,307 basehttp 2947 136010696492800 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 09:03:36,315 basehttp 2947 136010706978560 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 942
+INFO 2024-12-17 09:03:36,361 basehttp 2947 136010696492800 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 09:03:36,390 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 592
+INFO 2024-12-17 09:03:40,249 basehttp 2947 136010717464320 "GET /tool/cities/?province_code=310000 HTTP/1.1" 200 340
+INFO 2024-12-17 09:03:40,249 basehttp 2947 136010706978560 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 09:03:40,257 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E4%B8%8A%E6%B5%B7%E5%B8%82 HTTP/1.1" 200 717
+INFO 2024-12-17 09:03:40,314 basehttp 2947 136010706978560 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E4%B8%8A%E6%B5%B7%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 2
+INFO 2024-12-17 09:03:40,318 basehttp 2947 136010686007040 "GET /tool/cities/?province_code=310000 HTTP/1.1" 200 340
+INFO 2024-12-17 09:03:44,418 basehttp 2947 136010696492800 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 09:03:44,420 basehttp 2947 136010686007040 "GET /tool/cities/?province_code=500000 HTTP/1.1" 200 883
+INFO 2024-12-17 09:03:44,425 basehttp 2947 136010706978560 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E9%87%8D%E5%BA%86%E5%B8%82 HTTP/1.1" 200 942
+INFO 2024-12-17 09:03:44,491 basehttp 2947 136010717464320 "GET /tool/cities/?province_code=500000 HTTP/1.1" 200 883
+INFO 2024-12-17 09:03:44,494 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E9%87%8D%E5%BA%86%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 2
+INFO 2024-12-17 09:03:47,521 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:51,214 basehttp 2947 136010717464320 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 09:03:51,219 basehttp 2947 136010696492800 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 09:03:51,232 basehttp 2947 136010686007040 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 942
+INFO 2024-12-17 09:03:51,291 basehttp 2947 136010706978560 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 09:03:51,296 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 592
+INFO 2024-12-17 09:03:57,000 basehttp 2947 136010706978560 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 09:03:57,001 basehttp 2947 136010686007040 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 09:03:57,010 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&city=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 3295
+INFO 2024-12-17 09:03:57,074 basehttp 2947 136010696492800 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 09:04:06,057 basehttp 2947 136010696492800 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 09:04:06,130 basehttp 2947 136010696492800 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:06,227 basehttp 2947 136010696492800 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 09:04:06,333 basehttp 2947 136010696492800 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:06,343 basehttp 2947 136010706978560 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:04:06,350 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:04:06,352 basehttp 2947 136010686007040 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:04:06,399 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:09,000 basehttp 2947 136010717464320 "OPTIONS /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:09,097 basehttp 2947 136010717464320 "GET /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 286
+INFO 2024-12-17 09:04:11,352 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:11,368 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:04:11,368 basehttp 2947 136010686007040 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:04:11,372 basehttp 2947 136010706978560 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:04:11,419 basehttp 2947 136010696492800 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:38,417 basehttp 2947 136010696492800 "OPTIONS /teacher/teacherinfo/?user_id=3 HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:38,508 basehttp 2947 136010696492800 "GET /teacher/teacherinfo/?user_id=3 HTTP/1.1" 200 367
+INFO 2024-12-17 09:04:40,114 basehttp 2947 136010696492800 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:40,132 basehttp 2947 136010706978560 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:04:40,133 basehttp 2947 136010686007040 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:04:40,133 basehttp 2947 136010717464320 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:04:40,182 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:51,173 basehttp 2947 136010717464320 "POST /teacher/token/ HTTP/1.1" 200 486
+INFO 2024-12-17 09:04:51,248 basehttp 2947 136010717464320 "OPTIONS /teacher/teacherinfo/?user_id=13 HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,341 basehttp 2947 136010717464320 "GET /teacher/teacherinfo/?user_id=13 HTTP/1.1" 200 77
+INFO 2024-12-17 09:04:51,452 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:51,456 basehttp 2947 136010706978560 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,456 basehttp 2947 136010686007040 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,457 basehttp 2947 136010696492800 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,468 basehttp 2947 136010595829504 "OPTIONS /teacher/teacherinfo/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,469 basehttp 2947 136010585343744 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:51,536 basehttp 2947 136010717464320 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:51,552 basehttp 2947 136010696492800 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 386
+INFO 2024-12-17 09:04:51,564 basehttp 2947 136010585343744 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-17 09:04:51,577 basehttp 2947 136010706978560 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:04:51,605 basehttp 2947 136010595829504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:04:51,685 basehttp 2947 136010585343744 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:04:51,785 basehttp 2947 136010595829504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:04:51,878 basehttp 2947 136010585343744 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:04:58,278 basehttp 2947 136010585343744 "OPTIONS /post/applypost/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:58,367 basehttp 2947 136010585343744 "POST /post/applypost/ HTTP/1.1" 200 36
+INFO 2024-12-17 09:04:59,639 basehttp 2947 136010585343744 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:04:59,743 basehttp 2947 136010585343744 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:04,266 basehttp 2947 136010585343744 "OPTIONS /post/applypost/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:04,397 basehttp 2947 136010585343744 "POST /post/applypost/ HTTP/1.1" 200 36
+INFO 2024-12-17 09:05:09,243 basehttp 2947 136010585343744 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:09,360 basehttp 2947 136010585343744 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:12,173 basehttp 2947 136010706978560 "OPTIONS /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:12,174 basehttp 2947 136010696492800 "OPTIONS /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:12,176 basehttp 2947 136010595829504 "OPTIONS /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:12,177 basehttp 2947 136010585343744 "OPTIONS /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:12,288 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:12,397 basehttp 2947 136010595829504 "GET /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:12,552 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:12,656 basehttp 2947 136010595829504 "GET /post/postlist/?min_hprice=0&max_hprice=100 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:13,107 basehttp 2947 136010585343744 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:13,107 basehttp 2947 136010595829504 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:13,108 basehttp 2947 136010696492800 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:13,108 basehttp 2947 136010706978560 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:13,210 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:13,305 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:13,396 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:13,701 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:14,085 basehttp 2947 136010706978560 "OPTIONS /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:14,085 basehttp 2947 136010595829504 "OPTIONS /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:14,086 basehttp 2947 136010585343744 "OPTIONS /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:14,085 basehttp 2947 136010696492800 "OPTIONS /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:14,200 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:14,299 basehttp 2947 136010696492800 "GET /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:14,399 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:14,510 basehttp 2947 136010696492800 "GET /post/postlist/?min_hprice=300%2B HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:15,225 basehttp 2947 136010696492800 "OPTIONS /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:15,231 basehttp 2947 136010595829504 "OPTIONS /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:15,231 basehttp 2947 136010706978560 "OPTIONS /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:15,231 basehttp 2947 136010585343744 "OPTIONS /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:15,322 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 174
+INFO 2024-12-17 09:05:15,414 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 174
+INFO 2024-12-17 09:05:15,512 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 174
+INFO 2024-12-17 09:05:15,601 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=200&max_hprice=300 HTTP/1.1" 200 174
+INFO 2024-12-17 09:05:16,180 basehttp 2947 136010706978560 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:16,180 basehttp 2947 136010696492800 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:16,180 basehttp 2947 136010595829504 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:16,180 basehttp 2947 136010585343744 "OPTIONS /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:16,283 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:16,839 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:17,149 basehttp 2947 136010706978560 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:17,251 basehttp 2947 136010585343744 "GET /post/postlist/?min_hprice=100&max_hprice=200 HTTP/1.1" 200 529
+INFO 2024-12-17 09:05:35,782 basehttp 2947 136010585343744 "OPTIONS /teacher/teacherinfo/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:35,784 basehttp 2947 136010706978560 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:05:35,885 basehttp 2947 136010706978560 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-17 09:05:40,001 basehttp 2947 136010706978560 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:05:40,003 basehttp 2947 136010696492800 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:40,005 basehttp 2947 136010717464320 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:40,005 basehttp 2947 136010585343744 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:40,005 basehttp 2947 136010686007040 "OPTIONS /teacher/teacherinfo/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:40,006 basehttp 2947 136010595829504 "OPTIONS /post/postlist/ HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:40,075 basehttp 2947 136010706978560 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:05:40,085 basehttp 2947 136010717464320 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 386
+INFO 2024-12-17 09:05:40,106 basehttp 2947 136010686007040 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-17 09:05:40,115 basehttp 2947 136010696492800 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:40,148 basehttp 2947 136010585343744 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 09:05:40,220 basehttp 2947 136010686007040 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:40,316 basehttp 2947 136010585343744 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:40,409 basehttp 2947 136010686007040 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 09:05:55,204 basehttp 2947 136010686007040 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 09:05:55,313 basehttp 2947 136010686007040 "OPTIONS /user/userinfo/?user_id=1 HTTP/1.1" 200 0
+INFO 2024-12-17 09:05:55,413 basehttp 2947 136010686007040 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 09:05:55,506 basehttp 2947 136010686007040 "GET /teacher/teacherlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 09:05:55,537 basehttp 2947 136010585343744 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:05:59,187 basehttp 2947 136010585343744 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:05:59,676 basehttp 2947 136010585343744 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 09:06:00,168 basehttp 2947 136010585343744 "GET /comment/commentlist?index=1 HTTP/1.1" 200 1260
+INFO 2024-12-17 09:06:00,887 basehttp 2947 136010585343744 "GET /user/userlist?index=1 HTTP/1.1" 301 0
+INFO 2024-12-17 09:06:00,917 basehttp 2947 136010696492800 "GET /user/userlist/?index=1 HTTP/1.1" 200 1841
+INFO 2024-12-17 09:06:01,229 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:06:02,027 basehttp 2947 136010585343744 "GET /log/loginlog/ HTTP/1.1" 200 55309
+INFO 2024-12-17 09:06:02,713 basehttp 2947 136010585343744 "GET /overview/count/ HTTP/1.1" 200 498
+INFO 2024-12-17 09:06:03,412 basehttp 2947 136010585343744 "GET /log/loginlog/ HTTP/1.1" 200 55309
+INFO 2024-12-17 09:06:14,268 basehttp 2947 136010585343744 "GET /overview/count/ HTTP/1.1" 200 498
+INFO 2024-12-17 09:06:15,679 basehttp 2947 136010696492800 "GET /sysinfo/ HTTP/1.1" 200 410
+INFO 2024-12-17 09:06:18,898 basehttp 2947 136010696492800 "GET /teacher/teacherlist/?index=1 HTTP/1.1" 200 3295
+INFO 2024-12-17 09:06:47,232 basehttp 2947 136010706978560 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 09:06:47,233 basehttp 2947 136010595829504 "GET /tag/taglist/ HTTP/1.1" 200 281
+WARNING 2024-12-17 09:06:47,274 log 2947 136010696492800 Not Found: /favicon.ico
+WARNING 2024-12-17 09:06:47,274 basehttp 2947 136010696492800 "GET /favicon.ico HTTP/1.1" 404 3992
+INFO 2024-12-17 12:00:42,504 autoreload 3810 134265292195648 Watching for file changes with StatReloader
+INFO 2024-12-17 12:02:37,357 autoreload 3810 134265292195648 /home/acs/Tutoring_System/system/views/index.py changed, reloading.
+INFO 2024-12-17 12:02:37,814 autoreload 3869 132605712471872 Watching for file changes with StatReloader
+INFO 2024-12-17 12:02:39,093 autoreload 3869 132605712471872 /home/acs/Tutoring_System/system/views/index.py changed, reloading.
+INFO 2024-12-17 12:02:39,567 autoreload 3887 127936129042240 Watching for file changes with StatReloader
+INFO 2024-12-17 12:02:55,141 autoreload 3887 127936129042240 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-17 12:02:55,579 autoreload 3923 138370866620224 Watching for file changes with StatReloader
+INFO 2024-12-17 12:02:56,913 autoreload 3923 138370866620224 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-17 12:02:57,371 autoreload 3941 124710731937600 Watching for file changes with StatReloader
+INFO 2024-12-17 12:03:01,778 autoreload 3941 124710731937600 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-17 12:03:02,317 autoreload 3965 130742788847424 Watching for file changes with StatReloader
+INFO 2024-12-17 12:03:13,485 basehttp 3965 130742627600128 "GET / HTTP/1.1" 200 796
+WARNING 2024-12-17 12:03:13,636 log 3965 130742709389056 Not Found: /% static 'js/app.71bfde41.js
+WARNING 2024-12-17 12:03:13,639 log 3965 130742606628608 Not Found: /% static 'css/chunk-vendors.0acf3532.css
+WARNING 2024-12-17 12:03:13,642 log 3965 130742617114368 Not Found: /% static 'css/app.4b8f51bb.css
+WARNING 2024-12-17 12:03:13,644 log 3965 130742627600128 Not Found: /% static 'js/chunk-vendors.bd021fc7.js
+WARNING 2024-12-17 12:03:13,645 basehttp 3965 130742606628608 "GET /%%20static%20'css/chunk-vendors.0acf3532.css HTTP/1.1" 404 4100
+WARNING 2024-12-17 12:03:13,645 basehttp 3965 130742709389056 "GET /%%20static%20'js/app.71bfde41.js HTTP/1.1" 404 4064
+WARNING 2024-12-17 12:03:13,646 basehttp 3965 130742627600128 "GET /%%20static%20'js/chunk-vendors.bd021fc7.js HTTP/1.1" 404 4094
+WARNING 2024-12-17 12:03:13,646 basehttp 3965 130742617114368 "GET /%%20static%20'css/app.4b8f51bb.css HTTP/1.1" 404 4070
+WARNING 2024-12-17 12:03:13,723 log 3965 130742617114368 Not Found: /favicon.ico
+WARNING 2024-12-17 12:03:13,723 basehttp 3965 130742617114368 "GET /favicon.ico HTTP/1.1" 404 3992
+WARNING 2024-12-17 12:03:15,682 log 3965 130742709389056 Not Found: /% static 'css/app.4b8f51bb.css
+WARNING 2024-12-17 12:03:15,683 basehttp 3965 130742709389056 "GET /%%20static%20'css/app.4b8f51bb.css HTTP/1.1" 404 4070
+WARNING 2024-12-17 12:03:15,684 log 3965 130742617114368 Not Found: /% static 'css/chunk-vendors.0acf3532.css
+WARNING 2024-12-17 12:03:15,685 basehttp 3965 130742617114368 "GET /%%20static%20'css/chunk-vendors.0acf3532.css HTTP/1.1" 404 4100
+INFO 2024-12-17 12:04:43,700 basehttp 3965 130742709389056 "GET / HTTP/1.1" 200 800
+INFO 2024-12-17 12:04:43,821 basehttp 3965 130742617114368 "GET /static/css/app.4b8f51bb.css HTTP/1.1" 200 5966
+WARNING 2024-12-17 12:04:43,840 log 3965 130742627600128 Not Found: /% static 'js/chunk-vendors.bd021fc7.js
+WARNING 2024-12-17 12:04:43,842 log 3965 130742606628608 Not Found: /% static 'js/app.71bfde41.js
+WARNING 2024-12-17 12:04:43,842 basehttp 3965 130742627600128 "GET /%%20static%20'js/chunk-vendors.bd021fc7.js HTTP/1.1" 404 4094
+WARNING 2024-12-17 12:04:43,842 basehttp 3965 130742606628608 "GET /%%20static%20'js/app.71bfde41.js HTTP/1.1" 404 4064
+INFO 2024-12-17 12:04:44,078 basehttp 3965 130742709389056 "GET /static/css/chunk-vendors.0acf3532.css HTTP/1.1" 200 310583
+INFO 2024-12-17 12:05:36,267 basehttp 3965 130742709389056 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:05:36,358 basehttp 3965 130742709389056 "GET /static/js/chunk-vendors.bd021fc7.js HTTP/1.1" 200 309580
+INFO 2024-12-17 12:05:36,370 basehttp 3965 130742606628608 "GET /static/js/app.71bfde41.js HTTP/1.1" 200 65079
+INFO 2024-12-17 12:05:36,579 basehttp 3965 130742627600128 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:05:36,592 basehttp 3965 130742617114368 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:05:36,654 basehttp 3965 130742606628608 "GET /static/js/app.71bfde41.js.map HTTP/1.1" 200 192363
+WARNING 2024-12-17 12:05:36,669 log 3965 130742585657088 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:05:36,669 basehttp 3965 130742585657088 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 12:05:36,675 basehttp 3965 130742596142848 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:05:36,711 basehttp 3965 130742709389056 "GET /static/js/chunk-vendors.bd021fc7.js.map HTTP/1.1" 200 1761772
+INFO 2024-12-17 12:05:36,734 basehttp 3965 130742627600128 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 12:05:36,811 basehttp 3965 130742585657088 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:05:36,821 log 3965 130742606628608 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:05:36,821 basehttp 3965 130742606628608 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:05:37,043 basehttp 3965 130742627600128 "GET /static/img/teacher/man.jpg HTTP/1.1" 200 6466
+INFO 2024-12-17 12:05:52,909 basehttp 3965 130742627600128 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:05:52,925 basehttp 3965 130742709389056 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:05:52,925 basehttp 3965 130742585657088 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:05:52,932 basehttp 3965 130742606628608 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 12:05:53,038 basehttp 3965 130742596142848 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:33:44,801 autoreload 4419 140325864994624 Watching for file changes with StatReloader
+INFO 2024-12-17 12:33:47,679 basehttp 4419 140325706270464 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:33:47,916 basehttp 4419 140325706270464 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:33:47,927 basehttp 4419 140325785962240 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:33:47,940 basehttp 4419 140325695784704 "GET /tag/taglist/ HTTP/1.1" 200 281
+WARNING 2024-12-17 12:33:47,956 log 4419 140325685298944 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:33:47,957 basehttp 4419 140325685298944 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 12:33:47,974 basehttp 4419 140325674813184 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3295
+INFO 2024-12-17 12:33:48,004 basehttp 4419 140325685298944 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:33:48,012 log 4419 140325706270464 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:33:48,013 basehttp 4419 140325706270464 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+WARNING 2024-12-17 12:33:48,129 log 4419 140325685298944 Not Found: /favicon.ico
+WARNING 2024-12-17 12:33:48,129 basehttp 4419 140325685298944 "GET /favicon.ico HTTP/1.1" 404 3992
+WARNING 2024-12-17 12:34:45,506 log 4419 140325664327424 Not Found: /example.com:443
+WARNING 2024-12-17 12:34:45,507 basehttp 4419 140325664327424 "CONNECT example.com:443 HTTP/1.1" 404 1795
+INFO 2024-12-17 12:35:56,724 basehttp 4419 140325664327424 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:35:56,934 basehttp 4419 140325664327424 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:35:56,965 basehttp 4419 140325653841664 "GET /tag/taglist/ HTTP/1.1" 200 281
+WARNING 2024-12-17 12:35:56,977 log 4419 140325483972352 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:35:56,978 basehttp 4419 140325483972352 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 12:35:56,986 basehttp 4419 140325504943872 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:35:56,997 basehttp 4419 140325494458112 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3360
+INFO 2024-12-17 12:35:57,075 basehttp 4419 140325483972352 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:35:57,096 log 4419 140325664327424 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:35:57,096 basehttp 4419 140325664327424 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:36:10,723 basehttp 4419 140325483972352 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:36:10,917 basehttp 4419 140325483972352 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:36:10,951 basehttp 4419 140325664327424 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:36:10,955 basehttp 4419 140325504943872 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:36:10,957 basehttp 4419 140325494458112 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3488
+WARNING 2024-12-17 12:36:10,969 log 4419 140325706270464 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:36:10,970 basehttp 4419 140325706270464 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+WARNING 2024-12-17 12:36:11,133 log 4419 140325706270464 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:36:11,133 basehttp 4419 140325706270464 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:36:11,151 basehttp 4419 140325494458112 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:36:50,190 basehttp 4419 140325494458112 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:36:50,400 basehttp 4419 140325494458112 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:36:50,724 log 4419 140325504943872 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:36:50,726 basehttp 4419 140325504943872 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 12:36:50,729 basehttp 4419 140325664327424 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:36:50,731 basehttp 4419 140325706270464 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:36:50,740 basehttp 4419 140325483972352 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3488
+INFO 2024-12-17 12:36:50,746 basehttp 4419 140325695784704 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:36:50,883 log 4419 140325504943872 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:36:50,884 basehttp 4419 140325504943872 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:37:32,388 basehttp 4419 140325504943872 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:37:32,586 basehttp 4419 140325504943872 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:37:32,592 basehttp 4419 140325664327424 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:37:32,602 basehttp 4419 140325695784704 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:37:32,607 basehttp 4419 140325706270464 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+WARNING 2024-12-17 12:37:32,618 log 4419 140325483972352 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:37:32,619 basehttp 4419 140325483972352 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+WARNING 2024-12-17 12:37:32,668 log 4419 140325483972352 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:37:32,668 basehttp 4419 140325483972352 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:37:32,763 basehttp 4419 140325695784704 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:37:35,411 basehttp 4419 140325695784704 "GET /teacher/teacherlist/?subject=&teacher_type=2 HTTP/1.1" 200 3277
+INFO 2024-12-17 12:37:35,444 basehttp 4419 140325695784704 "GET /static/img/teacher/woman.jpg HTTP/1.1" 200 7691
+INFO 2024-12-17 12:37:44,992 basehttp 4419 140325695784704 "GET /teacher/teacherlist/?subject=&teacher_type=1 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:37:45,948 basehttp 4419 140325695784704 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:37:47,324 basehttp 4419 140325483972352 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:37:47,327 basehttp 4419 140325695784704 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:37:47,333 basehttp 4419 140325706270464 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:37:47,417 basehttp 4419 140325664327424 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:37:47,474 basehttp 4419 140325706270464 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 656
+INFO 2024-12-17 12:37:56,818 basehttp 4419 140325494458112 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:39:43,842 basehttp 4419 140325494458112 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:39:43,859 basehttp 4419 140325504943872 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:39:43,862 basehttp 4419 140325695784704 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:39:43,864 basehttp 4419 140325483972352 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:39:43,999 basehttp 4419 140325504943872 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:39:49,125 basehttp 4419 140325504943872 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:39:49,134 basehttp 4419 140325695784704 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:39:49,139 basehttp 4419 140325483972352 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:39:49,143 basehttp 4419 140325494458112 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:39:49,317 basehttp 4419 140325706270464 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:47:23,314 autoreload 4419 140325864994624 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-17 12:47:23,884 autoreload 4784 127235292346176 Watching for file changes with StatReloader
+INFO 2024-12-17 12:47:41,571 autoreload 4784 127235292346176 /home/acs/Tutoring_System/system/views/index.py changed, reloading.
+INFO 2024-12-17 12:47:42,097 autoreload 4836 125928908777280 Watching for file changes with StatReloader
+INFO 2024-12-17 12:47:44,427 basehttp 4836 125928761984768 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:47:44,825 basehttp 4836 125928761984768 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:47:44,869 log 4836 125928751499008 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:47:44,871 basehttp 4836 125928751499008 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4234
+INFO 2024-12-17 12:47:44,873 basehttp 4836 125928741013248 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:47:44,877 basehttp 4836 125928720041728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:47:44,880 basehttp 4836 125928730527488 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:47:44,985 basehttp 4836 125928640349952 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:47:44,988 log 4836 125928751499008 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:47:44,988 basehttp 4836 125928751499008 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4231
+INFO 2024-12-17 12:47:47,468 basehttp 4836 125928640349952 "GET /admin/ HTTP/1.1" 200 797
+WARNING 2024-12-17 12:47:47,772 log 4836 125928640349952 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:47:47,773 basehttp 4836 125928640349952 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4234
+WARNING 2024-12-17 12:47:47,932 log 4836 125928640349952 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:47:47,933 basehttp 4836 125928640349952 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4231
+INFO 2024-12-17 12:47:58,113 autoreload 4836 125928908777280 /home/acs/Tutoring_System/system/views/index.py changed, reloading.
+INFO 2024-12-17 12:47:58,696 autoreload 4903 135242394896192 Watching for file changes with StatReloader
+INFO 2024-12-17 12:48:07,155 autoreload 4903 135242394896192 /home/acs/Tutoring_System/system/urls/index.py changed, reloading.
+INFO 2024-12-17 12:48:07,595 autoreload 4949 131407173605184 Watching for file changes with StatReloader
+INFO 2024-12-17 12:48:10,719 basehttp 4949 131407095531264 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:48:11,248 basehttp 4949 131407095531264 "GET /tool/provinces/ HTTP/1.1" 200 796
+WARNING 2024-12-17 12:48:11,375 log 4949 131406994867968 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:48:11,376 basehttp 4949 131406994867968 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+INFO 2024-12-17 12:48:11,382 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:48:11,387 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:48:11,398 basehttp 4949 131406984382208 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+WARNING 2024-12-17 12:48:11,645 log 4949 131406994867968 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:48:11,645 basehttp 4949 131406994867968 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:48:11,673 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:49:02,318 basehttp 4949 131406973896448 "GET /tool/cities/?province_code=500000 HTTP/1.1" 200 883
+INFO 2024-12-17 12:49:02,382 basehttp 4949 131407085045504 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:49:02,392 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E9%87%8D%E5%BA%86%E5%B8%82 HTTP/1.1" 200 1070
+INFO 2024-12-17 12:49:02,545 basehttp 4949 131407005353728 "GET /tool/cities/?province_code=500000 HTTP/1.1" 200 883
+INFO 2024-12-17 12:49:02,638 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E9%87%8D%E5%BA%86%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 2
+INFO 2024-12-17 12:49:05,496 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E9%87%8D%E5%BA%86%E5%B8%82 HTTP/1.1" 200 1070
+INFO 2024-12-17 12:49:12,111 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:49:24,826 basehttp 4949 131407085045504 "GET /tool/cities/?province_code=370000 HTTP/1.1" 200 358
+INFO 2024-12-17 12:49:24,826 basehttp 4949 131406973896448 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:49:24,837 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%B1%B1%E4%B8%9C%E7%9C%81 HTTP/1.1" 200 711
+INFO 2024-12-17 12:49:24,924 basehttp 4949 131406994867968 "GET /tool/cities/?province_code=370000 HTTP/1.1" 200 358
+INFO 2024-12-17 12:49:25,151 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%B1%B1%E4%B8%9C%E7%9C%81&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 2
+INFO 2024-12-17 12:49:27,268 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%B1%B1%E4%B8%9C%E7%9C%81 HTTP/1.1" 200 711
+INFO 2024-12-17 12:49:31,959 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:49:51,979 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:49:51,991 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:49:51,994 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:49:51,996 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:49:52,117 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:50:59,875 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:50:59,892 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:50:59,893 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:50:59,901 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:50:59,937 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:03,274 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:03,284 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:51:03,289 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:51:03,293 basehttp 4949 131406994867968 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:51:03,351 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:09,320 basehttp 4949 131406973896448 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 12:51:09,436 basehttp 4949 131406973896448 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 12:51:09,553 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:09,559 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:51:09,565 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:51:09,568 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:51:09,631 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:41,143 basehttp 4949 131407085045504 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 12:51:41,270 basehttp 4949 131407085045504 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 12:51:41,374 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:41,383 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:51:41,389 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:51:41,389 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:51:41,452 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:42,834 basehttp 4949 131406973896448 "GET /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 350
+INFO 2024-12-17 12:51:46,980 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:46,991 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:51:46,996 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:51:47,000 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:51:47,056 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:51:55,551 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:51:55,552 basehttp 4949 131406994867968 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:51:58,631 basehttp 4949 131406994867968 "GET /post/postlist/?user_id=1 HTTP/1.1" 200 522
+INFO 2024-12-17 12:52:08,623 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:52:08,623 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:52:09,910 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:52:09,921 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:52:09,922 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:52:09,928 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:52:09,978 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:52:25,179 basehttp 4949 131406973896448 "GET /tool/cities/?province_code=370000 HTTP/1.1" 200 358
+INFO 2024-12-17 12:52:25,183 basehttp 4949 131406994867968 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:52:25,193 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%B1%B1%E4%B8%9C%E7%9C%81 HTTP/1.1" 200 711
+INFO 2024-12-17 12:52:25,256 basehttp 4949 131406994867968 "GET /tool/cities/?province_code=370000 HTTP/1.1" 200 358
+INFO 2024-12-17 12:52:25,275 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%B1%B1%E4%B8%9C%E7%9C%81&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:27,727 basehttp 4949 131406973896448 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:27,728 basehttp 4949 131406994867968 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:52:27,733 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:52:27,831 basehttp 4949 131406994867968 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:27,865 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 656
+INFO 2024-12-17 12:52:28,626 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:52:29,897 basehttp 4949 131407005353728 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:29,902 basehttp 4949 131406994867968 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:52:29,909 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:52:29,982 basehttp 4949 131407085045504 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:30,027 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 656
+INFO 2024-12-17 12:52:35,802 basehttp 4949 131406973896448 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:35,803 basehttp 4949 131407085045504 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:35,816 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&city=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 3552
+INFO 2024-12-17 12:52:35,874 basehttp 4949 131406994867968 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:39,963 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:52:40,836 basehttp 4949 131406994867968 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:40,836 basehttp 4949 131406973896448 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:40,840 basehttp 4949 131407085045504 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:52:40,846 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:52:40,908 basehttp 4949 131406973896448 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:40,915 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 656
+INFO 2024-12-17 12:52:40,934 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:52:40,976 basehttp 4949 131406994867968 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:44,128 basehttp 4949 131407005353728 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:44,131 basehttp 4949 131406994867968 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:44,144 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&city=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 3552
+INFO 2024-12-17 12:52:44,203 basehttp 4949 131407005353728 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 12:52:45,787 basehttp 4949 131407005353728 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 12:52:45,792 basehttp 4949 131406994867968 "GET /tool/country/?city_code= HTTP/1.1" 200 66832
+INFO 2024-12-17 12:52:45,798 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 1006
+INFO 2024-12-17 12:52:45,873 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0&province=%E5%8C%97%E4%BA%AC%E5%B8%82&county=%E4%B8%9C%E5%9F%8E%E5%8C%BA HTTP/1.1" 200 656
+INFO 2024-12-17 12:52:48,153 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:55:23,259 basehttp 4949 131406994867968 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 386
+INFO 2024-12-17 12:55:26,956 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:55:26,987 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:55:26,987 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 12:55:26,989 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:55:27,031 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:55:39,426 basehttp 4949 131406973896448 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 12:56:11,268 basehttp 4949 131406973896448 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 12:57:40,474 basehttp 4949 131407085045504 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 12:57:40,534 basehttp 4949 131407005353728 "GET /static/css/app.4b8f51bb.css HTTP/1.1" 200 5966
+INFO 2024-12-17 12:57:40,535 basehttp 4949 131406994867968 "GET /static/js/app.71bfde41.js HTTP/1.1" 200 65079
+INFO 2024-12-17 12:57:40,541 basehttp 4949 131407085045504 "GET /static/js/chunk-vendors.bd021fc7.js HTTP/1.1" 200 309580
+INFO 2024-12-17 12:57:40,596 basehttp 4949 131406984382208 "GET /static/css/chunk-vendors.0acf3532.css HTTP/1.1" 200 310583
+INFO 2024-12-17 12:57:40,673 basehttp 4949 131407005353728 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 12:57:40,696 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 12:57:40,699 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 12:57:40,700 basehttp 4949 131406984382208 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+WARNING 2024-12-17 12:57:40,819 log 4949 131407005353728 Not Found: /favicon.ico
+WARNING 2024-12-17 12:57:40,819 basehttp 4949 131407005353728 "GET /favicon.ico HTTP/1.1" 404 3992
+WARNING 2024-12-17 12:57:46,738 log 4949 131406994867968 Not Found: /fonts/bootstrap-icons.bfa90bda.woff2
+WARNING 2024-12-17 12:57:46,739 basehttp 4949 131406994867968 "GET /fonts/bootstrap-icons.bfa90bda.woff2 HTTP/1.1" 404 4067
+WARNING 2024-12-17 12:57:46,770 log 4949 131406984382208 Not Found: /fonts/bootstrap-icons.70a9dee9.woff
+WARNING 2024-12-17 12:57:46,770 basehttp 4949 131406984382208 "GET /fonts/bootstrap-icons.70a9dee9.woff HTTP/1.1" 404 4064
+INFO 2024-12-17 12:57:55,630 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E8%AF%AD%E6%96%87 HTTP/1.1" 200 380
+INFO 2024-12-17 12:57:56,409 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E6%95%B0%E5%AD%A6 HTTP/1.1" 200 351
+INFO 2024-12-17 12:57:56,940 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0&tagname=%E8%8B%B1%E8%AF%AD HTTP/1.1" 200 357
+INFO 2024-12-17 12:57:57,442 basehttp 4949 131407005353728 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:00:09,471 basehttp 4949 131407005353728 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:00:41,296 basehttp 4949 131407005353728 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:04:15,283 basehttp 4949 131407005353728 "GET /tool/cities/?province_code=110000 HTTP/1.1" 200 343
+INFO 2024-12-17 13:04:15,286 basehttp 4949 131407085045504 "GET /tool/country/?city_code=110101 HTTP/1.1" 200 2
+INFO 2024-12-17 13:04:15,289 basehttp 4949 131406984382208 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:04:20,808 basehttp 4949 131406984382208 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:04:20,816 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:04:20,820 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:04:20,867 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:04:20,904 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:04:39,419 basehttp 4949 131406973896448 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:05:11,708 basehttp 4949 131406973896448 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:05:40,267 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:40,279 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:05:40,281 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:05:40,283 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:05:40,331 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:50,948 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:50,968 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:05:50,972 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:05:50,977 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:05:51,025 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:53,592 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:53,604 basehttp 4949 131407085045504 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:05:53,607 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:05:53,608 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:05:53,673 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:56,844 basehttp 4949 131406994867968 "POST /user/token/ HTTP/1.1" 200 483
+INFO 2024-12-17 13:05:57,036 basehttp 4949 131406994867968 "GET /user/userinfo/?user_id=1 HTTP/1.1" 200 145
+INFO 2024-12-17 13:05:57,145 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:57,159 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:05:57,164 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:05:57,167 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:05:57,225 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:57,852 basehttp 4949 131406973896448 "GET /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 350
+INFO 2024-12-17 13:05:59,494 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:05:59,504 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:05:59,508 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:05:59,512 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:05:59,565 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:06:52,620 basehttp 4949 131406994867968 "GET /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 350
+INFO 2024-12-17 13:06:56,020 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:06:56,037 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:06:56,040 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:06:56,046 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:06:56,123 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:06:56,897 basehttp 4949 131407085045504 "GET /teacher/teacherinfo/?user_id=17 HTTP/1.1" 200 350
+INFO 2024-12-17 13:06:59,356 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:06:59,368 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:06:59,375 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:06:59,375 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:06:59,456 basehttp 4949 131406973896448 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:01,357 basehttp 4949 131406973896448 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:07:01,360 basehttp 4949 131406994867968 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:07:07,173 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:07,181 basehttp 4949 131406973896448 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:07:07,189 basehttp 4949 131407085045504 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:07:07,192 basehttp 4949 131407005353728 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:07:07,243 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:20,166 basehttp 4949 131407085045504 "GET /post/postlist/?user_id=1 HTTP/1.1" 200 522
+INFO 2024-12-17 13:07:29,077 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:29,089 basehttp 4949 131406973896448 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:07:29,097 basehttp 4949 131406994867968 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:07:29,098 basehttp 4949 131407005353728 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:07:29,144 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:38,196 basehttp 4949 131406994867968 "POST /teacher/token/ HTTP/1.1" 200 486
+INFO 2024-12-17 13:07:38,316 basehttp 4949 131406994867968 "GET /teacher/teacherinfo/?user_id=13 HTTP/1.1" 200 77
+INFO 2024-12-17 13:07:38,422 basehttp 4949 131406994867968 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:38,461 basehttp 4949 131406973896448 "GET /teacher/teacherinfo/ HTTP/1.1" 200 69
+INFO 2024-12-17 13:07:38,464 basehttp 4949 131407085045504 "GET /teacher/teacherinfo/?user_id=1 HTTP/1.1" 200 386
+INFO 2024-12-17 13:07:38,465 basehttp 4949 131407005353728 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:07:38,515 basehttp 4949 131406984382208 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:38,575 basehttp 4949 131406994867968 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:07:38,615 basehttp 4949 131407085045504 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:07:38,714 basehttp 4949 131406984382208 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:07:38,814 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:09,818 basehttp 4949 131407085045504 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:09:09,941 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:10,049 basehttp 4949 131406984382208 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:10,150 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:41,766 basehttp 4949 131407085045504 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:09:41,883 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:41,993 basehttp 4949 131406984382208 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:09:42,084 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:10:27,772 basehttp 4949 131407085045504 "POST /user/token/refresh/ HTTP/1.1" 200 241
+INFO 2024-12-17 13:10:27,887 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:10:27,990 basehttp 4949 131406984382208 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:10:28,089 basehttp 4949 131407085045504 "GET /post/postlist/ HTTP/1.1" 200 702
+INFO 2024-12-17 13:17:37,477 basehttp 4949 131406984382208 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-17 13:17:37,477 basehttp 4949 131406984382208 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-17 13:26:17,133 basehttp 4949 131406984382208 "GET /tool/provinces/ HTTP/1.1" 200 796
+INFO 2024-12-17 13:26:17,164 basehttp 4949 131407085045504 "GET /tag/taglist/ HTTP/1.1" 200 281
+INFO 2024-12-17 13:26:17,164 basehttp 4949 131406994867968 "GET /classification/classificationlist/ HTTP/1.1" 200 181
+INFO 2024-12-17 13:26:17,169 basehttp 4949 131406973896448 "GET /teacher/teacherlist/?subject=&teacher_type=0 HTTP/1.1" 200 3552
+INFO 2024-12-17 13:26:27,882 basehttp 4949 131407085045504 - Broken pipe from ('106.85.76.96', 9871)
+INFO 2024-12-17 13:26:27,883 basehttp 4949 131406984382208 - Broken pipe from ('106.85.76.96', 9868)
+INFO 2024-12-17 13:26:27,883 basehttp 4949 131406994867968 - Broken pipe from ('106.85.76.96', 9869)
+INFO 2024-12-17 13:26:27,883 basehttp 4949 131406973896448 - Broken pipe from ('106.85.76.96', 9870)
+INFO 2024-12-17 13:40:07,008 basehttp 4949 131406973896448 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03îj\x87¯9O¡\x06dZ\x99£·âÚöæ±TkAÎ¿ÔC(;\x8arj°o\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+ERROR 2024-12-17 13:40:07,009 basehttp 4949 131406973896448 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-17 13:40:10,879 basehttp 4949 131406973896448 "GET / HTTP/1.1" 200 797
+INFO 2024-12-17 13:40:13,297 basehttp 4949 131406973896448 - Broken pipe from ('147.185.132.249', 64992)
+INFO 2024-12-17 13:42:10,782 basehttp 4949 131406973896448 code 400, message Bad request version ('À\x14À')
+ERROR 2024-12-17 13:42:10,783 basehttp 4949 131406973896448 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-12-17 14:01:19,555 basehttp 4949 131406973896448 code 400, message Bad request syntax ('MGLNDD_47.109.76.15_8000')
+WARNING 2024-12-17 14:01:19,556 basehttp 4949 131406973896448 "MGLNDD_47.109.76.15_8000" 400 -
